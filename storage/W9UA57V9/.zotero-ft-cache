@@ -1,0 +1,637 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+6320535
+
+Skip to Main Content
+IEEE Quick Preview
+
+    Abstract
+    Authors
+    Figures
+    Multimedia
+    References
+    Cited By
+    Keywords
+
+Educating tomorrows web systems developers
+
+Many web systems developers have completed education in basic web site development. The evolution of web systems to include interfaces to legacy systems exposed through web services requires a shift in the developers design process. Web system developers of 2012 and onward have to be aware of many issues regarding legacy systems, security, performance, modern development languages and methodologies. In this paper an overview of the experiences of an educator of enterprise web systems is presented and a prototype web developer specific pedagogy is proposed. Finally a review of some of the most common teaching tools is provided with respect to their applicability to the education of mixed generation, mixed ability Web System Development learners.
+This paper appears in: Web Systems Evolution (WSE), 2012 14th IEEE International Symposium on , Issue Date: 28-28 Sept. 2012 , Written by: Lennon, R.G.
+
+© 2012 IEEE
+No Photo Available
+Ruth G. Lennon
+No Bio Available
+More About this Author
+View All
+Figure 1
+Figure 1.
+Figure 1. Web System Developers E-Leaming Methodology
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 3
+Figure 3.
+Figure 3. Software Quality Metrics.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 4
+Figure 4.
+Figure 4. Agile Learning Nuggets in DropBox.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+View All
+
+1 . R.G. Lennon, "Bring Your Own Device (BYOD) with Cloud 4 Education", Wavefront Experience Track-SPLASH 2012, ACM, Tucson, Arizona, October 19-26, 2012.
+
+2 . J. Sutherland, K. Schwaber, "The Scrum Papers: Nuts, Bolts and Origins of an Agile Process", Draft 4, 2007, scrumtraininginstitute.com/home/stream-download/scrumpapers. Last accessed: 20/5/2012
+Show in Context
+ 
+
+3 . B.S. Bloom, "Taxonomy of Educational Objectives: The Classification of Educational Goals", Longmans, Green, 1956, Volumn 1.
+Show in Context
+ 
+
+4 . C.A. Tomlinson and J. McTighe, "Integrating Differentiated Instruction and Understanding by Design", ASCD, 2006.
+Show in Context
+ 
+
+5 . IANUS Project Grundtvig Parnership, Eds, "IANUS Guidelines and Quality Recommendations of Learning in Later Life in Intergenerational, Interculteral and ICT-based Settings", bfi Steiermark, 2009.
+Show in Context
+ 
+View All
+IEEE Keywords
+Electronic learning , Industries , Internet , Portfolios , Software , Testing
+INSPEC: Controlled Indexing
+Web design , Web services , computer science education , security of data , software maintenance , teaching
+INSPEC: Non-Controlled Indexing
+Web developer specific pedagogy , Web service , Web site development , Web system development learner , Web systems developer education , computer science education , developer design process , educator , enterprise Web system , interface …
+Authors Keywords
+Agile , Computer science education , Information systems education , Quality , Software Practices
+View All
+
+    Quick Preview
+    Figures
+
+    Full Text
+    Footnotes
+    References
+    Authors
+    Cited By
+    Keywords
+    Corrections
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION I
+I NTRODUCTION
+
+As an third level technical program educator it is important to ensure that the most appropriate form of presentation and demonstration of new technologies or concepts are provided for the learner. This is particularly true in enterprise web systems development. Learners must be aware of Human Computer Interaction (HCI), front and back end systems, security, localisation and evolution of systems. The difficulty lies with mixed generation, mixed ability classes. In order to support all categories of learners while presenting complex ideas can prove difficult. This early research work proposes a model to include industry software development techniques in the technical educational system for web systems developers.
+A. Observations of educating Web Systems Developers
+
+When initially registering for a web systems development course many learners enter with unrealistic ideas about what this involves. This disillusionment may result in a lack of motivation to progress with the course and may lead to ‘dropouts’. In order to combat this it is necessary to communicate with the learner earlier as to the content of the course. It is also necessary at a very early stage to review the motivation of the learner for attending a course.
+B. The Needs of SMEs
+
+In Donegal there is a large number of Small to Medium size Enterprises (SMEs). These SME's often require web systems developers with multiple additional skills. Due to the limited team size web systems developers in SMEs must have good communications skills as they work closely with the product owner. The web systems developer must also produce the product in the most efficient manner as the SME cannot afford to absorb time wasted through mistakes. The SME requires graduands to be proficient in a number of skills but also adaptive enough to be able to quickly learn new software or technologies as required. The difficult here is that the SME will find it difficult to release the developer from such a small task force in order to retrain in a specific area. Thus it is important that the software development process is as efficient as possible from the beginning in any SME.
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION II
+S OFTWARE D EVELOPMENT IN I NDUSTRY
+
+Agile practices are used throughout the IT industry to help improve the software development process. In order to provide rapid response it is important to have frequent communications with all the stakeholders in the process.
+A. Agile
+
+There are many interesting concepts that can be applied through agile processes.
+1) Stakeholder input
+
+Learners form the greatest portion of stakeholders in the educational system. Industry, academia, management, the government and the taxpayer are also stakeholders. The priorities of the stakeholders may be applied based on the resources they use. Resources include: time, people, finances and equipment. The time may be limited by a ‘quick time to market’ requirement or by pressure due to other backlogged projects. This is also true in the academic process.
+2) Scrum
+
+The Scrum methodology is a ‘lean’ version of agile. The focus is on the development team to indicate the amount of work and how best to carry it out with respect to the prioritized client requirements. The application of serum to companies with CMMI Level 5 has resulted in 50% cost savings[ 2 ]. The serum team is made up of three roles: the Product Owner, Serum Master and Team Member. The Serum Product Owner in the education system is the learner. The Serum Master is the lecturer. The additional Team members are the Company Representatives and managers.
+B. Communication Skills
+
+The development of software in industry requires intense communications between all stakeholders. The application of serum intensifies this to apply meetings each morning. This requires the developers to have good communications skills. Communications between team members and with product owners will require differing approaches. Communications skills such as report writing and presentations are inherent to each module and are enhanced by the application of the Agile Serum technique. The daily 15 minute serum meetings between developers and weekly/fortnightly serum meetings with all stakeholders form a constant process of communications enhancement.
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION III
+C ATEGORISING L EARNERS
+
+The application of the aforementioned techniques can only prove successful if the motivations of the stakeholders and the prioritization of the needs is successfully carried out. In this section the motivation and requirements of the learner as a stakeholder is reviewed.
+A. Young Learner
+
+Young learners (aged 17–30) are used to having all the information they need on demand. Information sources consist of On-line repositories, iPods, Wireless devices and wiki. The young generation get bored easily and have little patience for working out more complex logical systems.
+B. Mature Learners
+
+Mature learners (31+) have less experience with the Internet. Sources of information come from books, journals and newspapers. While many are now trying to get to grips with new technology, they will invariably find it more difficult than the younger learner.
+C. Mixed Ability, Mixed Generation Classes
+
+Due to the current depression that seems to be taking place globally there is a change in the dynamic of the classroom. A class of learners can now be made up of:
+
+    Young learners who have applied directly from second level education.
+    Mature Learners who have recently become redundant. They may have little or no educational experience for the past 20 or more years.
+    Mature Learners who have recently become redundant from a management or high level position. They may have been well educated and may not like to be placed in a class with younger learners or those that seem to have a lesser level of education.
+
+It has been noted by the author that classes with an approximately even mix of younger learners and later learners tend to get higher grades at the end of the year. In order to teach such diverse classes many lecturers have re-examined their teaching pedagogy and re-evaluated their approach to education.
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION IV
+L EARNER S UPPORTS
+
+The supports for the heterogeneous group of learners has been long discussed. However given the change in class dynamic due to economic structures and the mobility of learners between European Union countries is gaining more focus with respect to adapting pedagogy and encouraging learner ownership of the learning process for all class members.
+1) Differentiated Instruction
+
+The idea behind differentiated instruction is that different content is created to provide different avenues for the learner to gain the required knowledge and skill set. The differentiated learning requires the development of extensive support materials to adequately provide for learners of different abilities.
+
+In [ 4 ] the combination of differentiated instruction and understanding by design is discussed in detail. In Understanding by Design the approach taken is to apply examples which the learner may relate to on a personal basis. If this is then combined with the Rule of 7, the result is the application of personalized learning tailored to each learner within the class group in a manageable size. The Rule of 7 states that 7 plus or minus two is the correct number of items for, in this case, learning topics. This rule is often implemented in the design of learning outcomes. The application of Blooms taxonomy[ 3 ] enables the course designer to map the learning outcomes to measureable objectives.
+
+The author would suggest the application of this approach with a significant reduction in the size of learning items referred to as nuggets of 10 minutes duration. In the world of Web 2.0 mobile learners require instant information in bite size portions. With this general outline selected it is necessary to review best-practice to establish the mechanisms currently utilized to support learners.
+2) European Best Practice
+
+A review of best-practice in the delivery of education in intergenerational, intercultural and ICT-based settings was carried out in [ 5 ]. This document outlines the work of a pan-European research group into best-practices and provided a set of guidelines for educators. The guidelines make two interesting observations:
+a) Geragogical Issues
+
+It was found that leamer's different educational background and their past and present educational experience influence their ability to learn from rigid course structure and the modem approaches to pedagogy. It was also noted that the learner with vast life-experiences require a level of respect to engender confidence. As a result it is important for the academics to provide pedagogic and psychological support with regards to the socio-psychological effects of unemployment on the learner.
+b) Didactics
+
+Academics need to foster a respectful and relaxing learning atmosphere appropriate to the learner of the mixed ability, mixed generation module attendees. Discussion with academics early in the course with regard to motivation for learning is essential. This will enable the stakeholders to input into the structure and duration of the learning process perhaps enabling further participation from minority groups. Having reviewed the best practices in learner supports it is then beneficial to example the pedagogy commonly applied to the education of software developers.
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION V
+S OFTWARE D EVELOPMENT P EDAGOGY
+
+The age of Web 2.0 has resulted in new expectations of learners. Learners now anticipate communications spaces such as titter links, wiki's, Facebook pages, to name but a few to be provided for all learning modules. This communication process is popular amongst the younger generation learners. Older learners value the ‘over-the-fence’ communication styles of online discussion groups and real-time communications software. When providing on-line resources for learners attending web systems development classes, it is necessary to carefully evaluate the category of learner.
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION VI
+E-L EARNING S UPPORTS
+
+Recent collaborative research work on e-learning by the author and other European educational institutes found that in Hungary, as in Ireland, there is no universal policy and procedure for the support of e-learning/e-working. Tools such as Blackboard and Moodle have long been used to support learners to ease of access to class materials in the vast majority of higher educational institutions. However it is apparent that many of these E-Learning environments provide little support the presentation of notes on programming languages with special symbols written for topic in web systems development.
+
+A number of criteria for the development of an ubiquitous learning environment are provided in [ 6 ] such as:
+
+    The learning environment should be context aware,
+    Actively provide personalized supports for learning,
+    Enable seamless learning anywhere and anytime,
+    Adapt the subject contents to meet the functionality of the device through which the content is viewed.
+
+In [ 7 ] it is proposed to encourage software development through a wiki interface. However, the wiki type interface is considered to restrictive and does not allow the student the security of a private location for the storage of data. The storage of items on the enterprise web system is often carried out through the development of Web Services. This is particularly useful in the development of Content Object Reference Model items for use in an E-Learning Environment. In particular [ 8 ] provides a description of a data mining system which is applied to SCORM objects in order to classify a learner and create a personalised activity tree of the learners activity. There are a number of items of benefit to the web systems developer when initially learning key skills. A brief outline of three is provided below.
+A. Personal Learning Environment (PLE)
+
+A personal learning environment is where the learner takes ownership of the learning via selecting integrating and utilization of various software tools and services. This approach involves using an E-Learning environment but also includes the use of social connectivity tools such as Facebook, etc. [ 9 ]. This approach links back to the differentiated learning previously mentioned. The PLE is particularly applicable to the web system developer as it provides a mechanism for them to familiarize themselves with various aspects of user interface design from the outset. This provides a subtle method of applying learning by design focused on web system developers.
+B. Learning Nuggets
+
+A group of learning nuggets may constitute a course module. A Learning Portfolio is a coherent group of learning nuggets defined as evidence based processes [ 10 ] that engage the student with a reflective analysis of his/her continued professional development Learning nuggets are also useful as they can be more easily mapped onto portable devices such as smart-phones. In [ 11 ] pedagogical metadata is used to describe learning nuggets so that they may be easily retrieved from digital repositories. An evaluation of the level of knowledge that the learner obtains from such an e-learning system is analyzed in [ 12 ]. It is of course important to ensure that the learning nuggets selected by the learner as forming part of his learning program forms a coherent module for the learning portfolio. In [ 13 ] Abran defines ten knowledge areas for software engineering: software requirements, design, construction, testing, maintenance, configuration management, engineering management, engineering processes, engineering tools & methods and quality. It is important that in the selection of learning nuggets that each of the knowledge areas should be considered. This is further discussed in Section VII .
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION VII
+W EB S YSTEM D EVELOPMENT M ETHODLOGY
+
+The creation of a methodology for education of web system developers requires a framework to encompass pedagogy previously mentioned, dissemination technologies and quality assurance frameworks. Research carried out by Hazzan [ 14 ] outlines 14 principles of a teaching framework. This author contends that this is an overly complex framework. The methodology proposed here is a simplified system which is cognizant of Agile Web Systems Development techniques.
+
+In this paper I propose a methodology for the e-learning support for web system developers. The methodology has been designed significantly to be aware of the need of current learners for ubiquitous computing. The methodology also is cognizant of the needs of mixed generation and mix ability classes through the use of small directed learning nuggets which can be specifically tailored to the needs of the individual learners. For example a visual learner may download more of the UML diagrams, Video files and Word Webs. An Auditory Leamer may download more podcasts and video files. A Wrote Leamer may wish to download the detailed written documents for re-writing and learning off-by-heart. Finally the Kinesthetic Leamer may download more of the tutorials and lab work in order to complete practical tasks to aid their learning. In this way the proposed system enables a personalized learning environment.
+
+The proposed methodology, see Fig. 1 , is a 5 step process with the daily iteration being further analyzed. In Phase one the requirements of the Leamer are obtained and analyzed. Within web systems development the need for industry exposure is a key non-functional aspects of their learning thus the need for placement on courses.
+
+The Daily learning process is an iterative process where the learner selects a learning nugget from his specialism previously selected of a type suitable to his learning needs. E.g. Kinesthetic, visual, etc.. The learner then downloads the nugget to the device he/she is using and will proceed to carry-out the learning task. As previously mentioned the learning task may be to develop a piece of code, draw/review a UML diagram, listen to a podcast or read and summarize descriptive text. Following the learning process an automated self-test is initiated which will provide instant feedback as part of the learning portfolio to the learner. If s/he is not satisfied with the level of knowledge gained he may repeat the process using the same nugget or may download a nugget on the same topic but of a different presentation format. This enables the learner to be told the same information multiple times in different ways as necessary.
+Figure 1
+Figure 1. Web System Developers E-Leaming Methodology
+
+View All | Next
+
+At the end of the daily process the learner can evaluate the learning process to ensure that he/she has obtained the required information. The review will also provide a mechanism to update the style of learning or indeed the specialism if so desired. Finally the success, incompletion or failure of the module element (nugget) is recorded in the learning portfolio. Thus the learner is continuously aware of his progress to date.
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION VIII
+I NVESTIGATION
+
+An initial feasibility study was carried out through interviews with the learners. The methodology was applied to a Multimedia and Communications module within the author's third level educational institute. The module required the students to carry out practical tasks such connect multimedia systems, design web interfaces, utilize web services. Materials for the module were placed on the e-learning environment. Once the learner is registered for the course he can enter the main content folder and select the information he/she requires as most appropriate to their learning style. See Fig. 2.
+A. Knowledge Areas
+
+Taking for example the Multimedia Module it is possible to take the ‘Role Based Access Control’ sub-topic and map it to Construction, Configuration Management and Maintenance. This mapping process was very time consuming and required significant planning and consultation with stakeholders such as academic administration and industry.
+Figure 3
+Figure 3. Software Quality Metrics.
+
+Previous | View All | Next
+
+Additional information in the form of audio files, video's and images which are not core materials but may prove useful are also placed within the content folder. In addition to the main course notes the students receive further support through the use of on-line discussion forums.
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION IX
+D ROPBOX L EARNING N UGGET D ISTRIBUTION
+
+While the previous system provided an initial test of the proposed methodology for the enhancement of web systems developers education a number of issues arose with the use of a rigid VLE. First and foremost was the learning curve in getting to grips with the VLE. As the application of the serum methodology has been utilized to increase productivity and efficiency this did have a slightly negative impact on the ‘time-to-market’. After a vox-pop of learners was found that the tools learners tend to use to support the learning process included Dropbox and Skype. As such it was decided to apply the methodology with the formatted learning nuggets to these technologies. See Fig. 4 .
+
+The interface for the second test phase of the methodology is similar to the first system as shown in Fig. 2. However it was felt that the presentation of materials to the learner in a format he/she would be more comfortable with would enhance the learning process. This would also fit well with the Understand by Design technique. This test has been designed for application to an Enterprise Application Development course at M.Sc. level. This system is in its final development stages including initial testing. Upon completion of initial quality testing this prototype will be rolled out in September for full deployment and extensive testing.
+Figure 4
+Figure 4. Agile Learning Nuggets in DropBox.
+
+Previous | View All
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION X
+P ROTOTYPE T ESTING
+
+The experimentation, commencing in September, will be an academic yearlong with learners utilizing existing tools and methodology in some modules and the proposed methodology (in both forms) in others. The test will run across various semesters to evaluate the differences found by learners at different levels of courses. Testing of the prototype is anticipated to include monitoring of learners daily tasks, questionnaires and interviews at the end of the module.
+
+        I. Introduction
+        II. Software Development in Industry
+        III. Categorising Learners
+        IV. Learner Supports
+        V. Software Development Pedagogy
+        VI. E-Learning Supports
+        VII. Web System Development Methodlogy
+        VIII. Investigation
+        IX. Dropbox Learning Nugget Distribution
+        X. Prototype Testing
+        XI. Conclusions
+
+SECTION XI
+C ONCLUSIONS
+
+Learners on web system development courses often become disillusioned in the very early stages in the development process. This may be addressed by assisting the learner to take greater ownership of the learning process. SMEs require industry ready graduands from web systems development courses. The need for the web systems development learner to produce the most efficient products in short time frames with little or no time to familiarize themselves with new products and technologies places pressure on academic institutions.
+
+Agile processes have been successfully applied to industry for a number of years. Within Agile the scrum technique is rapidly gaining notoriety due to the monetary gains that may arise due to its application. The enhancement of communications skills in the processes is also very beneficial.
+
+In order to satisfy the needs of all the stakeholders in the educational system it is necessary to review their needs and requirements. Learners are increasingly members of mixed generation, mixed ability class groups. While there are many supports such as pedagogy, best-practice examples and tools such as VLE’ s it is necessary to be able to select from these in order to provide a personal learning environment catering for each individual member of the class group. This is a difficult task.
+
+The current depression and the young learners requirements for mobility and ease of egress has placed the focus on short learning sprints supported via learning nuggets and learning portfolios. While it is necessary for quality assurance purposes to compare the selection of learning nuggets with the ten knowledge areas for software engineering it is not an insurmountable task. The proposed methodology focuses on learner buy-in through continuous input and review processes. Initial investigations of the system were carried out with one class group and proved very positive. The results of this initial test have been analysed with further enhancement to the system being applied and retested. It is anticipated that the second phase of testing will provide increased detail as to the value of the new methodology and its applicability in educating the web systems developers of tomorrow
+Footnotes
+No Data Available
+References
+
+1 . R.G. Lennon, "Bring Your Own Device (BYOD) with Cloud 4 Education", Wavefront Experience Track-SPLASH 2012, ACM, Tucson, Arizona, October 19-26, 2012.
+
+2 . J. Sutherland, K. Schwaber, "The Scrum Papers: Nuts, Bolts and Origins of an Agile Process", Draft 4, 2007, scrumtraininginstitute.com/home/stream-download/scrumpapers. Last accessed: 20/5/2012
+Show Context
+The application of serum to companies with CMMI Level 5 has resulted in 50% cost savings[2].
+Go To Text
+
+3 . B.S. Bloom, "Taxonomy of Educational Objectives: The Classification of Educational Goals", Longmans, Green, 1956, Volumn 1.
+Show Context
+The application of Blooms taxonomy[3] enables the course designer to map the learning outcomes to measureable objectives.
+Go To Text
+
+4 . C.A. Tomlinson and J. McTighe, "Integrating Differentiated Instruction and Understanding by Design", ASCD, 2006.
+Show Context
+In [4] the combination of differentiated instruction and understanding by design is discussed in detail.
+Go To Text
+
+5 . IANUS Project Grundtvig Parnership, Eds, "IANUS Guidelines and Quality Recommendations of Learning in Later Life in Intergenerational, Interculteral and ICT-based Settings", bfi Steiermark, 2009.
+Show Context
+A review of best-practice in the delivery of education in intergenerational, intercultural and ICT-based settings was carried out in [5].
+Go To Text
+
+6 . G.J. Hwang, "Criteria and Strategies of Ubiquitous Learning", Proceedings of the IEEE International Conference on Sensor Networks, Ubiquitous and Trustworth Computing (SUTC'06), IEEE Computer Society, 2006.
+Quick Abstract | Show Context | Full Text: PDF
+Recent progress of wireless technologies has initiated a new trend in learning environments, called ubiquitous learning (u-learning), which is able to sense the situation of the learners, and hence provide more adaptive supports. Many researchers have investigated the development of such learning environments; nevertheless, the criteria of establishing a u-learning environment have not been clearly defined, not to mention the strategies for conducting effective learning activities. To cope with these problems, we shall present in this paper the basic criteria of constructing a u-learning environment, such that subsequent researchers can identify and check the necessary items while establishing the learning environment. Moreover, several strategies for conducting u-learning activities are proposed, based on the given criteria
+Full Abstract
+A number of criteria for the development of an ubiquitous learning environment are provided in [6] such as:The learning environment should be context aware,Actively provide personalized supports for learning,Enable seamless learning anywhere and anytime,Adapt the subject contents to meet the functionality of the device through which the content is viewed.
+Go To Text
+
+7 . X. WenPeng, C. Chi and M. Yang, "On-Line Collaborative Software Development via Wiki", Proceedings of the 2007 International Symposium on Wikis", ACM, 2007, DoI: 10.1145/1296951.1296970
+Show Context
+In [7] it is proposed to encourage software development through a wiki interface.
+Go To Text
+
+8 . J.M. Su, S.S. Tseng, W. Wang and JF. Weng, "Learning Portfoloio Analysis and Mining for SCORM Compliant Environment", Educational Technology & Society, Vol. 9, Issue 1.
+Quick Abstract | Show Context | Full Text: PDF
+With vigorous development of the Internet, e-learning system has become more and more popular. Sharable content object reference model (SCORM) 1.3 provides the sequencing and navigation to define the course sequencing behavior, control the sequencing, select and deliver of course, and organize the content into a hierarchical structure, namely activity tree. Therefore, how to provide customized course according to individual learning characteristics and capability, and how to create, represent and maintain the activity tree with appropriate associated sequencing definition for different learners become two important issues. However, it is almost impossible to design personalized learning activities trees for each learner manually. The information of learning behavior, called learning portfolio, can help teacher understand the reason why a learner got high or low grade. Thus, in this paper, we propose a learning portfolio mining (LPM) Approach including four phase: 1) user model definition phase: define the learner profile based upon pedagogical theory. 2) Learning pattern extraction phase: apply sequential pattern mining technique to extract the maximal frequent learning patterns from the learning sequence, transform original learning sequence into a bit vector, and then use distance based clustering approach to group learners with good learning performance into several clusters. 3) Decision tree construction phase: use two third of the learner profiles with corresponding cluster labels as training data to create a decision tree, and the remaining are the testing data. 4) Activity tree generation phase: use each created cluster including several learning patterns as sequencing rules to generate personalized activity tree with associated sequencing rules of SN. Finally, for evaluating our proposed approach of learning portfolio analysis, several experiments have been done and the results show that generated personalized activity trees with sequencing rules are workable for learners.
+Full Abstract
+In particular [8] provides a description of a data mining system which is applied to SCORM objects in order to classify a learner and create a personalised activity tree of the learners activity.
+Go To Text
+
+9 . C. McLoughlan, "Social Software and Participatory Learning: Pedagogical Choices with Technology Affordances in the Web 2.0 Era", Ascilite, Singapore 2007
+Show Context
+This approach involves using an E-Learning environment but also includes the use of social connectivity tools such as Facebook, etc. [9].
+Go To Text
+
+10 . J. Zubizarreta, "The Learning Portfolio: Reflective Practice for Improving Student Learning", Jossey-Bass, 2nd Edition, 2009.
+Show Context
+A Learning Portfolio is a coherent group of learning nuggets defined as evidence based processes [10] that engage the student with a reflective analysis of his/her continued professional development Learning nuggets are also useful as they can be more easily mapped onto portable devices such as smart-phones.
+Go To Text
+
+11 . C.M. Chen and Y.Y. Chen, "Learning Performance Assessment Apporach Using Learning Portfolio for E-Learning Systems", Proceedings of the 5th IEEE International Conference on Advanced Learning Technologies (ICALT'05), IEEE Computer Society, 2005.
+Quick Abstract | Show Context | Full Text: PDF
+Learning performance assessment aims to evaluate what learners learnt during the learning process. It has become a critical issue in the Web-based learning field. Traditional summative evaluation can be applied to evaluate the learning performance both for conventional classroom learning and Web-based learning. However, it only considers final learning outcomes without considering the learning progress of learners. This paper proposes a learning performance assessment approach which combines four computational intelligence theories including grey relational analysis, K-means clustering method, fuzzy association rule mining and fuzzy inference to perform this task based on the learning portfolio of individual learners. Experimental results indicate that the evaluation result of the proposed method is positive relevance with those of summative assessment. Namely, this method can help teachers to precisely perform the formative assessment for individual learner utilizing only the learning portfolio in a Web-based learning environment.
+Full Abstract
+In [11] pedagogical metadata is used to describe learning nuggets so that they may be easily retrieved from digital repositories.
+Go To Text
+
+12 . D. Dahl, G.Vossen and P. Westerkamp, "share.loc-A multitiered Interoperable E-Learning Metadata Repository", Advanced Learning Techniques 2006, 2006.
+Quick Abstract | Show Context | Full Text: PDF
+The importance of metadata for e-learning is undisputed, particularly in terms of the semantic Web. Based on metadata standards such as LOM (learning object metadata), e-learning repositories can offer an effective and efficient search for e-learning content. The emerging paradigm of service-oriented architectures (SOAs) enables developers to implement open systems instead of monolithic ones. Well-defined interfaces for distributed systems have to be provided to enable easy integration of functionalities. In this context it is important to build the entire system architecture on a suitably chosen metadata standard. The e-learning repository share.loc presented in this paper uses special implementations of LOM within its different tiers of the entire architecture. An additional service tier that is implemented vertically to the common application tiers enables remote systems to request LOM-compliant representations of metadata from each tier that are tailored towards their individual needs
+Full Abstract
+An evaluation of the level of knowledge that the learner obtains from such an e-learning system is analyzed in [12].
+Go To Text
+
+13 . A. Abran and J.W. Moore," Guide to the Software Engineering Body of Knowledge", 2004 Edition, IEEE, 2005.
+Show Context
+In [13] Abran defines ten knowledge areas for software engineering: software requirements, design, construction, testing, maintenance, configuration management, engineering management, engineering processes, engineering tools & methods and quality.
+Go To Text
+
+14 . O. Hazzan and Y. Dubinsky, "Teaching Framework for Software Development Methods", Proceedings of the 28th International Conference on Software Engineering, ACM, 2006, DOI: 10.1145/1134285.1134396
+Show Context
+Research carried out by Hazzan [14] outlines 14 principles of a teaching framework.
+Go To Text
+Authors
+No Photo Available
+Ruth G. Lennon
+No Bio Available
+Cited By
+None
+Keywords
+IEEE Keywords
+Electronic learning , Industries , Internet , Portfolios , Software , Testing
+INSPEC: Controlled Indexing
+Web design , Web services , computer science education , security of data , software maintenance , teaching
+INSPEC: Non-Controlled Indexing
+Web developer specific pedagogy , Web service , Web site development , Web system development learner , Web systems developer education , computer science education , developer design process , educator , enterprise Web system , interface , legacy system , modern development language , security , teaching tool
+Authors Keywords
+Agile , Computer science education , Information systems education , Quality , Software Practices
+Corrections
+
+None
+Multimedia
+No Data Available
+Download PDF
+
+This paper appears in:
+    Web Systems Evolution (WSE), 2012 14th IEEE International Symposium on 
+Conference Date(s):
+    28-28 Sept. 2012 
+Conference Location:
+    Trento 
+On page(s):
+    73 - 77 
+E-ISBN:
+    No Data Available 
+Print ISBN:
+    978-1-4673-3057-2 
+INSPEC Accession Number:
+    13045656 
+Digital Object Identifier:
+    10.1109/WSE.2012.6320535 
+Date of Current Version:
+    2012-10-04 
+Date of Original Publication:
+    No Data Available 
+
+Text Size
+
+Normal | Large
+
+    Bookmark This Article
+    Email to a Colleague
+    Share
+    Print
+    Download Citation
+    Download References
+    Rights and Permissions
+
+Related Articles
+
+None
+
+Back to Top
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+
+Back to Top
+

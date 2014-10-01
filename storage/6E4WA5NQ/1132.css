@@ -1,0 +1,23 @@
+
+/* ::::: null ::::: */
+
+* { font-family: verdana,sans-serif; }
+html body { margin: 0px; padding: 0px; background: none repeat scroll 0% 0% rgb(239, 239, 239); font-size: 12px; color: rgb(30, 30, 30); }
+#titles { margin-left: 15px; padding: 10px 10px 10px 100px; background: url('SN.png') no-repeat scroll left center transparent; }
+#titles h1 { color: rgb(0, 0, 0); }
+#titles h2 { color: rgb(0, 0, 0); }
+#titles ftpsuccess { background-color: rgb(0, 255, 0); width: 100%; }
+#content { padding: 10px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+p {  }
+#error p {  }
+#data {  }
+#sysmsg {  }
+pre { font-family: sans-serif; }
+#dirmsg { font-family: courier; color: black; font-size: 10pt; }
+#dirlisting { margin-left: 2%; margin-right: 2%; }
+#dirlisting tr.entry td.icon, td.filename, td.size, td.date { border-bottom: medium groove; }
+#dirlisting td.size { width: 50px; text-align: right; padding-right: 5px; }
+hr { margin: 0px; }
+#footer { font-size: 9px; padding-left: 10px; }
+body :lang(fa) { direction: rtl; font-size: 100%; font-family: Tahoma,Roya,sans-serif; float: right; }
+:lang(he) { direction: rtl; }

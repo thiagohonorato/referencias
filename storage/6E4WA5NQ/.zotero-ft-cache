@@ -1,0 +1,16 @@
+ERROR
+The requested URL could not be retrieved
+
+O seguinte erro foi encontrado ao tentar recuperar a URL: http://www3.iesam-pa.edu.br/ojs/index.php/sistemas/article/view/1132
+
+    Impossível determinar o endereço IP do nome de host " www3.iesam-pa.edu.br"
+
+O servidor DNS retornou:
+
+     Server Failure: The name server was unable to process this query.
+
+Isto significa que o cache não pode resolver o nome de host contido na URL. Verifique se o endereço está correto.
+
+Seu administrador do cache é webmaster .
+
+Gerado Sun, 07 Sep 2014 00:32:57 GMT por localhost (squid/3.1.20)

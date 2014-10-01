@@ -1,0 +1,664 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+6718251
+
+Skip to Main Content
+IEEE Quick Preview
+
+    Abstract
+    Authors
+    Figures
+    Multimedia
+    References
+    Cited By
+    Keywords
+
+Administration and academic staff performance management system using content management system (CMS) technologies
+
+Content management systems (CMS) provide an optimal solution by organizing information and, mostly, creating and managing an enterprises knowledge. This paper aims to construct an interactive dynamic system base on CMS technologies, on which a range of problems concerning the administration and academic aspects of a university management system can be analyzed and certain policies for overcoming these problems can be tested and improved. This pilot was developed to explore the versatility of content management system (CMS) and to use the technology of CMS as precursor to handle content of a full blown automation of administration and academic performance management system.
+This paper appears in: Electronics, Computer and Computation (ICECCO), 2013 International Conference on , Issue Date: 7-9 Nov. 2013 , Written by: Boukar, M.M.; Muslu, I.
+
+© 2013 IEEE
+No Photo Available
+Moussa Mahamat Boukar
+No Bio Available
+More About this Author
+No Photo Available
+Isa Muslu
+No Bio Available
+More About this Author
+View All
+Figure 1
+Fig. 1.
+Fig. 1. Overview of CMS.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 2
+Fig. 2.
+Fig. 2. Area of competence of CMS.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 3
+Fig. 3.
+Fig. 3. MVC
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 4
+Fig. 4.
+Fig. 4. System.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 5
+Fig. 5.
+Fig. 5. Main Interface of the system.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 6
+Fig. 6.
+Fig. 6. Creating group in the system.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 7
+Fig. 7.
+Fig. 7. Messaging tool.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 8
+Fig. 8.
+Fig. 8. Task management tool.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+prev s_1 s_2 s_3 next
+View All
+
+1 . Boiko and B.
+
+Content Management Bible
+
+pp. 5-7, 2002 , Hungry Minds, New York
+
+2 . Mc Keever and S.
+
+Understanding Web content management systems: evolution, lifecycle and market, Industrial Management and Data Systems
+
+no. 103/9, pp. 686-688, 2003
+
+3 . Medina R., Fenner and J.
+
+Controlling Your Documents, The Information Management Journal, January/February
+
+pp. 20-22, 2005
+
+4 . Mescan and S.
+
+Why Content Management Should Be Part of Every Organisations Global Strategy, The Information Management Journal, July/August
+
+pp. 54-55, 2004
+
+5 . Sprehe and J. T.
+
+A Framework for EDMS/ERMS Integration, The Information Management Journal
+
+pp. 54-62, Novembre/ December, 2004
+View All
+IEEE Keywords
+Automation , Companies , Content management , Educational institutions , Information management , Instruments
+INSPEC: Controlled Indexing
+content management , educational administrative data processing , knowledge management
+INSPEC: Non-Controlled Indexing
+CMS technologies , academic staff performance management system , administration performance management system , content management system , enterprise knowledge creation , enterprise knowledge management , interactive dynamic system , university management system
+Authors Keywords
+Content Management System (CMS) , Enterprise Content Management System and MVC of Ruby , Knowledge Management System
+View All
+
+    Quick Preview
+    Figures
+
+    Full Text
+    Footnotes
+    References
+    Authors
+    Cited By
+    Keywords
+    Corrections
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION I
+I NTRODUCTION
+
+The main objective of this paper is to construct an interactive dynamic system base on CMS, on which a range of problems concerning the administration and academic aspects of a university management system can be analyzed and certain policies for overcoming these problems can be tested and improved. Academic institutions can be analyzed from a variety of perspectives such as community, an institution, a corporation, an organization, or even as a political system. All these concepts coexist in an uneasy balance within universities, where each university has a unique mix of academic goals, human resources, infrastructure, cash flow, and changing environment. This generates a number of problems. The demand for improvement presses higher education to identify the underlying principles of management and concentrate on management resources, not only to harmonize routine activities but to combine the organizational elements in a manner that ensures the efficient and effective performance and quality of the university.
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION II
+C ONTENT M ANAGEMENT
+
+Content management (CM) is one of the instruments that an enterprise needs to own to implement a knowledge management project. It is a system of methods and techniques to collect manage and publish content in a company. From this perspective, CM does not come along with computers, but from the invention of writing and the foundation of the first libraries. What has determined the subjects actuality is the conjugation of CM and information technologies as an answer to the exponential proliferation of documents and information that has come with Internet technologies and the World Wide Web. In this paper we define content management as a system of methods and techniques to automate the processes of content collection, management and publishing using information technologies. CM bases its logic on the separation of content and its format. Content management systems provide to control the creation and the distribution of information. They permit the knowledge and the monitoring of the value of information and also to decide the receiver (acceptor) and to manage the transmission of those data.
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION III
+L IFE C IRCLE
+
+A CMS, as represented in figure 1 , consists of three phases: information passes through the collection system, where it is transformed in content components, then through the management system, a kind of complex database where components are stored, and, lastly, through the publication system, where information is automatically transformed into publications. The three areas are often largely overlapped and work in strict relation with each other.
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION IV
+T HE C OLLECTION S YSTEM
+
+The collection system consists of the instruments, the procedures and the human resources that have to obtain the content, which will be managed in a second time, and to elaborate the single parts, which constitute content before they are ready for publication. The processes involved:
+
+    Authoring, to create content;
+    Acquisition, to acquire information;
+    Conversion, to filter the content, created or acquired, from the superfluous layers of information and translate it into a specific mark-up language;
+    Aggregation, to separate content into components to which is assigned a tag, so as to be able to insert that content in the chosen metadata system;
+    Collection services, programs and functions that support the collection system
+
+Figure 1
+Fig. 1. Overview of CMS.
+
+View All | Next
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION V
+T HE M ANAGEMENT S YSTEM
+
+The management system is responsible for content storage and for the instruments utilized to find and organize the same content and metadata collected in the first phase of the lifecycle. This system comprehends the repository, administration and workflow functions that allow one to know which content the enterprise owns and where it is. In practice the management system permits one to find the answer to any question about content, its collection, or the publications created from it.
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION VI
+T HE P UBLISHING S YSTEM
+
+The publishing system extracts content from the repository and automatically creates from it the final publications, not only designated for an external audience, but also and mostly for enterprise internal communications. The outputs are not only websites, but also any publication that could be electronic (CD-ROM, newsletter), or print (newspaper articles, leaflets,), or syndication (the payment distribution of content on the internet). A publication is information that you release that youve unified and that has the following characteristics: a purpose, publishers, an audience, a set of messages, author-ship, content, structure, cycles
+Figure 2
+Fig. 2. Area of competence of CMS.
+
+Previous | View All | Next
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION VII
+A RCHITECTURAL D ESIGN OF THE S YSTEM
+
+MVC, or Model-View-Controller, is an architectural pattern used in software development. The aim of MVC is to promote good programming practices and code reuse by separating a web application into three layers: data, presentation, and the interaction between the two. By separating these elements from each other, one can be easily updated without affecting the others. Ruby on Rails uses the Model-View-Controller (MVC) architectural pattern in order to improve the maintainability of the application. The Model centralizes the business logic; the View manages the display logic, while the Controller deals with the application flow. The MVC allows a clean separation of concerns, in the way that it keeps the business logic separated from HTML views. Additionally, it improves decoupling and testing.
+Figure 3
+Fig. 3. MVC
+
+Previous | View All | Next
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION VIII
+G RAPHICAL R EPRESENTATION OF THE S YSTEM
+
+The architectural design of the system explains graphically the system. As its shown in the figure below, the user interacts with the server through the intranet to get access to the system. There are many groups in the system which is greater by the administrator of the system and every group has a parent group and every group has a child as a user because of hierarchical reason. For instance, if parent group represent the Faculty, the child group represent the Department and the member of the department represent the user. I have divided the groups into parent group and child group in order to let the member of the University to respect the hierarchy, for example head of department cant write or communicate directly with the president of the University he should write first to the dean of the faculty etcthis is the way how the system treat the member of the University. The administrations of the system is responsible for creating groups, users and assign the rules, the administration of the system has a easy task to handle because the system is dynamic it means he doesnt have make any changes on the source code of the system while assigning the rules or creating groups.
+Figure 4
+Fig. 4. System.
+
+Previous | View All | Next
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION IX
+A PPLICATION OF THE S YSTEM
+
+The dynamic Administration and Academic performance Management System is the software application that we have carried out through this research paper. Dynamic Administration Management System provides all the features to execute wide range of Academic, Administrative, Security, Services and maintain all from a single database. The interface is simple to use and user friendly. The system is based on Content Management System(CMS) technology for the realization of presentation. The implementation is flexible and scalable, by means of using open source CMS and popular technologies for enterprise application development and integration. The important feature of the system is spreading the work of applications for distributed automation over the intranet network of the University. The figure below shows the main interface of the system.
+Figure 5
+Fig. 5. Main Interface of the system.
+
+Previous | View All | Next
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION X
+F UNCTIONALITY OF THE S YSTEM
+
+The system has too many functions, only the administrator of the system has total control of the system it means he has the full control. There are too many users and every each user has a password to login to his/ her own profile. A user can be created by the administration of the system; everyone has control of his own profile. There is group, user and every user have a parent as a group and every parent has child as user thats important for the hierarchy within the system.
+Figure 6
+Fig. 6. Creating group in the system.
+
+Previous | View All | Next
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION XI
+M ESSAGING M ANAGEMENT T OOL
+
+Every user can send and receive message inside the system, but there are some restrictions which user can not send message to everyone as he wish to, and every user can send and receive email to the user of the same group or to the parent. According to hierarchy the users of specific department can send and receive only within his/her department. The restriction is flexible and can be removed according to the administration. The figure below shows how messaging tool works.
+Figure 7
+Fig. 7. Messaging tool.
+
+Previous | View All | Next
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION XII
+T ASK M ANAGEMENT T OOL
+
+The task management tool allows the superior member of administration to give task to member of administration. For instance, a Dean of faculty can give task to the head of department and follow and see whether the task given was done. If the task given was done the status of the task will be mentioned by a tick otherwise the status of the task will be mention by a cross in order to evaluate the performance of the member of administration. The task management tool is very important because it help the system to check the work performance of the administration, instructor and giving out a report monthly or annually per department The figure below shows how a task can be given.
+Figure 8
+Fig. 8. Task management tool.
+
+Previous | View All
+
+        I. Introduction
+        II. Content Management
+        III. Life Circle
+        IV. The Collection System
+        V. The Management System
+        VI. The Publishing System
+        VII. Architectural Design of the System
+        VIII. Graphical Representation of the System
+        IX. Application of the System
+        X. Functionality of the System
+        XI. Messaging Management Tool
+        XII. Task Management Tool
+        XIII. Conclusion
+
+SECTION XIII
+C ONCLUSION
+
+Nowadays, much of the interest in developing CMS is referred to the possibility of creating easily manageable web programming or system of great dimensions. Actually the potentialities of content management systems are greater, mainly in terms of company support in managing all the phases from content creation to its storage and publication in many formats. A content management system answers to the need of integrating information with knowledge, as to reach a better decision process. At the same time, a CMS permits creation costs of information and knowledge to be minimized, maximizing their value. The need to adopt a CMS is, firstly, to find an answer to the challenge of managing, modifying and updating a big volume of information. The need to use the same content on different media with different characteristics requires suitable systems of collection and management thus, we have constructed a suitable system that is able to manage and improve the Administration and academic performance management system.
+Footnotes
+No Data Available
+References
+
+1 . Boiko and B.
+
+Content Management Bible
+
+pp. 5-7, 2002 , Hungry Minds, New York
+
+2 . Mc Keever and S.
+
+Understanding Web content management systems: evolution, lifecycle and market, Industrial Management and Data Systems
+
+no. 103/9, pp. 686-688, 2003
+
+3 . Medina R., Fenner and J.
+
+Controlling Your Documents, The Information Management Journal, January/February
+
+pp. 20-22, 2005
+
+4 . Mescan and S.
+
+Why Content Management Should Be Part of Every Organisations Global Strategy, The Information Management Journal, July/August
+
+pp. 54-55, 2004
+
+5 . Sprehe and J. T.
+
+A Framework for EDMS/ERMS Integration, The Information Management Journal
+
+pp. 54-62, Novembre/ December, 2004
+
+6 . The Gilbane Report (2003), The Classification and Evaluation of Content Management Systems
+
+vol. 11, no. 2
+
+7 . Browning, P., Lowndes and M.
+
+pp. 12-16, 2001
+Authors
+No Photo Available
+Moussa Mahamat Boukar
+No Bio Available
+No Photo Available
+Isa Muslu
+No Bio Available
+Cited By
+None
+Keywords
+IEEE Keywords
+Automation , Companies , Content management , Educational institutions , Information management , Instruments
+INSPEC: Controlled Indexing
+content management , educational administrative data processing , knowledge management
+INSPEC: Non-Controlled Indexing
+CMS technologies , academic staff performance management system , administration performance management system , content management system , enterprise knowledge creation , enterprise knowledge management , interactive dynamic system , university management system
+Authors Keywords
+Content Management System (CMS) , Enterprise Content Management System and MVC of Ruby , Knowledge Management System
+Corrections
+
+None
+Multimedia
+No Data Available
+Download PDF
+
+This paper appears in:
+    Electronics, Computer and Computation (ICECCO), 2013 International Conference on 
+Conference Date(s):
+    7-9 Nov. 2013 
+Conference Location:
+    Ankara 
+On page(s):
+    151 - 154 
+E-ISBN:
+    No Data Available 
+Print ISBN:
+    No Data Available 
+INSPEC Accession Number:
+    14046211 
+Digital Object Identifier:
+    10.1109/ICECCO.2013.6718251 
+Date of Current Version:
+    2014-01-23 
+Date of Original Publication:
+    No Data Available 
+
+Text Size
+
+Normal | Large
+
+    Bookmark This Article
+    Email to a Colleague
+    Share
+    Print
+    Download Citation
+    Download References
+    Rights and Permissions
+
+Related Articles
+
+None
+
+Back to Top
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+
+Back to Top
+

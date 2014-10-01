@@ -1,0 +1,736 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+4577682
+
+Skip to Main Content
+IEEE Quick Preview
+
+    Abstract
+    Authors
+    Figures
+    Multimedia
+    References
+    Cited By
+    Keywords
+
+Infrastructure for web-based administration of embedded systems
+
+Today, many embedded systems are equipped with network interfaces. Thus, web based management and administration are often required in such embedded systems. General approaches, which are widely available, fail to work on those resource constrained devices. Yet, there exists a necessity to support rapid development for dynamically generated pages. In this contribution we present a framework that will be usable on many embedded systems and also helps the web developer to simplify the document structure.
+This paper appears in: Industrial Embedded Systems, 2008. SIES 2008. International Symposium on , Issue Date: 11-13 June 2008 , Written by: Hochberger, C.; Meusel, C.
+
+© 2008 IEEE
+No Photo Available
+Christian Hochberger
+No Bio Available
+More About this Author
+No Photo Available
+Christian Meusel
+No Bio Available
+More About this Author
+View All
+Figure 1
+Fig. 1.
+Fig. 1. Static output generated using string literals
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 2
+Fig. 2.
+Fig. 2. Dynamic content embedded in static template
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 3
+Fig. 3.
+Fig. 3. Structure of a page layout
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 4
+Fig. 4.
+Fig. 4. A controls tag example
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 5
+Fig. 5.
+Fig. 5. Example of the < ksp:for >tag
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 6
+Fig. 6.
+Fig. 6. A minimal KSP form example
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 7
+Fig. 7.
+Fig. 7. Decomposition of a web page into separate KSPs
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 8
+Fig. 8.
+Fig. 8. Example of a content page
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 9
+Fig. 9.
+Fig. 9. Example of a layout document
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 10
+Fig. 10.
+Fig. 10. Example of a header document
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 11
+Fig. 11.
+Fig. 11. KSP Form Handling
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 12
+Fig. 12.
+Fig. 12. Example for generated KSP code for the form from figure 6
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 13
+Fig. 13.
+Fig. 13. Method signatures for setters and validators
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 14
+Fig. 14.
+Fig. 14. Wrapping one KSP with another KSP
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 15
+Fig. 15.
+Fig. 15. Embedding one KSP in another KSP
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+prev s_1 s_2 s_3 s_4 s_5 next
+View All
+
+1 . Ruby on Rails. [Online]. Available: http://www.rubyonrails.org/
+Show in Context
+ 
+
+2 . S. Gatzka, C. Hochberger, and T. Geithner, "The Kertasarie VM," in Net.ObjectDays 2003 Tagungsband, c. t. G. Organisatoren Net.ObjectDays, Ed. IGT Colordruck GmbH, 2003, pp. 285-299.
+Show in Context
+ 
+
+3 . JavaServer Pages technology. Sun Microsystems. [Online]. Available: http://java.sun.com/products/jsp/
+Show in Context
+ 
+
+4 . JavaServer Pages Standard Tag Library. Sun Microsystems. [Online]. Available: http://java.sun.com/products/jsp/jstl/
+Show in Context
+ 
+
+5 . JavaServer Faces Technology. Sun Microsystems. [Online]. Available: http://java.sun.com/javaee/javaserverfaces/
+Show in Context
+ 
+View All
+IEEE Keywords
+Embedded system , HTML , Java , Network interfaces , Operating systems , Read only memory , Read-write memory , Web pages , Web server , Writing
+INSPEC: Controlled Indexing
+Internet , embedded systems , network interfaces , system monitoring
+INSPEC: Non-Controlled Indexing
+Web based management , Web developer , Web-based administration , document structure , dynamically generated pages , embedded systems , network interfaces
+View All
+
+    Quick Preview
+    Figures
+
+    Full Text
+    Footnotes
+    References
+    Authors
+    Cited By
+    Keywords
+    Corrections
+
+    I. Introduction
+    II. Related Work
+    III. Design of the Kertasarie Server Pages
+    IV. Implementation
+    V. Results
+    VI. Conclusion and Future Work
+
+    I. Introduction
+    II. Related Work
+    III. Design of the Kertasarie Server Pages
+    IV. Implementation
+    V. Results
+    VI. Conclusion and Future Work
+
+SECTION I
+I NTRODUCTION
+
+As more and more embedded systems penetrate the personal and industrial environment, these systems become also ever more powerful. 32 bit processors and few megabytes of memory are available in many cases.
+
+These systems often come along with integrated network interfaces and are connected to intranets. Mainly, this network connection is not required for the intrinsic function of the embedded system, but is rather used for administration and management purposes. This includes controlling operational parameters as well as monitoring the state of the system or sensor data.
+A. Web Interfaces to Embedded Systems
+
+In the mean time Web based administration and management has become a de facto standard for such systems. The benefits of this approach are clear: (1) no special application is required for administration and management and (2) administration can be executed almost anywhere. Yet, this approach also has some drawbacks: A web server must be integrated into the system and dynamic web pages must be developed for the particular functionality of the specific system.
+
+Web pages must be generated dynamically since they reflect internal states and sensor values of the system. Thus, the page content must be generated at the time of the request.
+B. Rapid Web Application Development
+
+Having a short time to market is a concern not only for large-scale systems but also when developing embedded systems. Unburdening developers from writing repetitive and error-prone code is an important step towards this goal. In an ideal case, the development environment supports developers at common tasks such as:
+Figure 1
+Fig. 1. Static output generated using string literals
+
+View All | Next
+Figure 2
+Fig. 2. Dynamic content embedded in static template
+
+Previous | View All | Next
+
+    Writing down static parts of responses
+    Binding data to HTML forms
+    Processing HTTP request data
+    Structuring the application with focus on sharing and reusing HTML page components
+
+The low-level tasks performed by a typical web application are processing of HTTP requests and the generation of appropriate responses. Let's start with the responses: When dynamically generating HTML output, a huge part of the output page will still be static. Writing the code which generates the static output as passing string literals to the appropriate methods is very inefficient. In this case, a more efficient solution will be the inclusion of program code into a template for the static content. Both variants are shown in the figures 1 and 2 .
+
+The task of binding data and processing HTTP requests for HTML forms are tightly coupled together: When generating forms, fields need to be initialized with object properties and when processing the requests which result from submitted forms, the data needs to be processed, validated and written back to objects. The overhead of writing the code for this task by hand can be reduced significantly with support from the development environment.
+
+Another important aspect for web applications is to maintain a consistent layout over all pages. Typical web pages consist of elements like a header, a menu and the page content grouped together by a page skeleton. Figure 3 shows an example page structure. Having such a structural separation of common HTML fragments and code, allows them to be shared between all pages which can improve the maintainability of a web application significantly.
+Figure 3
+Fig. 3. Structure of a page layout
+
+Previous | View All | Next
+Figure 4
+Fig. 4. A controls tag example
+
+Previous | View All | Next
+
+One step further goes the encapsulation of simple control structures into special tags as shown in figure 4 . Compared to embedded program code, such tags integrate better into the structure of HTML which makes such fragments more readable. In combination with the structural decomposition, the availability of such tags makes the collaboration of differently skilled people easy: A web developer may, for example, implement the rendering of data to a HTML table just by knowing about these tags whereas a programmer can write down the rendering of the page menu in plain program code.
+
+In this contribution we show a framework for rapid web page development that can even be used in embedded systems.
+C. Paper Outline
+
+In the following section we will discuss several solutions for dynamic web page creation. This discussion will lead us to the design of the Kertasarie Server Pages in section III and implementation in section IV . A description of our experiences with KSP, a conclusion and an outlook onto future work round up this contribution.
+
+    I. Introduction
+    II. Related Work
+    III. Design of the Kertasarie Server Pages
+    IV. Implementation
+    V. Results
+    VI. Conclusion and Future Work
+
+SECTION II
+R ELATED W ORK
+
+Today, a tremendous amount of frameworks is available which target web application development. Most of them are really great and for a lot of programming languages there will be more than a handful. We will discuss some examples for scripting languages and the Java platform in the following sections.
+
+A common drawback of all sophisticated and therefor often very generic frameworks is their demand in resources which is typically not compatible with the constraints applying to embedded systems.
+A. Frameworks for Scripting Languages
+
+One of the most famous frameworks in this area is currently Ruby on Rails [ 1 ]. This framework often gets called just Rails and addresses all issues presented in I-B. Rails provides a skeleton generator which allows to get to a basic web application within minutes and saves the developer from performing repetitive tasks during the development process. Besides Rails there are more frameworks for Ruby and the situation looks similar for other languages like Perl, PHP or Python. Although we did not test all script languages, in general the resource consumption is quite high.
+
+But even if we leave the resource requirements aside, interpreted languages require their interpreter to be available on the target system. For the zoo of operating systems used in embedded systems this is normally not the case and becomes a lethal criterion.
+B. Frameworks for Java
+
+Using Java in embedded systems has become quite usual: Virtual machines for embedded operating systems are becoming more and more available. As an example for a Java runtime environment that can be deployed on many operating systems for embedded systems the Kertasarie VM [ 2 ] can be named. This virtual machine offers features like sockets, reflection, serialization and RMI—but nevertheless, the memory constrains will prevent running the typical Java web application frameworks on embedded systems.
+
+Let us have a look at the classical environment from Sun which provides the support mentioned in I-B: Such an environment would consist of JavaServer Pages [ 3 ], the JavaServer Pages Tag Library [ 4 ] and JavaServer Faces [ 5 ] running on top of a Tomcat [ 6 ] server. Altogether, such a configuration requires around 20 MiB ROM and Tomcat requires at least 128 MiB RAM at runtime. An infrastructure which is much more suitable for embedded Systems provides the web server and Servlet container Jetty [ 7 ]: The project's homepage presents a basic version of this server which takes up approximately 1.9 MiB ROM. According to [ 8 ], some people state that they are running stripped-down versions of Jetty with a ROM footprint of 300 KiB in embedded systems with 16 MiB RAM in total.
+
+Another framework is Groovy on Grails [ 9 ] for the Groovy language which brings the interesting concepts of Ruby on Rails to the Java platform. But the resulting applications needs a Java-enabled web server like Tomcat and so the same resource requirements apply here. The situation does not change dramatically for other Java frameworks. For many of them, the requirements even increase because they are designed for the Java Enterprise Edition environment.
+C. Other solutions
+
+For the C language there exist solutions targeting at embedded systems. For example EMS-WebMUI [ 10 ] which consists of a HTML to C compiler and a special web server for embedded systems. The compiler generates C data structures from HTML pages which get rendered by the web server. Special tags allow to embed the output of C functions at certain points of the page. The memory footprint of 30 KiB ROM and 64 KiB RAM for the infrastructure of the EMS-WebMUI server is small but on the same hand it does not provide the same functionality as the solution we present here.
+
+A web server which allows to deliver dynamically generated content is presented in [ 11 ]. This server allows to run Common Gateway Interface (CGI) programs on an embedded system. The platform this server operates on is a ARM7TDMI processor from Samsung running uClinux but unfortunately the paper does not state the resource usage. We have a sample hardware implementation with the same processor platform providing 8 MiB Flash memory and 16 MiB RAM on which the Kertasarie VM runs on top of eCos. This allows us to use KSP for web application development for systems of this scale too. Compared to CGI programming, the infrastructure we present in this paper offers a lot more comfort.
+
+    I. Introduction
+    II. Related Work
+    III. Design of the Kertasarie Server Pages
+    IV. Implementation
+    V. Results
+    VI. Conclusion and Future Work
+
+SECTION III
+D ESIGN OF THE K ERTASARIE S ERVER P AGES
+
+To leverage the implementation of dynamic web pages, we have designed a page description language that combines the major advantages of well known techniques like Java Server Pages, Java Server Facces, JSP Standard Tag Library and structural elements like those found in other frameworks (e.g. Ruby on Rails). Nevertheless, the resulting description language should still be feasible in embedded systems.
+
+Thus, the design of the Kertasarie Server Pages was guided by the following requirements:
+
+    Compilation of the pages should be done offline to avoid the presence of the KSP compiler and the Java compiler.
+    The language should expose a good readability and language elements should be easily found in KSP files. This implies to write KSP statements as XML tags and also to create individual tags for all types of statements.
+    The language elements should allow a concise description of the web pages. Recurring design elements of the pages should only be written once.
+
+In general, all KSP elements are written as XML-tags from the KSP namespace. Everything outside the KSP-tags is interpreted as verbatim web page content that is sent “as is” to the web browser.
+A. Control Elements
+
+The selection and design of the basic control elements of KSP is inspired by the JSP Standard Tag Library, which provides similar tag declarations for JSP.
+
+There are two general tags which can be used as quasi universal tags:
+
+    <ksp:code> Java Statements </ksp:code> .
+    <ksp:exp> single Java expression </ksp:exp> .
+
+The code tag allows the inclusion of arbitrary Java code at the given place within the processing of the KSP file. The expression tag describes a single expression, to which the method toString() is applied and the result is injected at the given place.
+
+To create KSP documents with flow control that have a better internal structure, we have also included traditional programming language elements like the following:
+
+    <ksp:if>
+    <ksp:for>
+    <ksp:foreach-array>
+    <ksp:foreach-coll>
+    <ksp:switch>
+    <ksp:choose>
+
+All these elements require a closing tag and thus embrace the corelated content (HTML or KSP tags). Those elements that require further refinement, are controlled by attributes to the tags. The example in figure 5 shall illustrate this. Here the attribute bindto specifies the variable name that is used for the iteration, bindtype specifies the Java type of that variable and cond specifies the condition that must be fulfilled to stay in the loop. Additionally, an initialisation value can be specified for the variable (defaults to 0) and an increment can be specified (defaults to ++).
+Figure 5
+Fig. 5. Example of the < ksp:for >tag
+
+Previous | View All | Next
+
+The other loop control elements work similarly but are shortcuts to iterate over all elements of an array or a collection. The <ksp:if> realizes simple conditional statements and may optionally be followed by a <ksp:else> .
+
+The <ksp:switch> and <ksp:choose> allow branching over scalar variables or strings respectively.
+
+Finally, as all control elements will be translated into one particular method of the resulting class, we provide a special tag that allows the declaration of a private method to give the Java part a better structure.
+
+In contrast to the JSTL we do not provide user controlled extensions of the tags. Our main reason for this omission is the experience that in many cases the user extensions are not written with appropriate care and neglecting the resource consumption.
+B. Form Handling
+
+Kertasarie Server Pages provide a set of tags dedicated to the handling of forms. Using these tags allows to specify forms where input elements are generated automatically and populated from getter methods of Java objects. When form data has been processed, data will be written back to the object using the defined setter method. The whole can be understood as data binding at the level of property access methods.
+
+Figure 6 shows a simple form which contains a submit button and a text input field. A getter can be every expression that can be evaluated to a string. Setter and validator methods need to have a certain signature. Method names and related objects from the tag attributes are stored for later invocation of validators and setters via reflection. It is allowed to use different objects for setter and validators. Section IV-B will show the form handling process in detail.
+Figure 6
+Fig. 6. A minimal KSP form example
+
+Previous | View All | Next
+
+The set of currently defined form tags models more or less the input elements available for HTML forms:
+
+    <ksp:form> for delimiting the form contents so that multiple forms can be used in one page
+    <ksp:text> , <ksp:textarea> and <ksp:password> for single-line, multi-line and password text input fields
+    <ksp:checkbox> for checkboxes representing binary values
+    <ksp:radiogroup> and <ksp:radiobutton> for single-selection radio button groups
+    and <ksp:select> for single selection lists where keys and values can be specified either as the names of string arrays or literally inside the parameter values
+    <ksp:hidden> as an equivalent for the hidden HTML input element which can be initialized and evaluated as any other form element
+    <ksp:submit> and <ksp:reset> for form submission or reset. The first element allows to specify a page to redirect to after the form data has been processed successfully (the page attribute in figure 6 ).
+    And at last, <ksp:validation-messages> allows to specify a place for embedding the output generated by validation methods when input gets rejected.
+
+C. Structural Elements
+
+As outlined in section I-B , the separation of layout and content should be supported by KSP as well as the principle of writing things once. KSP achieves this through two structural tags that allow a page to wrap itself with another KSP document and conversely to include another KSP document at a given place.
+Figure 7
+Fig. 7. Decomposition of a web page into separate KSPs
+
+Previous | View All | Next
+
+Consider again the typical web layout given in figure 3 . The user typically wants to specify individual pages which eventually refer to the content pane in the layout. This part of the page is of primary concern to the developer. The <ksp:wrap> allows a page to specify a KSP document that shall embrace the content. As shown in figure 7 , the user writes the file content.ksp shown in figure 8 . In this file the tag <ksp:wrap> should embrace the whole content of that file. The attribute path specifies the KSP document that shall be used for wrapping. In our case this is the top level document layout.ksp which specifies the layout of all pages. It is shown in figure 9 . The place where the wrapped content has to be inserted in the surrounding page is given by the tag <ksp:insertwrapped> , which does not need any reference to the wrapped document. Thus, it is possible, to wrap many content pages with the same wrapper.
+Figure 8
+Fig. 8. Example of a content page
+
+Previous | View All | Next
+Figure 9
+Fig. 9. Example of a layout document
+
+Previous | View All | Next
+
+Now, the wrapping document can include other documents to get a better support for modularization. In our case it includes header.ksp, shown in figure 10 and menu.ksp, which is not shown here for conciseness.
+Figure 10
+Fig. 10. Example of a header document
+
+Previous | View All | Next
+
+To make this scheme of structuring powerful enough for most applications, it is required to support the passing of parameters from wrapped documents to the wrapping documents and to included documents. In our example this feature is used to supply information from the content to the header. Within the file content.ksp the tag <ksp:with-param> is used to specify parameters that are passed to the wrapping document. Within the file layout.ksp the attribute passparams is used to select the parameters that are passed to the included KSP. It is also possible to specify additional parameters in layout.ksp which are then merged with those parameters received from the wrapped KSP.
+
+The same technique could also be used to pass information about the currently selected menu to menu.ksp. Thus, for example it would be possible to highlight the currently selected menu entry (or unfold a corresponding sub menu, or put links to all other menu entries, …).
+
+Also, it should be noted that this scheme is not restricted to two levels of KSP documents. A content page can wrap itself with an inner layout which in turn can wrap itself with the layout and so on.
+D. Design Implications
+
+The structural elements allow the page designer to delegate parts of page creation process to a different KSP file. This allows to concentrate design elements in a single place. This is a crucial precondition for a resource efficient implementation of the page creation process
+
+We forfeit extensibility and thus the infrastructure that is required for the page creation process in the embedded system can be very lightweight. In our view this is not a drawback, as we could not see any cases where user specific extensions (like new tags or a different form handling) were required.
+
+    I. Introduction
+    II. Related Work
+    III. Design of the Kertasarie Server Pages
+    IV. Implementation
+    V. Results
+    VI. Conclusion and Future Work
+
+SECTION IV
+I MPLEMENTATION
+
+As a general principle, each KSP file will be translated into a single Java class. To extract common functionality that is shared between all these classes, they are derived from an abstract class ExtKSPProvider.
+A. Control Elements
+
+Verbatim text is put into java statements that print this text to the output stream. All tags occurring in the text actually mark the end of an output sequence. At this place the code corresponding to the tag is inserted. Most of the control tags and basic elements can be implemented rather straight forward. Nevertheless, two exemptions must be noted:
+
+    The <ksp:code> tag, where special attention has to be payed to import declarations. Those declarations are required to access classes from the application. Thus, the user must be able to describe his own import statements. In order to produce valid class files during the translation, these statements must be sorted at the beginning of the resulting Java code.
+    The <ksp:choose> tag does not have a directly corresponding Java statement, since it is not possible to use String object for switching. The easiest way of transforming that into valid Java code is a chain of if-else statements. Better implementations are conceivable (binary tree constructed from the known String constants or a hash directory), but did not appear to be required.
+
+Figure 11
+Fig. 11. KSP Form Handling
+
+Previous | View All | Next
+B. Form Handling
+
+Under the hood, KSP form handling is done at two points: During the rendering of a KSP into HTML output and when the browser submits the edited form data with a HTML request. Figure 11 illustrates this by showing an initial request (HTTP-GET) to a KSP which only leads to form rendering. The second request (HTTP-POST) contains edited form data which needs to be extracted from the HTTP request, validated, and passed to the bound objects by invoking their setters. The response delivered for the second request may either be the form again or a HTTP redirection to the specified page.
+
+When a form gets rendered it will be equipped with an unique identifier which allows to identify the data send back by the browser and to retrieve the associated setters and validators. The association is held in a mapping which is stored into the current user session as long as the form is “in-flight”. We currently store at most one mapping per path and session. The code which saves such a mapping is generated by the KSP compiler along with the code which renders the KSP form tags into HTML code. Figure 12 shows the compiled KSP fragment for the form in figure 6 .
+
+At the time of request handling, the KSP gets the preprocessed request from the HTTP server. GET and POST parameters have been merged and decoded. The KSP starts with looking for a ksp_requestID parameter at the request data. If this parameter exists and denotes a valid form mapping, form data validation is be performed as follows: For each form element, the associated object is retrieved from the mapping and invoked using reflection. Figure 13 shows the signatures used for setter and validation methods.
+
+To each validator the current session and a list is passed. Having the session available allows to perform data validation with respect to the session state and the list collects messages for displaying at the <ksp:validation-messages> tag. The validators return value indicates whether validation succeeded or not. Even if a validation fails, the remaining validators are executed to get all validation messages for displaying to the user when the form gets redisplayed.
+
+In case that all submitted data could be validated successfully, the associated setter methods are called using reflection again. If all setters are processed, the form will be displayed again or the specified redirection target is send back to the client.
+Figure 12
+Fig. 12. Example for generated KSP code for the form from figure 6
+
+Previous | View All | Next
+Figure 13
+Fig. 13. Method signatures for setters and validators
+
+Previous | View All | Next
+C. Structural Elements
+
+In general the method generateOutput() is called to produce the output for a particular KSP. In the case of a wrapped KSP, this method actually delegates the output process to the wrapping class. The generateOutput() method of the wrapping class now calls the method insertWrapped() right at the place where the corresponding tag was found in the page description. Thus, all the content that should be produced in the wrapped class is written to the method insertWrapped() in this case. The whole sequence is shown in figure 14 . It should be noted that there is little more magic required, since the binding of the wrapping class to the wrapped class can not be done statically, as several wrapped classes may share the same wrapping class. Thus, the wrapped class must pass a reference to itself to the wrapping class in order to allow the back delegation.
+Figure 14
+Fig. 14. Wrapping one KSP with another KSP
+
+Previous | View All | Next
+Figure 15
+Fig. 15. Embedding one KSP in another KSP
+
+Previous | View All
+
+Similar, but a little bit easier is the process for embedding one KSP into another. In that case the surrounding KSP simply calls the generateForm() method of the included KSP, as shown in figure 15 .
+
+Wrapping and included KSPs are generated as individual classes independent of the referring KSP. Thus, it is possible to transform the delegation of the page creation process on the KSP level directly into a delegation between the generated classes. This greatly helps to reduce the resource consumption of the resulting application.
+
+    I. Introduction
+    II. Related Work
+    III. Design of the Kertasarie Server Pages
+    IV. Implementation
+    V. Results
+    VI. Conclusion and Future Work
+
+SECTION V
+R ESULTS
+
+We started the development of Kertasarie Server Pages in 2005 as a proof of concept for an industrial application. The initial implementation came up as simple as possible because at this time our main concern was the memory footprint. Over time we added tags for control elements and structural decomposition and the latter already payed off during page design changes.
+
+For example when having a page structure as shown in figure 7 , changing the basic layout of the whole application requires only changes in the page template (layout.ksp). Style sheet, basic container <div> elements-all can be changed at one place. The same applies to the application's menu: For example, a new menu item can be added to all pages just by modifying menu.ksp.
+Table 1
+TABLE I E XAMPLES FOR P AGE P ROCESSING T IME AND G ARBAGE C OLLECTOR L OAD
+
+In 2006, the former proof of concept was taken to the next level and formed the base for an application running on an industrial control station. This application uses KSP for its web interface to view sensor data, to pass parameters to control loops and actuators, to access charts of sampled data, do user management and change system settings. Nearly every aspect of the systems functionality can be accessed through the web front-end. Today, the whole development team for the application's web front-end counts eight people. Using KSP helped us to integrate web developers which are maintaining parts of the front-end on their own.
+
+The infrastructure needed for running KSP consists of our small HTTP server with with a footprint of 29 KiB ROM and support classes for KSP which need 16 KiB ROM. Currently, the application consists of 54 KSP files which produce class files with a size of 467 KiB (ROM) in total. For the whole application our Java Virtual Machine is configured to run with 2 MiB object heap. This memory footprint is pretty small compared to a solution like JavaServer Faces and JavaServer Pages running on top of Tomcat and even still small compared to the memory needed by Jetty.
+
+We measured processing time and the load for the garbage collector for some pages of our application. Each page uses <ksp:wrap> to wrap itself with the application's page template and the template itself includes the menu KSP by means of <ksp:include> . All pages are localized using the standard Java localization services like for example resource bundles for messages or date formatters. The pages display the following contents:
+
+    Simple Page : This page shows a simple status information about the system and mainly consists of the output generated by menu and page template.
+    E-Mail Setup : A page with nine KSP form elements.
+    System Overview : A page which shows data of seven sensors and actuators. For each sensor this includes the actual sensor value, a status summary and an input field for changing the current state of actuators.
+
+We measured times for page processing for our industrial application on a 400 MHz PowerPC processor. All Java code was executed by the Kertasarie VM's bytecode interpreter. JIT compilation was not used in order to minimize the memory requirements of the virtual machine.
+
+The processing times consist of the time spent for processing HTTP requests stored in a prepared buffer, the page generation itself and the output to a dummy stream where data gets discarded immediately. We used this set-up to avoid an influence from the network layer. Also we evaluated the amount of heap memory that is consumed during the processing of the page requests. For this purpose we measured the amount of free memory before and after the request. Before each request we initiated a garbage collection cycle to avoid garbage collection during the request processing. Table I shows the results for the different types of pages. Even the creation of the largest of the pages is fast enough to be below the user's perception.
+
+    I. Introduction
+    II. Related Work
+    III. Design of the Kertasarie Server Pages
+    IV. Implementation
+    V. Results
+    VI. Conclusion and Future Work
+
+SECTION VI
+C ONCLUSION AND F UTURE W ORK
+
+The presented technology allows a very fast and elegant development of dynamic web content even on embedded systems. The resulting descriptions are concise and expose a very good structure. Everything typically needs to be written only once. Despite the high level of abstraction available for page description, the page generation process is very efficient.
+
+The KSP have proven their suitability for embedded systems in a very critical industrial environment.
+
+Two major aspects will be refined in the future:
+
+    Some tags will be extended to support more attributes and possibly some more control tags will be added. Also, the implementation of the <ksp:choose> will probably be optimized for better runtime.
+    The good structure of the page descriptions already often match the granularity at which the typical user would expect automatic updates of the page content (e.g. writing the description of one line of a table as a separate KSP and including it into another document that loops over all objects that form the table.). Thus, it is a natural idea to add AJAX support to KSP such that these elements can be updated asynchronously .
+
+Footnotes
+No Data Available
+References
+
+1 . Ruby on Rails. [Online]. Available: http://www.rubyonrails.org/
+Show Context
+One of the most famous frameworks in this area is currently Ruby on Rails [1].
+Go To Text
+
+2 . S. Gatzka, C. Hochberger, and T. Geithner, "The Kertasarie VM," in Net.ObjectDays 2003 Tagungsband, c. t. G. Organisatoren Net.ObjectDays, Ed. IGT Colordruck GmbH, 2003, pp. 285-299.
+Show Context
+As an example for a Java runtime environment that can be deployed on many operating systems for embedded systems the Kertasarie VM [2] can be named.
+Go To Text
+
+3 . JavaServer Pages technology. Sun Microsystems. [Online]. Available: http://java.sun.com/products/jsp/
+Show Context
+Let us have a look at the classical environment from Sun which provides the support mentioned in I-B: Such an environment would consist of JavaServer Pages [3], the JavaServer Pages Tag Library [4] and JavaServer Faces [5] running on top of a Tomcat [6] server.
+Go To Text
+
+4 . JavaServer Pages Standard Tag Library. Sun Microsystems. [Online]. Available: http://java.sun.com/products/jsp/jstl/
+Show Context
+Let us have a look at the classical environment from Sun which provides the support mentioned in I-B: Such an environment would consist of JavaServer Pages [3], the JavaServer Pages Tag Library [4] and JavaServer Faces [5] running on top of a Tomcat [6] server.
+Go To Text
+
+5 . JavaServer Faces Technology. Sun Microsystems. [Online]. Available: http://java.sun.com/javaee/javaserverfaces/
+Show Context
+Let us have a look at the classical environment from Sun which provides the support mentioned in I-B: Such an environment would consist of JavaServer Pages [3], the JavaServer Pages Tag Library [4] and JavaServer Faces [5] running on top of a Tomcat [6] server.
+Go To Text
+
+6 . Apache Tomcat. Apache Foundation. [Online]. Available: http: //tomcat.apache.org/
+Show Context
+Let us have a look at the classical environment from Sun which provides the support mentioned in I-B: Such an environment would consist of JavaServer Pages [3], the JavaServer Pages Tag Library [4] and JavaServer Faces [5] running on top of a Tomcat [6] server.
+Go To Text
+
+7 . The Jetty web server. [Online]. Available: http://www.mortbay.org
+Show Context
+An infrastructure which is much more suitable for embedded Systems provides the web server and Servlet container Jetty [7]: The project's homepage presents a basic version of this server which takes up approximately 1.9 MiB ROM.
+Go To Text
+
+8 . Jetty on J2ME-CDC. [Online]. Available: http://qaix.com/java-programming/326-867-jetty-on-j2me-cdc-read.shtml
+Show Context
+According to [8], some people state that they are running stripped-down versions of Jetty with a ROM footprint of 300 KiB in embedded systems with 16 MiB RAM in total.
+Go To Text
+
+9 . Groovy on Grails. [Online]. Available: http://grails.codehaus.org/
+Show Context
+Another framework is Groovy on Grails [9] for the Groovy language which brings the interesting concepts of Ruby on Rails to the Java platform.
+Go To Text
+
+10 . M.-J. Choi, H.-T. Ju, H.-J. Cha, S.-H. Kim, and J.-K. Hong, "An efficient embedded web server for web-based network element management," Network Operations and Management Symposium, 2000. NOMS 2000. 2000 IEEE/IFIP, pp. 187-200, 2000.
+Quick Abstract | Show Context | Full Text: PDF
+An embedded Web server (EWS) is a Web server that runs on an embedded system with limited computing resources and serves embedded Web documents to a Web browser. By embedding a Web server into a network device, it is possible for an EWS to provide a powerful Web-based management user interface constructed using HTML, graphics and other features common to Web browsers. When applied to embedded systems, Web technologies offer graphical user interfaces which are user-friendly, inexpensive, cross-platform, and network-ready. This paper explores the topic of an efficient and lightweight embedded Web server for Web-based network element management. We present the architecture of an embedded Web server that can provide a simple but powerful API. We also present the design and implementation of POS-EWS, which is an embedded Web server that we have developed for Web-based network element management. As well, we present the results of POS-EWS's performance evaluation and EWS optimization methods in a commercial Internet router
+Full Abstract
+For example EMS-WebMUI [10] which consists of a HTML to C compiler and a special web server for embedded systems.
+Go To Text
+
+11 . Q. Kang, H. He, and H. Wang, "Study on embedded web server and realization," Pervasive Computing and Applications, 2006 1st International Symposium on, pp. 675-678, 3-5 Aug. 2006.
+Quick Abstract | Show Context | Full Text: PDF
+In the future, pervasive computing environment, people are surrounded by a great multitude of microcomputers that would be embedded in home appliances, factory devices, and so on. It is a better choice for these devices to be embedded a Web server. Through this embedded Web server users or administrators can access their equipments remotely, and many other things such as maintenance requests can automatically be done. After discussing the advantages and challenges of embedded Web server, we report our efforts on development of an embedded Internet based Web server with focus on realization of TCP/IP suite and programming for interactive Web site. Experimental results also show that the networked embedded system can be integrated into devices effectively
+Full Abstract
+A web server which allows to deliver dynamically generated content is presented in [11].
+Go To Text
+Authors
+No Photo Available
+Christian Hochberger
+No Bio Available
+No Photo Available
+Christian Meusel
+No Bio Available
+Cited By
+None
+Keywords
+IEEE Keywords
+Embedded system , HTML , Java , Network interfaces , Operating systems , Read only memory , Read-write memory , Web pages , Web server , Writing
+INSPEC: Controlled Indexing
+Internet , embedded systems , network interfaces , system monitoring
+INSPEC: Non-Controlled Indexing
+Web based management , Web developer , Web-based administration , document structure , dynamically generated pages , embedded systems , network interfaces
+Corrections
+
+None
+Multimedia
+No Data Available
+Download PDF
+
+This paper appears in:
+    Industrial Embedded Systems, 2008. SIES 2008. International Symposium on 
+Conference Date(s):
+    11-13 June 2008 
+Conference Location:
+    Le Grande Motte 
+On page(s):
+    67 - 73 
+E-ISBN:
+    978-1-4244-1995-1 
+Print ISBN:
+    978-1-4244-1994-4 
+INSPEC Accession Number:
+    10114483 
+Digital Object Identifier:
+    10.1109/SIES.2008.4577682 
+Date of Current Version:
+    2008-07-25 
+Date of Original Publication:
+    No Data Available 
+
+Text Size
+
+Normal | Large
+
+    Bookmark This Article
+    Email to a Colleague
+    Share
+    Print
+    Download Citation
+    Download References
+    Rights and Permissions
+
+Related Articles
+
+None
+
+Back to Top
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+
+Back to Top
+

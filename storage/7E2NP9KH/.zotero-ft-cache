@@ -1,0 +1,429 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+5744474
+
+Skip to Main Content
+IEEE Quick Preview
+
+    Abstract
+    Authors
+    Figures
+    Multimedia
+    References
+    Cited By
+    Keywords
+
+Using web - developer technologies for building an academic service
+
+With the use of web developer technologies such as PHP we can build efficient Internet service, which can be used for example in the students houses. The main point of the system is to integrate, informate and help. It is build with 3 modules: CMS, forum and the auction system. That Academic system and the process of building it is the main point of this article.
+This paper appears in: CAD Systems in Microelectronics (CADSM), 2011 11th International Conference The Experience of Designing and Application of , Issue Date: 23-25 Feb. 2011 , Written by: Szybalski, M.; Zabierowski, W.
+
+© 2011 IEEE
+No Photo Available
+Michal Szybalski
+No Bio Available
+More About this Author
+No Photo Available
+Wojciech Zabierowski
+No Bio Available
+More About this Author
+View All
+Figure 1
+Fig. 1
+Fig. 1 Tier Application Architecture [Introduction: Three-Tiered Web Architecture]
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 2
+Fig. 2
+Fig. 2 CMS main page
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 3
+Fig. 3
+Fig. 3 The article structure [PHP and MySql Web Development]
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 4
+Fig. 4
+Fig. 4 Forum system home page
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 5
+Fig. 5
+Fig. 5 About the project page
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+prev s_1 s_2 next
+View All
+
+1 . Introduction: Three-Tiered Web Architecture" [Online] Available:http://www.cs.trincoll.edu/hfoss/wiki/Introducti on:-Three-Tiered-Web- Architecture.
+
+2 . Luke Welling, Laura Thomson.,PHP and MySql Web Development".
+
+3 . Peczak S., Sakowicz B., Dura K., Napieralski A.: " Automatic Integration of Distributed Cultural Services on Example of Lodz City Hall Website", TCSET'2006, 28.02- 04.03.2006, Lviv, Ukraine, ISBN 966-553-507-2.
+Show in Context
+Quick Abstract
+View All
+IEEE Keywords
+Architecture , Buildings , Computer architecture , Databases , Electronic mail , Engines
+INSPEC: Controlled Indexing
+Internet , SQL , computer aided instruction , relational databases
+INSPEC: Non-Controlled Indexing
+CMS module , Internet service , PHP technology , Web developer technology , academic service , auction system module , forum module , students houses
+Authors Keywords
+CMS , MySQL database , PHP , forum
+View All
+
+    Quick Preview
+    Figures
+
+    Full Text
+    Footnotes
+    References
+    Authors
+    Cited By
+    Keywords
+    Corrections
+
+    I. Php Script Language
+    II. Mysql Database
+    III. CMS
+    IV. Forum Module
+    V. Auction Service Module
+    VI. Summary
+
+    I. Php Script Language
+    II. Mysql Database
+    III. CMS
+    IV. Forum Module
+    V. Auction Service Module
+    VI. Summary
+
+SECTION I
+P HP S CRIPT L ANGUAGE
+
+Let's start from the quick discuss of what exactly is PHP. PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML. PHP can be used on all operating systems and has also support for most of the web servers. So with PHP, you have the freedom of choosing an operating system and a web server. One of the strongest features in PHP is its support for a wide range of databases. Writing a database-enabled web page is incredibly simple using one of the database specific extensions (e.g., for MySQL), or using an abstraction layer like PDO, or connect to any database supporting the Open Database Connection standard via the ODBC extension.
+
+The application described in this article is based on the Tier architecture. This architecture split we can see on the picture below:
+Figure 1
+Fig. 1 Tier Application Architecture [Introduction: Three-Tiered Web Architecture]
+
+View All | Next
+
+In the three-tier architecture we can distinguish:
+
+    Data Tier (Back End) — it holds all the data for the web application. In the application we use for that MySQL, an Open Source Database Management System (DBMS) Server
+    Application Tier (Middleware) — also called the logic tier or a business tier. It controls the functionality of the application: logic, decision-making, processing and calculations. For the application it is the Apache HTTP web server.
+    Client Tier (Front End) — called the presentation layer, because it presents the result of the operations caused by our application. The client tier for PHP is usually the web browser.
+
+    I. Php Script Language
+    II. Mysql Database
+    III. CMS
+    IV. Forum Module
+    V. Auction Service Module
+    VI. Summary
+
+SECTION II
+M YSQL D ATABASE
+
+Another very important thing of the application is the MySQL database. This is a very fast, multi-threaded, multi-user, and robust SQL (Structured Query Language) database server. It is used with most web applications based on PHP. A database is a structured collection of data. It may be anything from a simple shopping list to the vast amounts of information in a corporate network. To add, access, and process data stored in a computer database, you need a database management system such as MySQL Server. MySQL is open source which means that it is possible for anyone to use and modify the software. It is very important for people the made their first steps in building web applications. There are many others features of the MySQL, but I would to describe the two distinguish features that implements MySQL and that some other RDBMS systems may not:
+
+    • Multiple storage engines, allowing one to choose the one that is most effective for each table in the application (Native storage engines - MyISAM, Partner-developed storage engines - InnoDB)
+    Commit grouping, gathering multiple transactions from multiple connections together to increase the number of commits per second.
+
+    I. Php Script Language
+    II. Mysql Database
+    III. CMS
+    IV. Forum Module
+    V. Auction Service Module
+    VI. Summary
+
+SECTION III
+CMS
+
+We have already discussed the platform on which the system is build and it's the time to discuss the three modules that the application is build of. One of the jobs that I had to do was not only to figure out how to get as many people to visit the site as possible, but to keep them coming back. In need to make the Academic system more attractive. The CMS is a Content Management System. The main feature of the CMS system is that I can easily manage my site content separately from the site design. Armed with the knowledge of PHP and MySQL I was able to create an application to allow users to create new content (authors), edit that content (editors) and publish it. By assigning users to certain roles I could manage who has access to certain functions within the site. The main guidelines that the built CMS is fulfilling are:
+
+    increasing productivity by having the writers concentrate on writing and the designers on designing
+    allows the editor to review articles and decide which ones should be published
+    presents a consistent look and feel throughout the site using page template
+    • enables the look and feel to be easily changed for a section or throughout the site
+    prevents live content from being changed
+
+The main page of the Academic CMS containing published articles is shown on the screen below:
+Figure 2
+Fig. 2 CMS main page
+
+Previous | View All | Next
+
+The CMS that we are talking about can also run as a separate module. With the small modification in PHP and MySQL this application can run beyond the Academic system. But like I said at the beginning the main idea of the whole system is to integrate, informate and help students who live in student houses.
+
+    I. Php Script Language
+    II. Mysql Database
+    III. CMS
+    IV. Forum Module
+    V. Auction Service Module
+    VI. Summary
+
+SECTION IV
+F ORUM M ODULE
+
+One good way to get users to return to your site is to offer Web forums. These can be used for purposes as varied as philosophical discussion groups and product technical support. Web forums are sometimes also called discussion boards or threaded discussion groups. The idea of a forum is that people can post articles or questions to them, and others can read and reply to their questions. Each topic of discussion in a forum is called a thread. Web forum in the Academic system was build with the following functionality. Users will be able to:
+
+    start new threads of discussion by posting articles
+    post articles in reply to existing articles
+    view articles that have been posted
+    view the threads of conversation in the forum
+    view the relationship between articles, that is, see which articles are replies to other articles
+
+The most difficult part of this application is finding a database structure that will store the information we want, and a way of navigating that structure efficiently. The structure is shown on the image below:
+Figure 3
+Fig. 3 The article structure [PHP and MySql Web Development]
+
+Previous | View All | Next
+
+In this diagram, you can see that we have an initial posting starting off a topic, with three replies. Some of the replies have replies. These replies could have replies, and so on. The diagram shows how we can store and retrieve the article data and the links between articles. In the picture there are nodes - or articles and links - or relationships between articles, just as in any tree structure. From the article view, we are able to post a reply to that article or view the existing replies to that article. The new article page enables us to enter a new post, either a reply to an existing message, or a new unrelated message. The look of the main page of forum is shown below:
+Figure 4
+Fig. 4 Forum system home page
+
+Previous | View All | Next
+
+As we can see the whole forum engine is based on the tree structure. This is the easiest way to show and implement this complex system. Just as CMS, the forum can also run as an individual module.
+
+    I. Php Script Language
+    II. Mysql Database
+    III. CMS
+    IV. Forum Module
+    V. Auction Service Module
+    VI. Summary
+
+SECTION V
+A UCTION S ERVICE M ODULE
+
+The last module I want to mention in this article is the auction service module. Everyone who uses Internet knows about such services as Allegro or eBay. Those auction services are nowadays so popular, that some people can't even imagine an afternoon without just checking the product they are bidding. The auction service that was build for my project has got the following functionalities:
+
+    the service displays a set of different categories for the specified products
+    users with account can add their products for bidding, users without account can only view the products
+    when the auction ends, the owner of the auction and the winner will receive e-mail with the of the auction
+    in the service there will be shown only products which auction time hasn't expired.
+
+As we can see only logged in users can make their own auctions and take part in bidding for products. When the users are adding an auction they can give a description and a photo of the product, and of course the minimal and the maximal bid price. When the auction is over the winner and the owner of the auction will receive e-mail with the summary. Also when there are no biddings or the auction last time is over the similar e-mail will be sent.
+
+The whole action service is pretty simple comparing to Allegro and eBay. The main purpose of that service is to bid small, not valuable products, which can help others for example in studying (scripts, computer programs, books). Building a large and complicated auction service isn't impossible for one person, but it is very hard to achieve.
+
+    I. Php Script Language
+    II. Mysql Database
+    III. CMS
+    IV. Forum Module
+    V. Auction Service Module
+    VI. Summary
+
+SECTION VI
+S UMMARY
+
+The Academic system was build in web developer technologies to integrate, informate and help students in their everyday life in their student house. By using the three modules: CMS, forum and auction service the Academic system is diversified, so we can get users to return to our site. The whole system was build with PHP and MySQL database. By dividing the application to the three modules, which can be run separately, we can use them for other, more developed systems, or just use as single web site services. By giving the users appropriate privileges to their accounts, they are all the time involved in building, improving and developing the Academic system. In my opinion that will make them often coming back to the site, with enthusiasm and smile on their faces.
+Figure 5
+Fig. 5 About the project page
+
+Previous | View All
+Footnotes
+References
+
+1 . Introduction: Three-Tiered Web Architecture" [Online] Available:http://www.cs.trincoll.edu/hfoss/wiki/Introducti on:-Three-Tiered-Web- Architecture.
+
+2 . Luke Welling, Laura Thomson.,PHP and MySql Web Development".
+
+3 . Peczak S., Sakowicz B., Dura K., Napieralski A.: " Automatic Integration of Distributed Cultural Services on Example of Lodz City Hall Website", TCSET'2006, 28.02- 04.03.2006, Lviv, Ukraine, ISBN 966-553-507-2.
+Quick Abstract | Full Text: PDF
+This article describes integration of many cultural Web services of cinemas and theaters in Lodz city into one global service for the whole city. The matter of fact is automatic update many distributed Web pages on the base once inserting data.
+Full Abstract
+Authors
+No Photo Available
+Michal Szybalski
+No Bio Available
+No Photo Available
+Wojciech Zabierowski
+No Bio Available
+Cited By
+None
+Keywords
+IEEE Keywords
+Architecture , Buildings , Computer architecture , Databases , Electronic mail , Engines
+INSPEC: Controlled Indexing
+Internet , SQL , computer aided instruction , relational databases
+INSPEC: Non-Controlled Indexing
+CMS module , Internet service , PHP technology , Web developer technology , academic service , auction system module , forum module , students houses
+Authors Keywords
+CMS , MySQL database , PHP , forum
+Corrections
+
+None
+Multimedia
+No Data Available
+Download PDF
+
+This paper appears in:
+    CAD Systems in Microelectronics (CADSM), 2011 11th International Conference The Experience of Designing and Application of 
+Conference Date(s):
+    23-25 Feb. 2011 
+Conference Location:
+    Polyana-Svalyava 
+On page(s):
+    301 - 303 
+E-ISBN:
+    No Data Available 
+Print ISBN:
+    978-1-4577-0042-2 
+INSPEC Accession Number:
+    11930506 
+Digital Object Identifier:
+    None 
+Date of Current Version:
+    2011-04-07 
+Date of Original Publication:
+    No Data Available 
+
+Text Size
+
+Normal | Large
+
+    Bookmark This Article
+    Email to a Colleague
+    Share
+    Print
+    Download Citation
+    Download References
+    Rights and Permissions
+
+Related Articles
+
+None
+
+Back to Top
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+
+Back to Top
+

@@ -1,0 +1,686 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:dri="http://di.tamu.edu/DRI/1.0/" xmlns:mets="http://www.loc.gov/METS/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:confman="org.dspace.core.ConfigurationManager" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<head xmlns:util="org.dspace.app.xmlui.utils.XSLUtils">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.lume.ufrgs.br/handle/10183/25970">
+<meta name="wpd_url" content="http://www.lume.ufrgs.br/handle/10183/25970">
+<meta name="wpd_date" content="2014-08-07T00:23Z">
+
+
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" name="viewport">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="http://www.lume.ufrgs.br/themes/LUME_Mirage/images/apple-touch-icon.png">
+<meta name="Generator" content="DSpace 1.8.0">
+
+
+
+
+
+
+
+
+
+
+<link type="application/opensearchdescription+xml" rel="search" href="http://www.lume.ufrgs.br/open-search/description.xml" title="DSpace">
+<script src="piwik.js" async="" defer="" type="text/javascript"></script><script type="text/javascript">
+
+                                //Clear default text of emty text areas on focus
+                                function tFocus(element)
+                                {
+                                        if (element.value == ' '){element.value='';}
+                                }
+                                //Clear default text of emty text areas on submit
+                                function tSubmit(form)
+                                {
+                                        var defaultedElements = document.getElementsByTagName("textarea");
+                                        for (var i=0; i != defaultedElements.length; i++){
+                                                if (defaultedElements[i].value == ' '){
+                                                        defaultedElements[i].value='';}}
+                                }
+                                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                                function disableEnterKey(e)
+                                {
+                                     var key;
+
+                                     if(window.event)
+                                          key = window.event.keyCode;     //Internet Explorer
+                                     else
+                                          key = e.which;     //Firefox and Netscape
+
+                                     if(key == 13)  //if "Enter" pressed, then disable!
+                                          return false;
+                                     else
+                                          return true;
+                                }
+
+                                function FnArray()
+                                {
+                                    this.funcs = new Array;
+                                }
+
+                                FnArray.prototype.add = function(f)
+                                {
+                                    if( typeof f!= "function" )
+                                    {
+                                        f = new Function(f);
+                                    }
+                                    this.funcs[this.funcs.length] = f;
+                                };
+
+                                FnArray.prototype.execute = function()
+                                {
+                                    for( var i=0; i < this.funcs.length; i++ )
+                                    {
+                                        this.funcs[i]();
+                                    }
+                                };
+
+                                var runAfterJSImports = new FnArray();
+            </script>
+<script type="text/javascript" src="modernizr-1.7.min.js"> </script>
+<script type="text/javascript" src="jquery.min.js"> </script>
+<script type="text/javascript">
+
+				jQuery(function() {
+				$('.slideshow').cycle({
+						fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+					});
+				});
+				</script>
+<title>Um método de trabalho para auxiliar a definição de requisitos</title>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.contributor" content="Price, Ana Maria de Alencar" xml:lang="pt">
+<meta name="DC.creator" content="De Bortoli, Lis Angela" xml:lang="pt">
+<meta name="DCTERMS.dateAccepted" content="2010-09-25T04:20:06Z" xml:lang="pt" scheme="DCTERMS.W3CDTF">
+<meta name="DCTERMS.issued" content="1999" xml:lang="pt" scheme="DCTERMS.W3CDTF">
+<meta name="DC.identifier" content="http://hdl.handle.net/10183/25970" xml:lang="pt" scheme="DCTERMS.URI">
+<meta name="DCTERMS.abstract" content="Vários são os problemas que afligem o desenvolvimento de software. Estes problemas, que originaram a crise do software nos anos 60, perduram ate hoje. Praticas de Engenharia de Software tem sido adotadas em todas as fases do ciclo de vida para tentar minimizá-los. A etapa de definição de requisitos é considerada como a atividade mais importante, decisiva e ao mesmo tempo critica do desenvolvimento de software, principalmente no que diz respeito a elicitação. A Engenharia de Requisitos é a disciplina que procura sistematizar o processo de definir requisitos. Muitas vezes os sistemas de informação das organizações são complexos e/ou informais, apresentando características que dificultam o seu entendimento. Além disso, a maioria das metodologias existentes não enfatiza a aquisição de conhecimento sobre o problema a ser resolvido. Este trabalho apresenta um método para auxiliar a aquisição de conhecimento de sistemas de informação, bem como sua representação e validação. O método proposto, que tem a finalidade de sistematizar uma tarefa anterior a definição de requisitos do software, ou seja, é um método de apoio a elicitação de requisitos, inclui as etapas de elicitação, modelagem e validação.  Na etapa de elicitação é feita a aquisição de conhecimento dos fatos e das situações que compõem o sistema de informações vigente, utilizando para isso, técnicas como entrevistas, observações e uma abordagem baseada em etnografia. Para guiar esta etapa foi elaborada uma sistematização combinando as técnicas anteriormente citadas. No final da etapa de elicitação são produzidas representações textuais dos objetos elicitados e o Léxico Ampliado da Linguagem, que descreve a linguagem da aplicação em estudo. A partir dessas representações é feita a modelagem através de Workflow. Na etapa de validação, as representações produzidas pelas etapas de elicitação e modelagem são validadas junto aos atores do sistema de informação. A partir das representações produzidas o engenheiro de requisitos poderá definir os requisitos funcionais do software a ser construído. A aplicação do método é adequada para ambientes que já possuem um sistema de informação definido, seja ele formal ou informal. O método proposto foi aplicado a uma situação real e parte deste estudo de caso é apresentado neste trabalho." xml:lang="pt">
+<meta name="DCTERMS.abstract" content="There are many problems in software development. These problems, which had started the software crisis in the 1960s, still exist. Software Engineering practices have been adopted in all fases of the life cycle as an attempt to minimize them. The requirements definition is considered the most important, decisive and difficult activity in software development, particularly the elicitation of the system requirements. The Requirements Engineering is the discipline that try to sistematize the requirements definition process. Information systems are often complexes, informals and present features that make difficult to understand them. Besides, most of the existing metodologies do not handle procedures for knowledge acquisition about the problem to be solved. This work proposes a method to help knowledge acquisition of information systems, and also representation and validation of the acquired knowledge. The proposal method which support the requirements elicitation, anticipate the software requirements definition process. The method includes three stages: elicitation, modeling and validation. The elicitation stage comprises knowledge acquisition of the facts and situations of the information system, through the application of techniques such as interviews, observations and a based approach on ethnography.  Textual representations are produced at the end of the elicitation stage to represent the elicited objects. The Language Extended Lexicon, which describe the language used in the information system, is also produced in this stage. In the modeling stage workflow representations are produced based on those initial representations. In the validation stage all the representations produced are validated by the actors working on the information system. Based on those representations the requirements engineer can define the functional software requirements. The method can be applied to environments where a defined information systems exists. The proposal method was applied in a real world situation and part of this case study is presented in this work." xml:lang="en">
+<meta name="DC.format" content="application/pdf">
+<meta name="DC.language" content="por" xml:lang="pt" scheme="DCTERMS.RFC1766">
+<meta name="DC.relation" content="Open Access" xml:lang="en">
+<meta name="DC.subject" content="Information systems" xml:lang="en">
+<meta name="DC.subject" content="Engenharia : Software" xml:lang="pt">
+<meta name="DC.subject" content="Engenharia : Requisitos" xml:lang="pt">
+<meta name="DC.subject" content="Requirements engineering" xml:lang="en">
+<meta name="DC.subject" content="Sistemas : Informação" xml:lang="pt">
+<meta name="DC.subject" content="Eliciting information" xml:lang="en">
+<meta name="DC.subject" content="Knowledge acquisition" xml:lang="en">
+<meta name="DC.subject" content="Aquisicao : Conhecimento" xml:lang="pt">
+<meta name="DC.title" content="Um método de trabalho para auxiliar a definição de requisitos" xml:lang="pt">
+<meta name="DCTERMS.alternative" content="A work method to aid the requirements definition " xml:lang="en">
+<meta name="DC.type" content="Dissertação" xml:lang="pt">
+<meta name="DC.identifier" content="000101622" xml:lang="pt">
+
+<meta content="De Bortoli, Lis Angela" name="citation_authors">
+<meta content="http://www.lume.ufrgs.br/bitstream/10183/25970/1/000101622.pdf" name="citation_pdf_url">
+<meta content="http://www.lume.ufrgs.br/handle/10183/25970" name="citation_abstract_html_url">
+<meta content="Information systems; Engenharia : Software; Engenharia : Requisitos; Requirements engineering; Sistemas : Informação; Eliciting information; Knowledge acquisition; Aquisicao : Conhecimento; Dissertação" name="citation_keywords">
+<meta content="Um método de trabalho para auxiliar a definição de requisitos" name="citation_title">
+<meta content="1999" name="citation_date">
+<meta content="por" name="citation_language">
+<script src="pt-BR.js" charset="UTF-8"></script>
+<link rel="stylesheet" type="text/css" href="25970.css" media="all">
+</head>
+<body><!--<![endif]-->
+<div id="ds-main">
+<div id="ds-header-wrapper">
+<div class="clearfix" id="ds-header">
+<div id="topo">
+<div id="itens">
+<div id="logo">
+<a href="http://www.lume.ufrgs.br/">
+<img alt="LUME - Repositório Digital" src="logo_lume.png" align="right">
+</a>
+</div>
+<div id="titulo">
+<h1>Repositório Digital</h1>
+<div id="ds-user-box">
+<p>
+<a href="http://www.lume.ufrgs.br/login"> </a>
+</p>
+</div>
+</div>
+<div id="ufrgs">
+<a href="http://www.ufrgs.br/">
+<img alt="UFRGS - Universidade Federal do Rio Grande do Sul" src="logo_ufrgs.png" align="right">
+</a>
+</div>
+<div id="idiomas">
+<script type="text/javascript">
+
+								
+								//Adiciona um valor de chave a URL. Se a chave ja existe, remove antes de colocar a nova.
+                                function add_param_URL(key,value)
+								{
+									var new_search = null;								
+									
+									if (location.search) {
+										//Remove a chave se existe
+										var parts = location.search.substring(1).split('&');
+										
+										for (var i = 0; i < parts.length; i++) {
+											var nv = parts[i].split('=');
+											if (nv[0]==key) continue;
+
+											if (new_search) 
+												new_search = new_search + "&" + parts[i];
+											else
+												new_search = parts[i];	
+
+										}
+									};
+									if (new_search) 
+										new_search = new_search + "&" + key + "=" + value;
+									else
+										new_search = "?" + key + "=" + value;									
+									
+									location.search = new_search;
+
+								}
+						</script>
+<script type="text/javascript">
+
+                                function setBaseFontSize(sizeIndex)
+								{
+									document.body.style.font = sizeIndex+"px/1.22 sans-serif";
+								}
+						</script>
+<ul>
+<li>
+<a class="langChangeOn" href="javascript:add_param_URL('locale','pt_BR');"> Português </a>
+</li>
+<li>
+<a class="langChangeOn" href="javascript:add_param_URL('locale',%20'en');"> English </a>
+</li>
+</ul>
+<span>
+<a title="Texto pequeno" class="pequeno" href="javascript:setBaseFontSize(8)">
+
+								A-
+							</a>
+<a title="Texto normal" class="medio" href="javascript:setBaseFontSize(12)">
+
+								A
+							</a>
+<a title="Texto grande" class="grande" href="javascript:setBaseFontSize(16)">
+
+								A+
+							</a>
+</span>
+</div>
+</div>
+</div>
+<div id="menu_superior">
+<div>
+<a href="http://www.lume.ufrgs.br/apresentacao">APRESENTAÇÃO</a>
+</div>
+<div>
+<a href="http://www.lume.ufrgs.br/regulamentacao">POLÍTICA</a>
+</div>
+<div>
+<a href="http://www.lume.ufrgs.br/estatisticas">ESTATÍSTICAS</a>
+</div>
+<div>
+<a href="http://www.lume.ufrgs.br/community-list">MAPA DO SITE</a>
+</div>
+</div>
+<h1 class="pagetitle visuallyhidden">Um método de trabalho para auxiliar a definição de requisitos</h1>
+<h2 class="static-pagetitle visuallyhidden">.</h2>
+</div>
+</div>
+<div class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="ds-trail-wrapper">
+<ul id="ds-trail">
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-link first-link ">
+<a href="http://www.lume.ufrgs.br/">Página inicial </a>
+</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-arrow">&gt;</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-link ">
+<a href="http://www.lume.ufrgs.br/handle/10183/1">Teses e Dissertações</a>
+</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-arrow">&gt;</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-link ">
+<a href="http://www.lume.ufrgs.br/handle/10183/2">Teses e Dissertações defendidas na UFRGS</a>
+</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-arrow">&gt;</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-link ">
+<a href="http://www.lume.ufrgs.br/handle/10183/7">Ciências Exatas e da Terra</a>
+</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-arrow">&gt;</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-link ">
+<a href="http://www.lume.ufrgs.br/handle/10183/43">Computação</a>
+</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-arrow">&gt;</li>
+<li xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="ds-trail-link last-link">Visualizar item</li>
+</ul>
+</div>
+<div xmlns="http://di.tamu.edu/DRI/1.0/" id="ds-content-wrapper">
+<div class="clearfix" id="ds-content">
+<div xmlns="http://www.w3.org/1999/xhtml" id="ds-body">
+<div id="aspect_artifactbrowser_ItemViewer_div_item-view" class="ds-static-div primary">
+<!-- External Metadata URL: cocoon://metadata/handle/10183/25970/mets.xml-->
+<div xmlns="" class="view-item-title">Um método de trabalho para auxiliar a definição de requisitos<br>
+</div>
+<br xmlns="">
+<!-- ENTROU NO WHEN -->
+<table xmlns="" id="header-top" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr valign="top">
+<td>
+<p class="ds-paragraph item-view-toggle item-view-toggle-bottom">
+<a href="http://www.lume.ufrgs.br/handle/10183/25970?show=full">Mostrar registro completo</a>
+</p>
+</td>
+<td class="" id="aspect.artifactbrowser.CommunityViewer.p.stats" nowrap="nowrap" valign="middle">
+<img style="vertical-align: top;" src="link_estatisticas.png">
+<a xmlns="http://www.w3.org/1999/xhtml" class="" href="http://www.lume.ufrgs.br/handle/10183/25970/stats">Estatísticas</a>
+</td>
+</tr>
+</tbody>
+</table>
+<p xmlns="" id="item-link">Para citar ou acessar este item utilize: <br>
+<a href="http://hdl.handle.net/10183/25970">http://hdl.handle.net/10183/25970</a>
+</p>
+<br><table xmlns="" valign="top" class="ds-includeSet-table">
+
+<!---->
+<tbody><tr class="
+							ds-table-row odd
+						">
+<td>
+<span class="bold">Título</span>
+</td>
+<td>Um método de trabalho para auxiliar a definição de requisitos<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row even
+						">
+<td>
+<span class="bold">Outro título</span>
+</td>
+<td>A work method to aid the requirements definition <br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row odd
+						">
+<td>
+<span class="bold">Autor</span>
+</td>
+<td>
+<a href="http://www.lume.ufrgs.br/browse?type=author&amp;value=De%20Bortoli,%20Lis%20Angela">De Bortoli, Lis Angela</a>
+<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row even
+						">
+<td>
+<span class="bold">Orientador</span>
+</td>
+<td>
+<a href="http://www.lume.ufrgs.br/browse?type=author&amp;value=Price,%20Ana%20Maria%20de%20Alencar">Price, Ana Maria de Alencar</a>
+<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row odd
+						">
+<td>
+<span class="bold">Data</span>
+</td>
+<td>1999<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row even
+						">
+<td>
+<span class="bold">Nível</span>
+</td>
+<td>Mestrado<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row odd
+						">
+<td>
+<span class="bold">Instituição</span>
+</td>
+<td>Universidade Federal do Rio Grande do Sul. Instituto de Informática. Programa de Pós-Graduação em Computação. </td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row even
+						">
+<td>
+<span class="bold">Assunto</span>
+</td>
+<td>
+<a href="http://www.lume.ufrgs.br/browse?type=subject&amp;value=Aquisicao%20:%20Conhecimento">Aquisicao : Conhecimento</a>
+<br>
+<a href="http://www.lume.ufrgs.br/browse?type=subject&amp;value=Engenharia%20:%20Requisitos">Engenharia : Requisitos</a>
+<br>
+<a href="http://www.lume.ufrgs.br/browse?type=subject&amp;value=Engenharia%20:%20Software">Engenharia : Software</a>
+<br>
+<a href="http://www.lume.ufrgs.br/browse?type=subject&amp;value=Sistemas%20:%20Informa%C3%A7%C3%A3o">Sistemas : Informação</a>
+<br>[en] <a href="http://www.lume.ufrgs.br/browse?type=subject&amp;value=Eliciting%20information">Eliciting information</a>
+<br>[en] <a href="http://www.lume.ufrgs.br/browse?type=subject&amp;value=Information%20systems">Information systems</a>
+<br>[en] <a href="http://www.lume.ufrgs.br/browse?type=subject&amp;value=Knowledge%20acquisition">Knowledge acquisition</a>
+<br>[en] <a href="http://www.lume.ufrgs.br/browse?type=subject&amp;value=Requirements%20engineering">Requirements engineering</a>
+<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row odd
+						">
+<td>
+<span class="bold">Resumo</span>
+</td>
+<td>Vários são os problemas que afligem o desenvolvimento de software. Estes problemas, que originaram a crise do software nos anos 60, perduram ate hoje. Praticas de Engenharia de Software tem sido adotadas em todas as fases do ciclo de vida para tentar minimizá-los. A etapa de definição de requisitos é considerada como a atividade mais importante, decisiva e ao mesmo tempo critica do desenvolvimento de software, principalmente no que diz respeito a elicitação. A Engenharia de Requisitos é a disciplina que procura sistematizar o processo de definir requisitos. Muitas vezes os sistemas de informação das organizações são complexos e/ou informais, apresentando características que dificultam o seu entendimento. Além disso, a maioria das metodologias existentes não enfatiza a aquisição de conhecimento sobre o problema a ser resolvido. Este trabalho apresenta um método para auxiliar a aquisição de conhecimento de sistemas de informação, bem como sua representação e validação. O método proposto, que tem a finalidade de sistematizar uma tarefa anterior a definição de requisitos do software, ou seja, é um método de apoio a elicitação de requisitos, inclui as etapas de elicitação, modelagem e validação.  Na etapa de elicitação é feita a aquisição de conhecimento dos fatos e das situações que compõem o sistema de informações vigente, utilizando para isso, técnicas como entrevistas, observações e uma abordagem baseada em etnografia. Para guiar esta etapa foi elaborada uma sistematização combinando as técnicas anteriormente citadas. No final da etapa de elicitação são produzidas representações textuais dos objetos elicitados e o Léxico Ampliado da Linguagem, que descreve a linguagem da aplicação em estudo. A partir dessas representações é feita a modelagem através de Workflow. Na etapa de validação, as representações produzidas pelas etapas de elicitação e modelagem são validadas junto aos atores do sistema de informação. A partir das representações produzidas o engenheiro de requisitos poderá definir os requisitos funcionais do software a ser construído. A aplicação do método é adequada para ambientes que já possuem um sistema de informação definido, seja ele formal ou informal. O método proposto foi aplicado a uma situação real e parte deste estudo de caso é apresentado neste trabalho.<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row even
+						">
+<td>
+<span class="bold">Abstract</span>
+</td>
+<td>There are many problems in software development. These problems, which had started the software crisis in the 1960s, still exist. Software Engineering practices have been adopted in all fases of the life cycle as an attempt to minimize them. The requirements definition is considered the most important, decisive and difficult activity in software development, particularly the elicitation of the system requirements. The Requirements Engineering is the discipline that try to sistematize the requirements definition process. Information systems are often complexes, informals and present features that make difficult to understand them. Besides, most of the existing metodologies do not handle procedures for knowledge acquisition about the problem to be solved. This work proposes a method to help knowledge acquisition of information systems, and also representation and validation of the acquired knowledge. The proposal method which support the requirements elicitation, anticipate the software requirements definition process. The method includes three stages: elicitation, modeling and validation. The elicitation stage comprises knowledge acquisition of the facts and situations of the information system, through the application of techniques such as interviews, observations and a based approach on ethnography.  Textual representations are produced at the end of the elicitation stage to represent the elicited objects. The Language Extended Lexicon, which describe the language used in the information system, is also produced in this stage. In the modeling stage workflow representations are produced based on those initial representations. In the validation stage all the representations produced are validated by the actors working on the information system. Based on those representations the requirements engineer can define the functional software requirements. The method can be applied to environments where a defined information systems exists. The proposal method was applied in a real world situation and part of this case study is presented in this work.<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row odd
+						">
+<td>
+<span class="bold">Tipo</span>
+</td>
+<td>Dissertação<br>
+</td>
+</tr>
+<!---->
+<tr class="
+							ds-table-row even
+						">
+<td>
+<span class="bold">URI</span>
+</td>
+<td>http://hdl.handle.net/10183/25970<br>
+</td>
+</tr>
+</tbody></table>
+<table xmlns="" class="ds-table file-list">
+<tbody><tr class="ds-table-header-row">
+<th>Arquivos</th>
+<th align="left">Descrição</th>
+<th align="left">Formato</th>
+<th align="left">
+</th></tr>
+<!-- BITSTREAM PRIMARIO: file_60261-->
+<tr class="ds-table-row odd ">
+<td>
+<a href="http://www.lume.ufrgs.br/bitstream/handle/10183/25970/000101622.pdf?sequence=1" title="000101622.pdf">000101622.pdf (27.44Mb)</a>
+</td>
+<td>Texto completo</td>
+<td>Adobe PDF</td>
+<td>
+<a href="http://www.lume.ufrgs.br/bitstream/handle/10183/25970/000101622.pdf?sequence=1">Visualizar/abrir</a>
+</td>
+</tr>
+</tbody></table>
+<br xmlns="">
+<div xmlns="" class="license-info" align="center">
+<p>Este item está licenciado na <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/br/">Creative Commons License
+				</a>
+</p>
+<a href="http://creativecommons.org/licenses/by-nc-sa/2.5/br/">
+<img src="cc.png">
+</a>
+</div>
+<h2 class="ds-list-head">Este item aparece na(s) seguinte(s) coleção(ões)</h2>
+<ul xmlns="http://di.tamu.edu/DRI/1.0/" xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" class="ds-referenceSet-list">
+<!-- External Metadata URL: cocoon://metadata/handle/10183/7/mets.xml-->
+<li>
+<span xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" class="bold">
+<a href="http://www.lume.ufrgs.br/handle/10183/7">Ciências Exatas e da Terra</a>
+</span>
+<ul class="ds-referenceSet-list">
+<!-- External Metadata URL: cocoon://metadata/handle/10183/43/mets.xml-->
+<li>
+<a xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils" href="http://www.lume.ufrgs.br/handle/10183/43">Computação</a> [1133]<br xmlns="" xmlns:util="org.dspace.app.xmlui.utils.XSLUtils">
+</li>
+</ul>
+</li>
+</ul>
+<br xmlns="">
+<a href="http://www.lume.ufrgs.br/handle/10183/25970?show=full">Mostrar registro completo</a>
+</div>
+</div>
+<div xmlns="http://di.tamu.edu/DRI/1.0/" id="ds-options-wrapper">
+<div id="ds-options">
+<div id="busca">
+<div id="caixa">
+<form id="ds-search-form" method="get" action="http://www.lume.ufrgs.br/search">
+<div class="pesquisa">
+<input id="ds-input-box" class="texto_lateral" value="" name="query" type="text">
+<input src="fundo_botao.png" class="botao" value="" type="image">
+<div id="avancada_lateral">
+<input title="Pesquisa avançada" class="botao_avancada" src="advsearch.png" onclick="
+                                    var form = document.getElementById(&quot;ds-search-form&quot;);
+                                    var input = document.getElementById(&quot;ds-input-box&quot;);									
+									input.name = &quot;query1&quot;
+									form.action=
+									&quot;/advanced-search&quot; ; " type="image">
+</div>
+</div>
+</form>
+</div>
+</div>
+<h1 xmlns="http://www.w3.org/1999/xhtml" class="ds-option-set-head">Percorrer</h1>
+<div xmlns="http://www.w3.org/1999/xhtml" id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">
+<ul class="ds-options-list">
+<li>
+<h2 class="ds-sublist-head">Todo o repositório</h2>
+<ul xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-simple-list sublist">
+<li>
+<a href="http://www.lume.ufrgs.br/community-list">Comunidades e coleções</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/browse?type=dateissued">Ano</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/browse?type=author">Autor</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/browse?type=title">Título</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/browse?type=subject">Assunto</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/browse?type=tipo">Tipo</a>
+</li>
+</ul>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<h2 class="ds-sublist-head">Esta coleção</h2>
+<ul xmlns="http://di.tamu.edu/DRI/1.0/" class="ds-simple-list sublist">
+<li>
+<a href="http://www.lume.ufrgs.br/handle/10183/43/browse?type=dateissued">Ano</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/handle/10183/43/browse?type=author">Autor</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/handle/10183/43/browse?type=title">Título</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/handle/10183/43/browse?type=subject">Assunto</a>
+</li>
+<li xmlns="http://di.tamu.edu/DRI/1.0/">
+<a href="http://www.lume.ufrgs.br/handle/10183/43/browse?type=tipo">Tipo</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<br xmlns="http://di.tamu.edu/DRI/1.0/">
+<br>
+<div style="text-align: center;" class="margem-compartilhar" id="ds-share-option">
+<div class="a2a_kit a2a_default_style">
+<a href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.lume.ufrgs.br%2Fhandle%2F10183%2F25970&amp;title=Um%20m%C3%A9todo%20de%20trabalho%20para%20auxiliar%20a%20defini%C3%A7%C3%A3o%20de%20requisitos&amp;description=" class="a2a_dd"><span class="a2a_img a2a_i_a2a a2a_img_text"></span>Compartilhar</a>
+<span class="a2a_divider">
+<a rel="nofollow" target="_top" href="http://www.lume.ufrgs.br/" class="a2a_button_facebook sem-sublinhado" title="Compartilhar no Facebook"><span class="a2a_img a2a_i_facebook a2a_img_text"></span>&nbsp;</a>
+<a rel="nofollow" target="_top" href="http://www.lume.ufrgs.br/" class="a2a_button_twitter sem-sublinhado" title="Enviar para o Twitter"><span class="a2a_img a2a_i_twitter a2a_img_text"></span>&nbsp;</a>
+<a rel="nofollow" target="_top" href="http://www.lume.ufrgs.br/" class="a2a_button_orkut sem-sublinhado" title="Enviar para o Orkut"><span class="a2a_img a2a_i_orkut a2a_img_text"></span>&nbsp;</a>
+<a rel="nofollow" target="_top" href="http://www.lume.ufrgs.br/" class="a2a_button_blogger_post sem-sublinhado" title="Enviar para o Blogger"><span class="a2a_img a2a_i_blogger a2a_img_text"></span>&nbsp;</a>
+<a class="meu_email sem-sublinhado" title="Enviar por e-mail" href="mailto:?subject=Link%20interessante&amp;body=http://www.lume.ufrgs.br/handle/10183/25970">
+<img src="transparent.gif" height="16" width="16">
+</a>
+</span><div style="clear: both;"></div></div>
+
+<script type="text/javascript">
+
+					var a2a_config = a2a_config || {};
+					a2a_config.locale = "pt-BR";
+					a2a_config.prioritize = ["linkedln", "amazon_wish_list", "reddit", "slashdot"];
+					a2a_config.onclick = 1;
+					</script>
+<script src="page.js" type="text/javascript">var a2a_onfig;</script>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div id="drodape">
+<div id="rodape">
+<div>
+<a href="http://www.lume.ufrgs.br/instrucoes">INSTRUÇÕES AOS AUTORES</a>
+</div>
+<div>
+<a href="http://www.lume.ufrgs.br/login">LOGIN</a>
+</div>
+<div>
+<a href="http://www.lume.ufrgs.br/feedback">CONTATO</a>
+</div>
+<div>
+<a href="http://www.lume.ufrgs.br/ajuda">AJUDA</a>
+</div>
+</div>
+<div id="escrita">
+<ul>
+<li>O autor é titular dos direitos autorais dos documentos disponíveis neste repositório e 
+								é vedada, nos termos da <a href="http://www.planalto.gov.br/ccivil_03/leis/L9610.htm">lei</a>, a comercialização de qualquer espécie sem sua autorização prévia.<br>
+<span>Projeto gráfico elaborado pelo Caixola - Clube de Criação Fabico/UFRGS</span>
+<span style="margin-left: 32%;">Powered by DSpace software, Version 1.8.1.</span>
+</li>
+</ul>
+</div>
+<a class="hidden" href="http://www.lume.ufrgs.br/htmlmap">&nbsp;</a>
+</div>
+</div>
+<script xmlns="http://www.w3.org/1999/xhtml" src="jquery.min.js" type="text/javascript"> </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">!window.jQuery && document.write('<script type="text/javascript" src="/static/js/jquery-1.6.2.min.js"> <\/script>')</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" src="jquery.cycle.all.js"> </script><!--[if lt IE 7 ]>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" src="/themes/LUME_Mirage/lib/js/DD_belatedPNG_0.0.8a.js?v=1"> </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">DD_belatedPNG.fix('#ds-header-logo');DD_belatedPNG.fix('#ds-footer-logo');$.each($('img[src$=png]'), function() {DD_belatedPNG.fixPng(this);});</script><![endif]-->
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+
+            runAfterJSImports.execute();
+        </script>
+<script type="text/javascript">
+
+			
+				var params = {};
+				if (location.search) {
+					var parts = location.search.substring(1).split('&');
+
+					for (var i = 0; i < parts.length; i++) {
+						var nv = parts[i].split('=');
+						if (!nv[0]) continue;
+						params[nv[0]] = nv[1] || true;
+					}
+				}
+				
+				if (params["locale"]) {
+
+					//esta JQuery inclui um parametro hidden com nome locale e valor para todos os forms da pagina
+					$("form").prepend($('<input/>',{type:'hidden',name:'locale',value:params['locale']}));
+
+					$("a").each(function() {
+
+						var  locale = "locale=" + params["locale"] ;
+						var href = $(this).attr("href");
+						if (href.indexOf("javascript:") == -1 && href.indexOf("mailto:") == -1) 
+							if (href.indexOf("locale=") == -1) {
+								if (href.indexOf("=") != -1)
+									locale = "&" + locale;
+								else
+									locale = "?" + locale;	
+							
+								$(this).attr("href", href + locale);
+							}
+					});				
+				}
+				//esta funcao contatena os atributos id e title de todos os links 'a' com class=titulos_comunidades em um novo atributo title
+				//isso foi feito para poder traduzir a segunda parte do atributo title 'num_itens itens' ou 'num_itens items'
+				$('.titulos_comunidades').each(function(){
+					var itens = " "+$(this).attr('title');
+					$(this).removeAttr('title');
+					var aux = $(this).attr('id')+itens;
+					$(this).attr('title',aux);
+					$(this).removeAttr('id');
+					$(this).attr('id', aux);
+				});
+				
+			</script>
+<script type="text/javascript">
+
+			
+		
+				//$(document).ready(function() {
+				jQuery(function() {
+				$('.slideshow').cycle({
+						fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...]
+						timeout:       4000
+					});
+				});
+			</script>
+<script type="text/javascript">
+
+			   var _paq = _paq || [];
+			   _paq.push(["trackPageView"]);
+			   _paq.push(["enableLinkTracking"]);
+
+			   (function() {
+				 var u=(("https:" == document.location.protocol) ? "https" : "http") 
+			+ "://stats.ufrgs.br/piwik/";
+				 _paq.push(["setTrackerUrl", u+"piwik.php"]);
+				 _paq.push(["setSiteId", "30"]);
+				 var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+				 g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+			   })();
+			</script>
+<div style="position: static;"><div class="a2a_overlay" id="a2apage_overlay"></div><div class="a2a_menu a2a_full" id="a2apage_full"><div class="a2a_full_header"><div id="a2apage_find_container" class="a2a_menu_find_container"><input id="a2apage_find" class="a2a_menu_find" onclick="a2a.focus_find()" onkeyup="a2a.do_find()" autocomplete="off" title="Encontre qualquer serviço para adicionar" type="text"><span id="a2apage_find_icon" class="a2a_i_find" onclick="a2a.focus_find()"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="8 8 16 16"><path fill="#0166FF" d="M21.636,20.553l-3.291-3.291c0.536-0.753,0.858-1.667,0.858-2.661c0-2.542-2.061-4.602-4.602-4.602C12.06,9.999,10,12.059,10,14.601c0,2.541,2.06,4.602,4.602,4.602c0.994,0,1.907-0.32,2.659-0.856l3.291,3.29c0.401,0.402,0.968,0.486,1.268,0.184C22.119,21.521,22.036,20.953,21.636,20.553z M14.602,17.9c-1.823,0-3.3-1.477-3.3-3.3s1.477-3.3,3.3-3.3s3.3,1.477,3.3,3.3S16.424,17.9,14.602,17.9z"></path></svg></span></div></div><div class="a2a_full_services" id="a2apage_full_services"><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span style="background-image: url('dihitt_16x16_01.jpg');">diHITT</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_amazon">Amazon Wish List</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_reddit">Reddit</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_slashdot">Slashdot</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_facebook">Facebook</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_twitter">Twitter</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_google_plus">Google+</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_pinterest">Pinterest</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_linkedin">LinkedIn</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_email">Email</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_stumbleupon">StumbleUpon</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_wordpress">WordPress</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_tumblr">Tumblr</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_delicious">Delicious</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_digg">Digg</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_google">Google Bookmarks</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_yahoo">Yahoo Bookmarks</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_whatsapp">WhatsApp</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_evernote">Evernote</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_line">Line</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_wanelo">Wanelo</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_app_net">App.net</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_buffer">Buffer</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_xing">XING</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_bebo">Bebo</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_orkut">Orkut</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_mixi">Mixi</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_vk">VK</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_pocket">Pocket</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_gmail">Google Gmail</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_mendeley">Mendeley</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_yahoo">Yahoo Mail</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_pinboard">Pinboard</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_outlook_com">Outlook.com</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_box">Box.net</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_aol">AOL Mail</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_instapaper">Instapaper</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_y18">Hacker News</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_springpad">Springpad</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_myspace">MySpace</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_flipboard">Flipboard</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_arto">Arto</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_aim">AIM</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_yim">Yahoo Messenger</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_mail_ru">Mail.Ru</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_plurk">Plurk</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_diaspora">Diaspora</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_fark">Fark</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_blogger">Blogger Post</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_typepad">TypePad Post</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_kindle">Kindle It</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_sina_weibo">Sina Weibo</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_baidu">Baidu</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_netlog">Netlog</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_citeulike">CiteULike</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_jumptags">Jumptags</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_funp">FunP</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_phonefavs">PhoneFavs</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_xerpi">Xerpi</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_netvouz">Netvouz</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_diigo">Diigo</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_bibsonomy">BibSonomy</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_blogmarks">BlogMarks</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_startaid">StartAid</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_khabbr">Khabbr</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_meneame">Meneame</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_yoolink">Yoolink</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_bookmarks_fr">Bookmarks.fr</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_technotizie">Technotizie</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_newsvine">NewsVine</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_friendfeed">FriendFeed</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_protopage">Protopage Bookmarks</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_blinklist">Blinklist</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_webnews">Webnews</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_segnalo">Segnalo</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_pusha">Pusha</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_youmob">YouMob</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_allvoices">Allvoices</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_jamespot">Jamespot</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_twiddla">Twiddla</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_linkagogo">LinkaGoGo</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_nowpublic">NowPublic</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_livejournal">LiveJournal</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_linkatopia">Linkatopia</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_buddymarks">BuddyMarks</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_viadeo">Viadeo</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_wists">Wists</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_sitejot">SiteJot</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_dzone">DZone</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_care2">Care2 News</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_bitty">Bitty Browser</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_odnoklassniki">Odnoklassniki</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_symbaloo">Symbaloo Feeds</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_folkd">Folkd</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_newstrust">NewsTrust</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_printfriendly">PrintFriendly</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_tuenti">Tuenti</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_rediff">Rediff MyPage</span></a><i class="a2a_i"></i><i class="a2a_i"></i></div><div class="a2a_full_footer"><a href="http://www.addtoany.com/" title="Share Buttons" target="_top"><span class="a2a_i_a2a_sm">AddToAny</span></a></div></div><div id="a2apage_dropdown" class="a2a_menu a2a_mini" onmouseover="a2a.onMouseOver_stay()" style="display: none;"><div id="a2apage_title_container" class="a2a_menu_title_container" style="display: none;"><input id="a2apage_title" class="a2a_menu_title"></div><div class="a2a_mini_services" id="a2apage_mini_services"><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span style="background-image: url('dihitt_16x16_01.jpg');">diHITT</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_amazon">Amazon Wish List</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_reddit">Reddit</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_slashdot">Slashdot</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_facebook">Facebook</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_twitter">Twitter</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_google_plus">Google+</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_pinterest">Pinterest</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_linkedin">LinkedIn</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_email">Email</span></a></div><div id="a2apage_cols_container" class="a2a_cols_container"><div class="a2a_col1" id="a2apage_col1"></div><div id="a2apage_2_col1" style="display: none;"><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_gmail">Google Gmail</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_yahoo">Yahoo Mail</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_outlook_com">Outlook.com</span></a><a target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i" rel="nofollow"><span class="a2a_i_aol">AOL Mail</span></a><a id="a2apage_any_email" target="_top" href="http://www.lume.ufrgs.br/" class="a2a_i a2a_emailer" rel="nofollow"><span class="a2a_i_email">Any email</span></a><a id="a2apage_email_client" target="" href="http://www.lume.ufrgs.br/" class="a2a_i a2a_emailer a2a_email_client" rel="nofollow"><span class="a2a_i_email">Email app</span></a></div><div class="a2a_clear"></div></div><div class="a2apage_wide a2a_wide"><a href="http://www.lume.ufrgs.br/handle/10183/25970" id="a2apage_show_more_less" class="a2a_menu_show_more_less a2a_more" onmouseover="img=this.firstChild;if(a2a.c.color_arrow_hover=='fff'){if(img.className.indexOf('_wt')==-1)img.className+='_wt'}else img.className=img.className.replace(/_wt/,'')" onmouseout="img=this.firstChild;if(a2a.c.color_arrow=='fff'){if(img.className.indexOf('_wt')==-1)img.className+='_wt'}else img.className=img.className.replace(/_wt/,'')" title="Mostrar todos"><span class="a2a_i_a2a">More…</span></a></div></div><div style="height: 1px; width: 1px; position: absolute; z-index: 100000; top: 0px; visibility: hidden;"><iframe src="25970_1.html" allowtransparency="true" transparency="true" title="AddToAny Utility Frame" style="height: 1px; width: 1px; border: 0px none; left: 0px; top: 0px; position: absolute; z-index: 100000; display: none;" id="a2apage_sm_ifr" frameborder="0" height="1" width="1"></iframe></div></div></body>
+</html>

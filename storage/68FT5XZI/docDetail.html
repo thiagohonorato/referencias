@@ -1,0 +1,997 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://site.ebrary.com/lib/alltitles/docDetail.action?docID=10758561">
+<meta name="wpd_url" content="http://site.ebrary.com/lib/alltitles/docDetail.action?docID=10758561">
+<meta name="wpd_date" content="2014-08-07T01:45Z">
+
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Orchard CMS : Up and Running</title>
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+    
+    <script src="ebrary_namespace.js" type="text/javascript"></script>
+    <script src="ebrary_main.js" type="text/javascript"></script>
+	<script src="prototype.js" type="text/javascript"></script>
+	<script src="scriptaculous.js" type="text/javascript"></script><script type="text/javascript" src="builder.js"></script><script type="text/javascript" src="effects.js"></script><script type="text/javascript" src="dragdrop.js"></script><script type="text/javascript" src="controls.js"></script><script type="text/javascript" src="slider.js"></script><script type="text/javascript" src="sound.js"></script>
+	
+	
+		<script type="text/javascript"> var djConfig = { baseUrl: '/js/dojo_1.6/dojo/' , modulePaths: {langRoot: '/js/i18n_js',appRoot: '/js/eb/dojo'}, locale:'en'}; </script>
+		<script src="dojo.js" type="text/javascript" djconfig="parseOnLoad: true, isDebug:false"></script> 
+	
+	
+	
+	<script src="search_msg_en.js" type="text/javascript"></script>
+	<script src="bookshelf_msg_en.js" type="text/javascript"></script>
+    <script src="reader_msg_en.js" type="text/javascript"></script>
+
+   <script src="tinybox.js" type="text/javascript"></script>
+
+	<script src="search_toc.js" type="text/javascript"></script>
+	<script src="iphone.js" type="text/javascript"></script>
+	<script src="eb_reader.js" type="text/javascript"></script>
+	<script src="eb_reader_viewer.js" type="text/javascript"></script>
+	<script src="eb_bookshelf.js" type="text/javascript"></script>
+	
+	<script src="docDownload.js" type="text/javascript"></script>
+	<script src="iframe_listen.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		
+	
+    ebrary.doReleaseDoc = function(){
+    	// changed to syschornuos call for issue: PRGDCP-3235
+    	new Ajax.Request("docDetail.action?action=releaseDoc&id=10758561",{ method:'post', asynchronous: false});    	
+    };
+    g_zoom_menu = { 'labels' : {'75':'75%','100':'100%','125':'125%','150':'150%','200':'200%'},
+                    'defaultValue' : '125',
+                    'keepSelected' : true
+                  };
+                   
+    g_infotools_menu = { 
+            'labels' : {},
+            'defaultValue' : '',
+            'keepSelected' : false
+          };
+
+
+ 
+
+g_infotools_menu.labels['create_note']='Create Note ';
+
+    
+    g_annotationtools_img_menu = { 
+            'labels' : {
+                        'yellow':'HiliteYellow.png', 
+                        'pink':'HilitePink.png', 
+                        'blue':'HiliteBlue.png', 
+                        'noteyellow':'HiliteYellowNote.png', 
+                        'notepink':'HilitePinkNote.png', 
+                        'noteblue':'HiliteBlueNote.png', 
+                        'link':'HiliteLink.png' 
+                        },
+			'imgFolder':'/images/reader/',                        
+            'defaultValue' : 'yellow',
+            'keepSelected' : false
+          };
+	var quick_view, alert_win, old_alert;
+    
+	function doOnLoad() 
+	{	
+		//use for showing no javascript message
+	 	document.getElementById("toolbar_panel").className = "";
+	 	document.getElementById("page_viewer_panel").className = "";
+	 	document.getElementById("separator_panel").className = "";
+	 	document.getElementById("info_panel").className = "";
+	 	
+        quick_view = new QuickView(860193, 10758561, 129, false, false, '6e7e221e26a42498e71aee594fc374c6', 'etDcQ*NNDx3-'); 
+		quick_view.gotoPage(1);
+        
+        if ($("add_doc_link") != null){
+            new BookshelfManager($("add_doc_link"),$("add_doc_msg"),10758561);
+        }        
+	}
+	
+	function openTocDoc(doc_id, page_num)
+	{
+		quick_view.gotoPage(page_num);			
+	    // google analytics code
+       if (typeof _gaq != "undefined") {	
+    	   _gaq.push(['_trackPageview', '/QV_Navigate/TOC-chapter/jump_to_page_from_TOC-chapter_links']);
+		   _gaq.push(['_trackEvent', 'QV_Navigate', 'TOC-chapter' , 'Jump to page from TOC-chapter_links in QV']);    
+        }
+		return (false);
+	}
+    
+    function openDocReader(doc_id, page_num)
+    {
+        
+        return (false);
+    };
+    
+    </script>
+<!--[if lte IE 7]>
+<style type="text/css" media="screen">
+#menuh{font-size:15px;}
+</style>
+<![endif]-->    
+<!--[if lte IE 7]>
+<style type="text/css" media="screen">
+#menuh{float:none;}
+body{behavior:url(/css/shared/csshover.htc)}
+#menuh ul li{float:left; width: 100%;}
+#menuh a,#menu h2{height:1%;font:bold 0.7em/1.4em arial, sans-serif;}
+.img_button_menu ul li{float:left; width: 40px;}
+</style>
+<![endif]-->
+
+
+
+<script src="alert_win.js" type="text/javascript"></script><script type="text/javascript"><!--
+    g_search_term = '';
+    g_search_query = '';
+
+
+
+
+	function openQuickView(docid, pageNum, newQVWindow)
+	{		
+    	var url = 'docDetail.action?docID=' + docid,
+			extraParams = '';
+    	
+    	if (pageNum != undefined ) {
+        	// support logical page        	
+        	if (isNaN(pageNum) && pageNum.indexOf('**')==0){
+        		extraParams = extraParams + '&lpg=' + pageNum.substring(2);
+        	} else if (pageNum > 1) {
+        		extraParams = extraParams + '&ppg=' + pageNum;
+        	}
+    	}
+    	if (g_search_query) {
+    		extraParams += '&squery=' + encodeURIComponent(g_search_query);
+    	}
+    	else if (g_search_term) {
+    		extraParams += '&p00=' + encodeURIComponent(g_search_term);
+    	}        
+    	url += extraParams;
+    	
+	  	// google analytics tracking                
+       	if (typeof _gaq != "undefined") {                	  
+       		_gaq.push(['_trackEvent', 'Reader','QV' , 'User acessing doc-id:'+docid]);
+     	}
+        // This URL handles both HAS_ACCESS and NO_ACCESS
+        if (newQVWindow){
+           	// popup a new window if told so, currently used when previewing PDA docs 
+           	window.open(url+"&showFull=false&noreader=1",'win_doc_preview','toolbar=no,location=no,scrollbars=yes,resizable=yes');
+        } else {
+			parent.location = url;
+		}
+    	return false;
+	}	
+
+    function openQABook (docid, pageNum)
+    {
+    	if (typeof(docid) == 'string' &&  docid.charAt(0) == '-') {
+            docid = docid.substring(1);
+        }
+        var url = 'qabook.action?docID=' + docid ;
+        if (pageNum != undefined && pageNum > 1) {
+            url = url + '&page=' + pageNum;
+        }        
+        var win_name = 'qa_book_doc';
+        var doc_win = window.open(url,win_name,'menubar=no,toolbar=no,location=no,height=600,width=1000,resizable=yes');
+        if (window.focus) {doc_win.focus()}
+        return (false);
+    }
+    
+--></script>
+<link rel="stylesheet" type="text/css" href="docDetail.css" media="all">
+</head>
+<body onload="doOnLoad()">
+
+<div id="wrap">
+
+
+	<div id="reader_top">
+		
+	   	
+
+
+
+
+
+
+
+<div class="new-nav-site">
+
+
+	
+		<div id="header" class="std-header" style="height: 70px;">
+			<iframe src="docDetail_1.html" marginheight="0" marginwidth="0" frameborder="0" height="70" scrolling="no" width="100%"></iframe>
+		</div>
+	
+	
+
+
+
+
+
+<div id="menu" class="navbar primary">
+	<ul class="nav navbar-nav main">
+		<li><a href="http://site.ebrary.com/lib/alltitles/home.action?force=1">Home</a></li>
+		<li><a href="http://site.ebrary.com/lib/alltitles/searchTab.action">Search</a></li>
+		
+		<li class="active"><a href="http://site.ebrary.com/lib/alltitles/docDetail.action">QuickView</a></li>
+		
+		<li><a href="http://site.ebrary.com/lib/alltitles/myBookshelf.action" onclick="return ebrary.checkAndOpenTinyPop('view_bookshelf', this);">Bookshelf</a></li>
+
+	    
+	</ul>
+
+	<div class="right-nav">
+		<form id="languageCommand" action="http://site.ebrary.com/lib/alltitles/language.action" method="post">
+			<div class="current-user">
+				
+			</div>
+
+			<span id="lang">  
+					<select id="language" name="language" class="selected-lang" title="Select your language (does not affect search results)" onchange="this.form.submit()"><option value="en" selected="selected">English</option><option value="es">Español</option><option value="pt">Português</option><option value="fr">Français</option><option value="sv">Svenska</option><option value="zh_CN">简体中文</option><option value="ar">العربية</option><option value="ja">日本語</option><option value="tr">Türkçe</option><option value="de">Deutsch</option></select>
+					<noscript>
+
+						<input type="submit" name="submit"
+							value="Submit" />
+					</noscript>
+				
+			</span>
+
+			<ul class="secondary-nav">
+				<li><a href="http://site.ebrary.com/lib/alltitles/settings.action">My Settings</a><span class="separator">|</span></li>
+				<li>
+						
+							<a href="http://site.ebrary.com/lib/alltitles/login.action">Sign In</a>
+						
+						
+					 <span class="separator">|</span></li>
+				<li><a href="http://site.ebrary.com/lib/alltitles/help.action" onclick="return(openHelp())">Help</a></li>
+			</ul>
+		</form>
+	</div>
+</div>
+
+</div>
+	    <div id="body_content">
+	    	
+
+
+
+
+
+<div class="new-nav-site">
+
+<div class="searchbar">
+	<form class="navbar-form" action="http://site.ebrary.com/lib/alltitles/search.action">
+
+		
+			
+			
+				
+			
+		
+
+		<div class="form-group">
+			<input placeholder="Simple Search" class="search-field form-control" name="p00" value="" type="text">
+		</div>
+		<input id="fromSearch" name="fromSearch" value="fromSearch" type="hidden">
+		<button type="submit" class="btn btn-default btn-search">
+
+			Search
+		</button>
+	</form>
+	<ul class="search-links">
+		
+		<li><a href="http://site.ebrary.com/lib/alltitles/search.action?p00=&amp;adv.x=1&amp;tab=list">Advanced</a></li>
+		<li><a href="http://site.ebrary.com/lib/alltitles/browse.action">All Subjects</a></li>
+		
+	</ul>
+</div>
+
+</div>
+
+		</div>
+	</div>    
+
+
+<noscript>
+
+<div class="main_column">
+	<p>
+	<b class="error">You will need to enable JavaScript (or active scripting) in your browser in order to view document with QuickView.</b>
+	<br/><br/>
+    <a href="docDetail.action?docID=10758561">Please click on this link after you enable Javascript.</a>
+	</p>
+	<br />
+</div>
+</noscript>
+
+<div id="toolbar_panel" class="hide_div">
+	<div class="panel_left">
+		
+            <img id="toggle_header" alt="Hide/Show header" title="Hide/Show header" src="hide_header.png">
+		
+        <button id="infotools" title="Display the InfoTools menu"><img src="infotools.png"></button>
+        <button id="page_prev" title="Previous page (or double-click the left-hand side of the page)"><img src="page_prev.png"></button>
+        <button id="page_next" title="Next page (or double-click the right-hand side of the page)"><img src="page_next.png"></button>
+        <button id="search_prev" title="Previous search result (or alt-double-click the left-hand side of the page)"><img src="search_prev.png"></button>
+        <button id="search_next" title="Next search result (or alt-double-click the right-hand side of the page)"><img src="search_next.png"></button>
+        <button id="page_zoom" title="Select page magnification"><img src="page_zoom.png"></button>
+        <button id="annotation" title="Annotate the selected text"><img src="HiliteYellow.png"></button>
+        <button id="annotation_type_select" title="Choose an annotation type"><img class="annotation_type_select_img" src="smalldown9x9.png"></button>
+		
+
+
+
+
+<div id="menuh">
+<ul>
+	
+	
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+				
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+				
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+					
+						
+						
+					
+					<li class="item"><input class="action-hidden" name="define" value="http://www.merriam-webster.com/dictionary/%token%" allowedit="false" type="hidden"><a href="#">Define</a></li>
+					
+				
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+					
+					<li class="item"><input class="action-hidden" name="explain" value="http://www.encyclopedia.com/searchresults.aspx?q=%token%" allowedit="false" type="hidden"><a href="#">Explain</a></li>
+					
+				
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+				<li class="item"><a href="#" class="parent">Locate</a>
+				<ul>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="locate_mapquest" value="http://www.mapquest.com/maps?address=%token%" allowedit="false" type="hidden"><a href="#">MapQuest - US Cities</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="locate_cartographica" value="http://site.ebrary.com/lib/cartographica/search.action?p00=%token%" allowedit="false" type="hidden"><a href="#">Cartographica</a></li>
+					
+				</ul>
+				</li>
+			
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+				<li class="item"><a href="#" class="parent">Who</a>
+				<ul>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="who_biography" value="http://www.biography.com/search/biography.do?keywords=%token%" allowedit="false" type="hidden"><a href="#">Biography</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="who_wikipedia" value="http://en.wikipedia.org/wiki/%token%" allowedit="false" type="hidden"><a href="#">Wikipedia</a></li>
+					
+				</ul>
+				</li>
+			
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+					
+					<li class="bar"><input class="action-hidden" name="search_alldocuments" value="search.action?p00=%token%" allowedit="false" type="hidden"><a href="#">Search all documents</a></li>
+					
+				
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+				<li class="item"><a href="#" class="parent">Search Library</a>
+				<ul>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_library_worldcat" value="http://www.worldcat.org/search?qt=worldcat_org_all&amp;q=%token%" allowedit="false" type="hidden"><a href="#">WorldCat</a></li>
+					
+				</ul>
+				</li>
+			
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+				<li class="item"><a href="#" class="parent">Search Web</a>
+				<ul>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_web_amazon" value="http://www.amazon.com/s/ref=nb_ss_gw?url=search-alias%3Daps&amp;field-keywords=%token%" allowedit="false" type="hidden"><a href="#">Amazon</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_web_google" value="http://www.google.com/search?q=%token%" allowedit="false" type="hidden"><a href="#">Google</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_web_live" value="http://search.live.com/results.aspx?q=%token%" allowedit="false" type="hidden"><a href="#">Bing</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_web_yahoo" value="http://search.yahoo.com/search?p=%token%" allowedit="false" type="hidden"><a href="#">Yahoo</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_web_wikipedia" value="http://en.wikipedia.org/wiki/%token%" allowedit="false" type="hidden"><a href="#">Wikipedia</a></li>
+					
+				</ul>
+				</li>
+			
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+				<li class="item"><a href="#" class="parent">Search News</a>
+				<ul>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_news_cnn" value="http://www.cnn.com/search/?query=%token%&amp;sortBy=date" allowedit="false" type="hidden"><a href="#">CNN</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_news_bbc" value="http://search.bbc.co.uk/search?go=homepage&amp;scope=all&amp;Search=Search&amp;q=%token%" allowedit="false" type="hidden"><a href="#">BBC</a></li>
+					
+				</ul>
+				</li>
+			
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+				<li class="item"><a href="#" class="parent">Search Video</a>
+				<ul>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_video_youtube" value="http://www.YouTube.com/results?search_type=&amp;aq=f&amp;search_query=%token%" allowedit="false" type="hidden"><a href="#">YouTube</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_video_live" value="http://search.live.com/video/results.aspx?go=&amp;form=QBVL&amp;q=%token%" allowedit="false" type="hidden"><a href="#">Bing</a></li>
+					
+				</ul>
+				</li>
+			
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+				<li class="item"><a href="#" class="parent">Search Images</a>
+				<ul>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_images_google" value="http://images.google.com/images?q=%token%" allowedit="false" type="hidden"><a href="#">Google</a></li>
+					
+					
+						
+						
+										
+						
+					
+					<li><input class="action-hidden" name="search_images_live" value="http://search.live.com/images/results.aspx?go=&amp;form=QBLH&amp;scope=images&amp;q=%token%" allowedit="false" type="hidden"><a href="#">Bing</a></li>
+					
+				</ul>
+				</li>
+			
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+					
+					<li class="bar"><input class="action-hidden" name="goto_url" value="" allowedit="false" type="hidden"><a href="#">Go To URL</a></li>
+					
+				
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+					
+					<li class="bar"><input class="action-hidden" name="create_note" value="" allowedit="false" type="hidden"><a href="#">Create Note</a></li>
+					
+				
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+					
+					<li class="item"><input class="action-hidden" name="refworks" value="" allowedit="false" type="hidden"><a href="#">RefWorks</a></li>
+					
+				
+			
+		
+		
+		
+	
+		
+			
+			
+							
+			
+		
+		
+		
+			
+			
+				
+					
+					
+					<li class="item"><input class="action-hidden" name="endnote" value="" allowedit="false" type="hidden"><a href="#">EndNote &amp; Citavi</a></li>
+					
+				
+			
+		
+		
+		
+	
+</ul>
+</div>
+
+
+	</div>
+	 
+ 
+
+
+
+
+
+
+   
+ 
+ 
+	
+       
+    
+    
+        <div class="panel_left" style="padding-top: 5px;">  <b><nobr> Preview Access</nobr> </b></div>
+    
+    
+   
+    
+
+ 	<div class="panel_right">
+        <button id="resize_window" title="Resize window to fit page"><img src="resize_window.png"></button>
+	</div>
+	<div class="panel_right">
+		<form action="http://site.ebrary.com/lib/alltitles/docServer.json">
+
+			Page 
+            <input id="page_box" title="Go to page #" size="3" name="page" value="1" type="text"> 
+			(<span id="current_page_label"></span> of 129)
+		</form>
+	</div>  
+ 
+	<div class="clear"></div>	
+</div>
+
+<div id="page_viewer_panel" class="hide_div">
+	<div id="page_image_panel">
+        <div id="cloak" onclick="void(0);">&nbsp;</div>
+    </div>
+</div>
+
+<div id="separator_panel" class="hide_div">
+	<img id="open_info_panel" src="arrow_left.png">
+</div>
+
+<div id="info_panel" class="hide_div">
+	<div id="notes_panel">
+		<div id="notes_tab">
+			<img id="close_info_panel" src="arrow_right.png">
+			<ul>
+            <li><a title="View and navigate using the table of contents" id="toc_tab" href="http://site.ebrary.com/lib/alltitles/showTOC"><span class="tab">TOC</span></a></li>
+            <li><a title="View and navigate using your existing annotations" id="annots_tab" href="http://site.ebrary.com/lib/alltitles/showAnnotations"><span class="tab">Notes<span id="annot_count">(0)</span></span></a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		
+		<form id="search_toc_form" action="http://site.ebrary.com/lib/alltitles/searchTOC.action">
+			<label for="search_p00"></label>
+			<input id="search_p00" size="16" name="p00" value="" type="text"> 
+			<input id="search_button" name="search" value="Search Document" type="submit"> 
+			
+				<a id="add_doc_link" class="new_link_button" style="margin-left: 1em;" href="javascript:void(0)">Add to My Bookshelf</a>
+			
+			<span class="hightlight_search_terms"> 
+			  <nobr>  <input style="width: 15px; vertical-align: text-bottom;" id="toggle_highlight" name="toggle_highlight" checked="checked" type="checkbox">&nbsp;
+			         <label style="width: 5px; vertical-align: text-bottom;" for="toggle_highlight">Highlight Search Terms</label> 
+			  </nobr> 
+		    </span>
+		</form>
+		<div id="add_doc_msg">
+			
+		</div>
+			
+		<div id="search_toc_panel">
+			<div id="doc_10758561" style="display: none;"></div>
+			<br>
+			<div id="doc_desc_10758561"></div>
+		</div>
+		<div id="doc_annots_box">
+
+			Please sign-in to see any notes you might have.
+		</div>
+	</div>
+	
+	<div id="biblio_panel">
+		<div class="reader_doc_cover">
+            <img class="add_title_item" src="10758561.jpg" alt="Book Cover">
+		</div>
+		
+		<span class="label">Orchard CMS : Up and Running</span><br>
+        
+			Zablocki, John 
+		
+		<br>
+		<span class="label">Pages</span>:  129 <br>
+        <span class="label">Publisher</span>: O'Reilly Media <br>
+        <span class="label">Location</span>: Sebastopol, CA, USA <br>
+        <span class="label">Date Published</span>: 06/2012 <br>
+        <span class="label">Language</span>:  en <br>
+		<br>
+        <span class="label">LC Call Number</span>:  QA76.76.M52 -- Z33 2012eb <br>
+        <span class="label">eISBN</span>:  9781449339777 <br>
+        <span class="label">pISBN</span>:  9781449320218 <br>
+        <span class="label">Dewey Decimal Number</span>:  006.7 <br>
+        
+            <span class="label">OCLC Number</span>:  861530647 <br>
+        
+		<br>
+		<span class="label">Subjects</span>: 
+        
+			Microsoft .NET. &nbsp;
+		
+			Web site development. &nbsp;
+		
+			Web sites -- Design. &nbsp;
+		
+			Internet programming. &nbsp;
+		
+		<br>
+	</div>
+</div>
+
+</div>
+<iframe id="final_download_frame" name="final_download_frame" style="display: none;" src="docDetail_2.html" height="0" width="0"> </iframe>
+
+<!--  Google analytics code -->
+
+
+<!--  Google analytics code -->
+<!--  Please see ebrary404_en.html
+ -->
+ 
+  
+
+
+ 
+
+
+<!--  end wrap -->
+<script type="text/javascript">
+
+</script>
+
+
+
+</body>
+</html>

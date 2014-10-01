@@ -1,0 +1,497 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+5561639
+
+Skip to Main Content
+IEEE Quick Preview
+
+    Abstract
+    Authors
+    Figures
+    Multimedia
+    References
+    Cited By
+    Keywords
+
+Industrial-based object-oriented software quality measurement system and its importance
+
+In new era of ICT world today, companies are competing to produce software which are claimed to be good and fulfill user's expectation. Thus we can see the tremendous growth of software industries in the last few years as the demand for software increased significantly. In Malaysia, the emergence of Multimedia Super Corridor (MSC) has seen dynamic growth of computer related companies. At the same time issues regarding software quality are being addressed by the users and practitioners in the industry. Companies allocate and spend huge amount of investment on software and expect a profitable return from it. The assurance of software quality affects both immediate profitable and long-term retention of customer goodwill. Currently users are left with uncertainties on the quality and whether the customer conforms to their requirements and expectations. Industrial-based software quality measurement system is the software that measures the quality of software that is used by the industry. The importance of having Industrial-based software quality measurement system is the quality of the industrial-based software can be identified and controlled. Therefore, the development of industrial-based object-oriented software quality measurement system is beneficial not only to users but also developers and stakeholders.
+This paper appears in: Information Technology (ITSim), 2010 International Symposium in , Issue Date: 15-17 June 2010 , Written by: Hamid, N.F.I.A.; Hasan, M.K.
+
+© 2010 IEEE
+No Photo Available
+Nor Fazlina Iryani Abdul Hamid
+No Bio Available
+More About this Author
+No Photo Available
+Mohammad Khatim Hasan
+No Bio Available
+More About this Author
+View All
+Figure 1
+Figure 1:
+Figure 1: System Architecture
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+View All
+
+1 . MSC. MSC Malaysia Company Directory 2009 [cited 10.11.2009. Available from http://www.mscmalaysia.my/.].
+Show in Context
+ 
+
+2 . Jones, C. 2008. Applied Software Measurement: Global Analysis of Productivity and Quality. 3rd ed. New York: Mc Graw Hill.
+Show in Context
+ 
+
+3 . Kan, S.H. 2002. Metrics and Models in Software Quality Engineering. 2nd edition: Addison Wesley.
+Show in Context
+ 
+
+4 . Azuma, M. 1996. Software products evaluation system: quality models, metrics and processes-International Standards and Japanese practice. Information and Software Technology 38 (3):145-154.
+Show in Context
+ 
+
+5 . Shalloway, A., and J. Trott. 2002. Design Pattern Explained: A new perspective on Object-oriented design. New York: Addison-Wesley.
+Show in Context
+ 
+View All
+IEEE Keywords
+Decision support systems , Helium , Software measurement , Software quality
+INSPEC: Controlled Indexing
+DP industry , object-oriented methods , software metrics , software quality
+INSPEC: Non-Controlled Indexing
+ICT world , computer related company , industrial-based object-oriented software quality measurement system , multimedia super corridor , software industry
+Authors Keywords
+Industrialbased Software , Multimedia Super Corridor , Object-oriente , Software Quality , Software Quality Measurement , Software Quality Measurement System
+View All
+
+    Quick Preview
+    Figures
+
+    Full Text
+    Footnotes
+    References
+    Authors
+    Cited By
+    Keywords
+    Corrections
+
+    I. Introduction
+    II. Literature Review
+    III. Problem Statement
+    IV. Proposed Solution
+    V. System Architecture
+    VI. Conclusion and Further Works
+
+    I. Introduction
+    II. Literature Review
+    III. Problem Statement
+    IV. Proposed Solution
+    V. System Architecture
+    VI. Conclusion and Further Works
+
+SECTION I
+I NTRODUCTION
+
+In the new global economy and borderless world today, software and ICT has become a central issue for survival. Companies are competing to produce software which are claimed to be good and fulfill user's expectation. Thus there is tremendous growth of software industries in the last few years because of the demand for software services from various levels of users' especially industrial area. This scenario is happening everywhere in the world including Malaysia where the emergence of Multimedia Super Corridor (MSC) have seen the dynamic growth of 2192 MSC status companies by year 2009 [ 1 ]. Table 1 below shows the percentage of MSC companies on its fields.
+Table 1
+TABLE 1: M SC S TATUS C OMPANIES
+
+The fundamental reason to measure software quality is to produce a software application with a best quality and error free. However, the term software quality will varies depends on the principles that they will apply. Some of the common measures are the software without fatal errors, software that work as advertised, software with accurate results and software that is pleasing to the eyes [ 2 ].
+
+Measuring software quality in industry is not an easy task and most of the companies do not implement it. There are several reasons why quality is not measured, among some of the common reasons are managers do not know how to measure, too hard to create the infrastructure necessary to measure software quality, afraid of the result and upper management does not really care [ 3 ]. In order to develop high quality software, the following is considered important [ 4 ]:
+
+    To make the input to the process better, that is to say to clarify quality requirement and development policy.
+    To utilize good resources, such as techniques, highly skilled people and better environment.
+    To design good development processes, measure the processes, control the processes and improve the processes.
+    To plan, implement and do software product evaluation properly for both intermediate and final products.
+
+Whatever the reason may be, the industry suffers from an effective way to measure the software quality. A single quality measurement by itself does not reflect the quality of the software as a whole. The number of issues generated during testing as the basis for measuring quality, the only thing would be discovered is how diligent developers are. It would not tell whether the requirements intended by designer were implemented or the customer likes the software. Every company will have its own checklist in creating an accurate way of measuring software.
+
+Industrialbased software is the software that is used in the industry. The software must be real-time in configuration and fault monitoring, high performance and high security. Thus, the quality measurement of industrialbased software is very importance and beneficial not only to users but also developers and stakeholders
+
+This paper is divided into several sections. Section 1 briefly introduces the background of Industrialbased Object-oriented Software Quality Measurement System. Section 2 further discuss about the literature review. It is followed by identifying the problem statement in Section 3 . Section 4 discuss on how to solve the problems, section 5 explains about system architecture and section 6 wraps the paper including proposing the future enhancement. This paper focused on the introduction to Industrialbased Object-Oriented Software Quality Measurement System, the literature review, problem statement and proposed solution.
+
+    I. Introduction
+    II. Literature Review
+    III. Problem Statement
+    IV. Proposed Solution
+    V. System Architecture
+    VI. Conclusion and Further Works
+
+SECTION II
+L ITERATURE R EVIEW
+
+Recently, object-oriented paradigm has provided other elements that are used to assess software quality [ 5 ]. From this perspective, quality must be changed to rely on some specific properties such as encapsulation, inheritance and polymorphism. Some studies have been done and concluded that traditional product metrics are not sufficient for characterizing, assessing and predicting the quality of object-oriented software system. For example, cyclomatic complexity appeared to be inadequate metric for use in software development based on object-oriented technology [ 6 ].
+
+The insertion of object-oriented technology in the software industry has created new challenges for companies which use product metrics as a tool for controlling, monitoring and improving the software development and maintenance. Therefore, metrics which reflects the specificities of the object-oriented paradigm must be defined and validated in order to be used in software industry [ 7 ]. To address this issue, it has led to the definition of new metrics for object-oriented programming measurements. Chidamber and Kemerer (1994) introduced the Metrics for Object Oriented Software Engineering (MOOSE metrics) [ 8 ]. MOOSE metrics focused on process improvement in software development area that emphasis on object-oriented approach and metrics which managed the process. The metrics should be constructed with a firm basis in theoretical concepts in measurement, while capturing empirical notions of software properties [ 9 ].
+
+Other than MOOSE metrics, Metrics for Object Oriented Design (MOOD) had been introduces by Abreu and Melo (1996) as one of the earliest quality models for object-oriented programming [ 10 ]. MOOD is the extension of MOOSE metrics as it said to be adequate for predicting changeability. MOOD objective was to enable identifying quality measurement criteria for object-oriented designs by means of quantitative evaluation of object-oriented paradigm. This was expressed in the form of internal characteristics like inheritance, polymorphism, information hiding and coupling as well as external characteristics such as reliability and maintainability. The original MOOD set considered of six metrics, which are Method Hiding Factor, Attribute Hiding Factor, Method Inheritance Factor, Attribute Inheritance Factor, Polymorphism Factor and Coupling Factor.
+
+MOOD2 metrics set by Abreu and Cuche (1998) is an extension of MOOD metrics set and there is also a new generation of MOODKIT tool that was built upon GOODLY design language to be used with MOOD2 [ 11 ]. MOOD2 metrics caters on granularity levels that is attributes such as operation, class and module as well as inter/intra specification. Lower level metrics is used to compose higher level metrics. It focused on specific level metrics to assess overall object-oriented design quality.
+
+After four years, Baroni et al (2002) discussed a formal method for representing MOOD2 metrics using OCL (Object Constraint Language) [ 12 ]. It proposed an approach to metrics definition that combines understandability with formality to define object-oriented design metrics in a very natural and understandable way. The precision granted by the formality of OCL comes at a much lower cost for both practitioners and tool builders compared to using other formal specification constructs.
+
+In the same year, Bansiya and Davis (2002) make an evolution of MOOD2 known as QMOOD (Quality Model for Object Oriented Design) that defined the lower level design metrics in terms of design characteristics and quality is assessed as an aggregation of the model's individual high-level quality attributes [ 13 ]. The suggested design quality attributes are reusability, flexibility, understandability, functionality, extendibility and effectiveness. While, the suggested design quality properties are design size, hierarchies, abstraction, encapsulation, coupling, cohesion, composition, inheritance, polymorphism, messaging and complexity.
+
+Nowadays, the switch to representing complex knowledgebased system through using Object Oriented approach was introduced and it offers the ability to apply the set of referenced quantitative and well-defined quality properties and metrics that are used to assess object oriented programs [ 14 ]. This is the extension from the established quality metrics in object-oriented to be used to measure the common features that exist in expert system domain knowledge. This extension also developed new quality metrics to measure characteristics that are particular to expert system domain knowledge. From this perspective, the objective of their research is to propose a quality model for measuring the quality of KADS (Knowledge Acquisition and Development Systems)based expert systems. Generally KADS development methodology lends itself to object oriented paradigm.
+
+KADS development methodology that has been developed by Edwards (1991) and updated to comment KADS by Schreiber et al. (2000) lends itself to object oriented paradigm [ 15 ] [ 16 ]. KADS has been used to model expert system in terms of three types of knowledge, namely, domain knowledge, inference knowledge and task knowledge. This study aims to providing a quality measurement model for KADS domain knowledge. The model applies same bottom up mechanism and focused on defining domain knowledge quality attributes and domain knowledge quality properties based on QMOOD and ISO 9126 quality framework. There are three levels in the KADS quality model that are quality attributes, quality properties and quality metrics [ 17 ].
+
+Other than KADS model, Rawashdeh and Matalkah (2006) introduced COTS (Commercial off-the-shelf) model is also built based on software quality model [ 18 ]. The objective of creating COTS model is to build one suitable model to work with off-the-shelf system. The starting point for building this model the ISO 9126 because it includes the common software quality characteristics that are supported by other models that are functionality, reliability, usability, efficiency, maintainability and portability. COTS quality model consist of four layers that are stakeholder, high-level characteristics, product sub-characteristics and process sub-characteristics. The advantages of COTS models is the stakeholder layer, the members of the team responsible for developing, maintaining, interacting and using the system.
+
+Squale model by Karine et al (2009) is also a good example of software quality model and its model also consist of four layers same as COTS model, but the value of the layer is different [ 19 ]. The Squale model is inspired by the factor-criteria-metrics model of McCall [ 20 ]. The Squale model introduces the new level of practices between criteria and metrics. Practices are the key elements which bridge the gap between the low-level measures, based on metrics, rule checker or human audits and the top-level quality assessments that expressed through criteria and factors.
+
+Nowadays, industry is crucially needs its own software quality measurement model to make sure the industrial sectors are capable to deliver their product on schedule, on budget with high quality. Hence, the development of industrialbased object-oriented software quality measurement system will help to solve the software quality measurement problems in industrial sector.
+
+    I. Introduction
+    II. Literature Review
+    III. Problem Statement
+    IV. Proposed Solution
+    V. System Architecture
+    VI. Conclusion and Further Works
+
+SECTION III
+P ROBLEM S TATEMENT
+
+As the software application area has been expanded, the need for software quality measurement growth especially in industry. It is becoming difficult to ignore the importance of software because software has become a central issue for industrialbased business survival. Without quality measurement in the industrialbased software, we do not know how competent and efficient the software is. This will lead to production of low quality product, over schedule and also over budget.
+
+Companies from various backgrounds are competing to produce software which is claimed to be good and fulfill users' expectations. At the same time users and stakeholders are unsure and uncertain on the quality status of the software product being delivered by suppliers or being developed by an in-house development team because there are no mechanisms or systems to measure how well the quality of that software is. It is reported that recent and ongoing efforts to enhance the processes and techniques used in the management software projects at all stages in the system development life cycle, controlling software quality remains one of the most neglected areas. Quality is a functional and artistic measurement used to specify user satisfaction with a product or how well the product performs compared to similar products (Rawashdeh&Matalkah 2006). The aim of software quality is to setting up standards to achieve and measuring the conformance of a project within the requirements (Karine et al. 2009).
+
+Based on the scenario mentioned above, a problem regarding the absence of mechanisms and standards in ensuring and measuring the quality of software products has been identified. The industries need a system that can measure and evaluate the quality of industrialbased software to guarantee they are capable to generate excellence products. This is important to the industry certify that they can deliver their product on schedule and within budget. The system must be interactive and attractive as well as informative to attract users. The system must also be webbased so that it can be easily accessible via Internet anywhere and anytime. The system will be applicable to configuration managers, project manager, project quality assurance, quality auditor and top management of the company.
+
+    I. Introduction
+    II. Literature Review
+    III. Problem Statement
+    IV. Proposed Solution
+    V. System Architecture
+    VI. Conclusion and Further Works
+
+SECTION IV
+P ROPOSED S OLUTION
+
+The objective of the study are to identify quality factor in industrialbased object-oriented software application, to design model for industrialbased software quality measurement, to measure industrialbased software product quality, to design and develop webbased industrialbased software quality measurement system and to study the performance of industrialbased software quality measurement.
+
+Research method that will be used in this study is deductive approach. Deductive approach is used during the development of the model where theory and concepts of software quality will be derived from the literature findings and empirical findings before the model will be built and the system will be applied and tested in the real case study. It begins with thinking up a theory about topic of industrialbased software quality measurement. Then it narrows down to more specific model that needs to be tested. Further, it collects observations to address the quality factors, construct the model and develop the webbased software application for industrialbased software quality measurement. This ultimately leads to testing the webbased software application for industrialbased software quality measurement with specific data and develop a confirmation. The research approach involves five phases that are theoretical study, empirical study, Framework Construction and Development, Design and Development and Implementation and Evaluation.
+
+The theoretical study begins with the literature review in scope and depth on industrialbased software quality measurement system, model and object-oriented quality metrics. It involves reviewing of current state in the development of industrialbased software quality measurement system. Reviewing the current models and system would enable researcher to have a comprehensive understanding of the subject matter. Based on the literature findings of issues and factors affecting industrialbased software quality measurement, the research proceeds with designing questionnaires and testing it via a pilot survey. The data from pilot test is analyzed to produce pilot reports and any modification on the items in questionnaires is implemented in this stage before the real survey will be conducted. The empirical study involves preparing requirement studies within intended environment, conducting survey and analyzing data. Sample for the survey will be the software quality users, developers, project managers, configuration managers and product quality assurance managers. The survey is conducted to gather data and information from various companies involving in industrialbased software development and acquisition in Malaysia. Findings from the empirical study are then used as the basis for producing a requirement specification document for industrialbased software quality measurement system.
+
+Based on empirical and literature findings, quality factors of industrialbased software quality measurement will be defined. The concept, characteristic and factors of industrialbased software quality measurement contributing in construction of the framework. This lead to the development of industrialbased software quality measurement model, which describes the relationship of quality factors, criteria and metrics. Using the model, the industrialbased software quality measurement process and step will be defined. The system for industrialbased software quality measurement system is developed for supporting the quality measurement process of industrialbased software. This phase involving several activities such as requirement analysis, designing, coding and testing of the system. Once the development of the system is completed, the implementation and evaluation then takes place. These involve conducting and collaborating case studies with software development companies in Malaysia. The application on the case studies tests the proposed system. As the system evaluation will be carried out by case study, a system refinement will also be conducted if necessary.
+
+    I. Introduction
+    II. Literature Review
+    III. Problem Statement
+    IV. Proposed Solution
+    V. System Architecture
+    VI. Conclusion and Further Works
+
+SECTION V
+S YSTEM A RCHITECTURE
+
+Figure 1 shows system architecture of Industrialbased Software Quality Measurement System. The system will be run under webbased environment. The system GUI is basically a web server. There are three interfaces that have been defined in web server that are web user interface, system database interface and system processing engine interface. Web client interface is just a standard TCP/IP connection with comply with web browser. Web client (normal browser) uses standard Server IP address and port number (normally 80 or 8080). By connecting to web server using IP address and port, user could access of Industrialbased Software Quality Measurement System.
+
+System database interface also using standard TCP/IP connection. This application will use MySQL database. Normally depending on the database use, certain port has been defined by database server so that application client could access the database for add, update, select or delete the database. Web user does not need to know the interface, however server web developer need to use this interface for programming purposes. Normally the database port numbering scheme will depend on type of database usage.
+
+System processing engine interface is needed so that web server could process command send by the web user and feedback the result. Using this interface, web server could update, delete, add and retrieved data for system configuration. The system GUI interface is using TCP/IP connection with proprietary port number.
+
+Most of the database system has its own processes running and provide interface for the user to access it. Basically there are two interfaces that need to be connected to the database which are GUI - database connection and processing engine - database connection. GUI - database connection interface provides connection from database to Web server which using standard SQL command. Normally, most of web based application support oracle interface library. Any data requested from GUI will be invoked from this interface. Processing engine - database connection interface provides connection from database to EMS server which also using standard SQL command. Oracle normally provides library for server processing development in order to access the database. All database manipulated invoke by the EMS processing server will use this type of interface.
+Figure 1
+Figure 1: System Architecture
+
+View All
+
+    I. Introduction
+    II. Literature Review
+    III. Problem Statement
+    IV. Proposed Solution
+    V. System Architecture
+    VI. Conclusion and Further Works
+
+SECTION VI
+C ONCLUSION AND F URTHER W ORKS
+
+There is a great need to do a research in industrialbased software quality measurement and produce a system that can help in measuring the software quality especially in industry. It will reduce cost, time and simplify the process of measuring software quality. From the research done, that there is no system developed that can measure the quality of software in industry, where they measure it manually follow the standard applied by the company. Manual software quality measurement requires a lot of effort in which PQA need to record and collect every required data and calculate it based on formula given by the applied standard. Thus, this system is one of the approaches to simplify the process of measuring software quality. In addition, people can access the system from any place, anytime provided there is an Internet connection. In future work, the study on how the system can be used to automatically describe remediation plans to increase quality of project. Such remediation plans should also assess the return on investment. The ultimate goal is to provide strong arguments for managers dealing with quality process in company.
+Footnotes
+No Data Available
+References
+
+1 . MSC. MSC Malaysia Company Directory 2009 [cited 10.11.2009. Available from http://www.mscmalaysia.my/.].
+Show Context
+This scenario is happening everywhere in the world including Malaysia where the emergence of Multimedia Super Corridor (MSC) have seen the dynamic growth of 2192 MSC status companies by year 2009 [1].
+Go To Text
+
+2 . Jones, C. 2008. Applied Software Measurement: Global Analysis of Productivity and Quality. 3rd ed. New York: Mc Graw Hill.
+Show Context
+Some of the common measures are the software without fatal errors, software that work as advertised, software with accurate results and software that is pleasing to the eyes [2].
+Go To Text
+
+3 . Kan, S.H. 2002. Metrics and Models in Software Quality Engineering. 2nd edition: Addison Wesley.
+Show Context
+There are several reasons why quality is not measured, among some of the common reasons are managers do not know how to measure, too hard to create the infrastructure necessary to measure software quality, afraid of the result and upper management does not really care [3].
+Go To Text
+
+4 . Azuma, M. 1996. Software products evaluation system: quality models, metrics and processes-International Standards and Japanese practice. Information and Software Technology 38 (3):145-154.
+Show Context
+In order to develop high quality software, the following is considered important [4]:To make the input to the process better, that is to say to clarify quality requirement and development policy.
+Go To Text
+
+5 . Shalloway, A., and J. Trott. 2002. Design Pattern Explained: A new perspective on Object-oriented design. New York: Addison-Wesley.
+Show Context
+Recently, object-oriented paradigm has provided other elements that are used to assess software quality [5].
+Go To Text
+
+6 . Brooks, I. 1993. Object-oriented Metrics Collection and Evaluation with Software Process. Paper read at OOPSLA '93 Workshop Processes and Metrics for Object-oriented Software Development, at Washinton D.C.
+Show Context
+For example, cyclomatic complexity appeared to be inadequate metric for use in software development based on object-oriented technology [6].
+Go To Text
+
+7 . Basili, V.R., L.C. Briand, and W.L. Melo. 1996. A Validation of Object-oriented Design Metrics as Quality Indicator. IEEE Transaction on Software Engineering 22 (10):751-761.
+Quick Abstract | Show Context | Full Text: PDF
+This paper presents the results of a study in which we empirically investigated the suite of object-oriented (OO) design metrics introduced in (Chidamber and Kemerer, 1994). More specifically, our goal is to assess these metrics as predictors of fault-prone classes and, therefore, determine whether they can be used as early quality indicators. This study is complementary to the work described in (Li and Henry, 1993) where the same suite of metrics had been used to assess frequencies of maintenance changes to classes. To perform our validation accurately, we collected data on the development of eight medium-sized information management systems based on identical requirements. All eight projects were developed using a sequential life cycle model, a well-known OO analysis/design method and the C++ programming language. Based on empirical and quantitative analysis, the advantages and drawbacks of these OO metrics are discussed. Several of Chidamber and Kemerer's OO metrics appear to be useful to predict class fault-proneness during the early phases of the life-cycle. Also, on our data set, they are better predictors than “traditional” code metrics, which can only be collected at a later phase of the software development processes
+Full Abstract
+Therefore, metrics which reflects the specificities of the object-oriented paradigm must be defined and validated in order to be used in software industry [7].
+Go To Text
+
+8 . Chidamber, and Kemerer. 1994. A metric suite for object-oriented design. IEEE Transaction 20 (6):476-493.
+Show Context
+Chidamber and Kemerer (1994) introduced the Metrics for Object Oriented Software Engineering (MOOSE metrics) [8].
+Go To Text
+
+9 . Abreu, F.B., and R. Carapuca. 1994. Candidate metrics for object-oriented software within a taxonomyfaramework. System and Software 26:87-96.
+Show Context
+The metrics should be constructed with a firm basis in theoretical concepts in measurement, while capturing empirical notions of software properties [9].
+Go To Text
+
+10 . Abreu, F.B., and W. Melo. 1996. Evaluating the impact of object-oriented design on software quality. Paper read at 3rd International Sysmposium on Software Metrics: From Measurement to Empirical Results, Mar 25-26, at Berlin, Germany.
+Show Context
+Other than MOOSE metrics, Metrics for Object Oriented Design (MOOD) had been introduces by Abreu and Melo (1996) as one of the earliest quality models for object-oriented programming [10].
+Go To Text
+
+11 . Abreu, F.B., and J.S. Cuche. 1998. Collecting and analyzing the MOOD2 metrics. Paper read at Workshop on Object-oriented Product Metrics for Software Quality Assessment, at Brussels, Belgium.
+Show Context
+MOOD2 metrics set by Abreu and Cuche (1998) is an extension of MOOD metrics set and there is also a new generation of MOODKIT tool that was built upon GOODLY design language to be used with MOOD2 [11].
+Go To Text
+
+12 . Baroni, A.L., S. Braz, and F.B. Abreu. 2002. Using OCL to Formalize Object-Oriented Design Metrics Definitions. Paper read at ECOOP Workshop on Quantitative Approaches in OOSE, at malaga, Spain.
+Show Context
+After four years, Baroni et al (2002) discussed a formal method for representing MOOD2 metrics using OCL (Object Constraint Language) [12].
+Go To Text
+
+13 . Bansiya, J., and C.G. Davis. 2002. A hierarchical model for object-oriented design quality assessment. IEEE Transaction 28:4-17.
+Show Context
+In the same year, Bansiya and Davis (2002) make an evolution of MOOD2 known as QMOOD (Quality Model for Object Oriented Design) that defined the lower level design metrics in terms of design characteristics and quality is assessed as an aggregation of the model's individual high-level quality attributes [13].
+Go To Text
+
+14 . Nabil, D., A. El-Korani, and A.S. Eldin. 2008. Towards a suite ofquality metrics for KADS-domain knowledge. Expert Systems 'with. Applications 35:654-660.
+Show Context
+Nowadays, the switch to representing complex knowledgebased system through using Object Oriented approach was introduced and it offers the ability to apply the set of referenced quantitative and well-defined quality properties and metrics that are used to assess object oriented programs [14].
+Go To Text
+
+15 . Edward, J.S. 1991. Building knowledge-based systems, towards a methodology. 5th ed. New York: John Wiley and Sons.
+Show Context
+KADS development methodology that has been developed by Edwards (1991) and updated to comment KADS by Schreiber et al. (2000) lends itself to object oriented paradigm [15] [16].
+Go To Text
+
+16 . Schreiber, G., et al. 2000. Knowledge angineering and management: The common KADS methodology. USA: MIT Press.
+Show Context
+KADS development methodology that has been developed by Edwards (1991) and updated to comment KADS by Schreiber et al. (2000) lends itself to object oriented paradigm [15] [16].
+Go To Text
+
+17 . El-Korany, D. Nabil, and A.S. Salim. 2009. Quality Measurement Model for KADS-Domain Knowledge. Academic Journal.
+Show Context
+There are three levels in the KADS quality model that are quality attributes, quality properties and quality metrics [17].
+Go To Text
+
+18 . Rawashdeh, Adnan, and Bassem Matalkah. 2006. A new software quality model for evaluating COTS components. Computer Science 2 (4):373- 381.
+Show Context
+Other than KADS model, Rawashdeh and Matalkah (2006) introduced COTS (Commercial off-the-shelf) model is also built based on software quality model [18].
+Go To Text
+
+19 . Karine, M. M., et al. 2009. The Squale Model - a Practice-based Industrial Quality Model. Paris, France: University of Paris.
+Show Context
+Squale model by Karine et al (2009) is also a good example of software quality model and its model also consist of four layers same as COTS model, but the value of the layer is different [19].
+Go To Text
+
+20 . McCall, J.A. 1977. Factors in Software Quality: Rome Air Development Center.
+Show Context
+The Squale model is inspired by the factor-criteria-metrics model of McCall [20].
+Go To Text
+Authors
+No Photo Available
+Nor Fazlina Iryani Abdul Hamid
+No Bio Available
+No Photo Available
+Mohammad Khatim Hasan
+No Bio Available
+Cited By
+None
+Keywords
+IEEE Keywords
+Decision support systems , Helium , Software measurement , Software quality
+INSPEC: Controlled Indexing
+DP industry , object-oriented methods , software metrics , software quality
+INSPEC: Non-Controlled Indexing
+ICT world , computer related company , industrial-based object-oriented software quality measurement system , multimedia super corridor , software industry
+Authors Keywords
+Industrialbased Software , Multimedia Super Corridor , Object-oriente , Software Quality , Software Quality Measurement , Software Quality Measurement System
+Corrections
+
+None
+Multimedia
+No Data Available
+Download PDF
+
+This paper appears in:
+    Information Technology (ITSim), 2010 International Symposium in 
+Conference Date(s):
+    15-17 June 2010 
+Conference Location:
+    Kuala Lumpur 
+On page(s):
+    1332 - 1336 
+E-ISBN:
+    No Data Available 
+Print ISBN:
+    978-1-4244-6715-0 
+INSPEC Accession Number:
+    11513787 
+Digital Object Identifier:
+    10.1109/ITSIM.2010.5561639 
+Date of Current Version:
+    2010-09-02 
+Date of Original Publication:
+    No Data Available 
+
+Text Size
+
+Normal | Large
+
+    Bookmark This Article
+    Email to a Colleague
+    Share
+    Print
+    Download Citation
+    Download References
+    Rights and Permissions
+
+Related Articles
+
+None
+
+Back to Top
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+
+Back to Top
+
