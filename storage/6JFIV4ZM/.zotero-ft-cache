@@ -1,0 +1,455 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+6108582
+
+Skip to Main Content
+IEEE Quick Preview
+
+    Abstract
+    Authors
+    Figures
+    Multimedia
+    References
+    Cited By
+    Keywords
+
+Discussion on business of free software products - through E-Jikei Network Project
+
+Software engineering is very different from the other fields of engineering. One of the difference points is that the authors of software products make software products public on the Internet so that anyone can use them without charge. Such software products are called free software or open source software. However, free software or open source software cannot make money and it is not software business aside from that it is good or bad. This paper discusses how to make business for software products which are made by individuals or small organizations. This discuss shows some reasons why such software products cannot be commercial software products which can make money.
+This paper appears in: Instrumentation, Communications, Information Technology, and Biomedical Engineering (ICICI-BME), 2011 2nd International Conference on , Issue Date: 8-9 Nov. 2011 , Written by: Yoshiura, N.
+
+© 2011 IEEE
+No Photo Available
+Noriaki Yoshiura
+No Bio Available
+More About this Author
+View All
+Figure 1
+Fig. 1.
+Fig. 1.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 2
+Fig. 2.
+Fig. 2.
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+View All
+
+1 . NPO E-Jikei Network Project, http://e-jikei.org/index-e.html
+Show in Context
+ 
+
+2 . Fujii, Y., et al. E-JIKEI Network using E-JIKE Cameras; Community security using considerable number of cheap standalone cameras, Safety Science Vol.48, No.7 pp.921-925 (2010)
+Show in Context
+ 
+
+3 . Fujii, Y., Yoshiura, N., Ohta, N., Creating a worldwide community security structure using individually maintained home computers: the e-Jikei Network Project, Social Computer Review 23, pp.250-258 (2005)
+Show in Context
+ 
+
+4 . Yoshiura, N., Fujii, Y., Ohta, N., Using the security camera system based on individually maintained computers for homeland security; the e-JIKEI Network Project, In the Proceedings of IEEE IMTC, pp.101-105 (2005)
+Show in Context
+Quick Abstract
+
+5 . Ueda, H., Fujii, Y., Kumakura, S., Yoshiura, N., Ohta, N., e-JIKEI Network Project/Japan: enhancing community security, eGov, No.11 pp.9-11 (2006)
+Show in Context
+ 
+View All
+IEEE Keywords
+Cameras , Companies , Open source software , Patents , Security
+INSPEC: Controlled Indexing
+organisational aspects , public domain software , software development management , software engineering
+INSPEC: Non-Controlled Indexing
+E-Jikei network project , business discussion , free software products , open source software , organizations , software engineering , software products authors
+Authors Keywords
+business model , free software , open source software , patent , software business
+View All
+
+    Quick Preview
+    Figures
+
+    Full Text
+    Footnotes
+    References
+    Authors
+    Cited By
+    Keywords
+    Corrections
+
+    I. Introduction
+    II. E-Jikei Network Project
+    III. Free and Non-Free Software
+    IV. Conditions for Non-Free Software
+    V. Patent and Software Products
+    VI. Production Cost
+    VII. Conclusion
+
+    I. Introduction
+    II. E-Jikei Network Project
+    III. Free and Non-Free Software
+    IV. Conditions for Non-Free Software
+    V. Patent and Software Products
+    VI. Production Cost
+    VII. Conclusion
+
+SECTION I
+I NTRODUCTION
+
+Commercialization of software is different from that of other products. In this paper, commercialization indicates that authors of software products earn money for the software products. One of the ways of spreading of software products is to make the products public on the Internet by Web or so on. This way is used so that software products developed by individual or small organization are made public. Usually these products are provided as free software or open source software. Some software products are provided as shareware, which is one of the ways of commercialization of software. The software products that are made in universities as research results are often provided as open source software. One of the reasons of providing software products as free software or open source software is that the authors of the software products hope that many people use their own software products. On the other hand, since shareware is non-free software, shareware is not good from the viewpoint of spreading. Naturally, whether software is widespread depends on the quality of software product, but it also depends on whether software product is free. Today, many software products are provided as free software or open source software and this fact represents that many authors give more importance to spreading their software products.
+
+In contrast, software product sale for iPhone or iPad forges ahead. One of the reasons of this good sale is considered to be easy purchase and low price of the software products.
+
+This paper discusses how to earn money for software products even if these products are made by individuals or small organizations which cannot administrate companies.
+
+The author takes part in E-Jikei Network Project [ 1 ], whose aim is to spread security camera. This project also makes security camera software and security camera in order to spread security camera. However, the software products which are made by the project are provided as free software and the project has not earned money for the products. It is not clear that this result is not good or bad, but this paper uses E-Jikei Network Project as an example in discussion.
+
+    I. Introduction
+    II. E-Jikei Network Project
+    III. Free and Non-Free Software
+    IV. Conditions for Non-Free Software
+    V. Patent and Software Products
+    VI. Production Cost
+    VII. Conclusion
+
+SECTION II
+E-J IKEI N ETWORK P ROJECT
+
+E-Jikei Network Project started in 2003. The aim of this project is to spread security camera. This section explains this project [ 2 ] [ 3 ] [ 4 ] [ 5 ].
+
+Security camera systems are widely used and can be found in ordinary shops and houses of citizens. These systems sometimes play an important role in reducing crime and identifying suspects. However, many problems seem to arise with regard to such security camera systems because of the fact that they are introduced only for the benefit of the owners. One problem is that an expensive high-end security camera system is required for maintaining is that a typical system usually keeps watch only inside the owner's property; therefore, it cannot be used for the overall safety of the community. The third problem is that if the system keeps a watch outside the owner's property, it could amount to invasion of the privacy of neighbors. The E-Jikei Network Project argues that these problems can be solved if the camera systems are introduced within an altruistic, community-minded framework.
+
+Many security camera systems have been installed in some countries such as the UK and the USA, by the national and the local governments. Although it is difficult to evaluate the effectiveness of these security camera systems in preventing crimes, it is obvious that they can capture images of any person or car passing within their range. If a considerable number of security cameras are installed without any dead angles on every road, then every criminal who uses the roads can be captured and traced.
+
+However, a center-controlled real-time monitoring system such as the typical systems in London costs a considerable amount of money and cannot be introduced everywhere without any dead angles. Therefore, the E-Jikei Network Project proposes a new concept according to which a community can effectively prevent crime if some residents keep watch on what happens around their houses with the aid of their own home computers, cheap commercially available cameras, and free software. Figure 1 shows the concept of the E-Jikei Network.
+
+Many types of software applications for capturing video images are available; however there is no a free software application that could be used to implement the concept of the E-Jikei Network Project. Therefore, the E-Jikei Network Project has developed software with the minimum necessary functions and distributed it free of charge through the E-Jikei Network Project website. The software supports both English and Japanese languages. The software simply selects relevant pictures and saves them to the hard disk. This concept has been discussed from the viewpoints of social science, homeland security and e-Government.
+Figure 1
+Fig. 1.
+
+View All | Next
+
+The software products, which are made by this project, have been downloaded over 6000 times since September 2004. One of the reasons of such many downloads is that these software products are free software. These software products have made some contributions for spreading security cameras, but there are several problems of spreading security cameras. Some of them are as follows:
+
+    Some of those who would like to use security camera software are not familiar with computer.
+    To install security camera software is not enough to use security camera systems. Some construction works are also necessary for setting cameras or laying cables.
+
+Some people would like to use security cameras but have some problems as above described. They contact the E-Jikei Network Project in order to ask how to install security camera software or how to construct security camera equipment. Many inquiries are made because some people consider that the security camera software would help to install security camera systems cheaply.
+
+To use wireless LAN is one of the ways of decreasing the cost of installing security camera systems because wireless LAN can avoid laying cables between security cameras and PC. However, wireless LAN equipment and adjusting wireless LAN are necessary. In some cases, wireless LAN takes more cost than wired networks.
+
+In order to solve these problems, E-Jikei Network Project tries the following solutions
+
+    Introducing authorized company system
+    Developing software built-in security camera
+
+On the other hand, at the beginning, E-Jikei Network Project requires the method of obtaining profit because it is preferred to earn money for running the project continuously. This point also encourages the above two solutions.
+
+The first solution is introducing authorized company system. At the beginning, E-Jikei Network Project does not allow usingthesoftware products in business, but the project uses authorized company system. In this system, the project authorizes some companies to use the software products in business. These authorized companies can install security camera software, set security camera and lay cables between security cameras and PC. E-Jikei Network Project obtains some money from the authorized companies for each installing security camera system.
+
+The second solution is to develop software built-in security camera. Figure 2 shows the developed security camera [ 2 ].
+Figure 2
+Fig. 2.
+
+Previous | View All
+
+E-Jikei Network Project considered that the security camera software is useful because this software can easily use typical network cameras or USB cameras as security cameras. However, it is difficult that those who are unfamiliar with computer use such software. Software built-in security cameras are easy for such people to use. These built-in security cameras were sold, but this business is not software business.
+
+    I. Introduction
+    II. E-Jikei Network Project
+    III. Free and Non-Free Software
+    IV. Conditions for Non-Free Software
+    V. Patent and Software Products
+    VI. Production Cost
+    VII. Conclusion
+
+SECTION III
+F REE AND N ON -F REE S OFTWARE
+
+E-Jikei Network Project has made success and been going on now, but it is not purely software business. This section discusses E-Jikei Network Project from the viewpoint of software business.
+
+E-Jikei Network Project has made the software products public on website in order to spread them. Since these products have been downloaded over 6000 times, they are considered to be widespread. However, the project did not earn money only by software products and software business of the project does not seem successful in spite that the project is successful itself. If the software products are non-free, have they been downloaded such many times?The answer may be “No”.
+
+Todayone of business models is the software sale way of iPhone and iPad. iPhone or iPad has the function of software download and payment, which is easy for users. This function works well because hardware and operating systems are fixed. E-Jikei Network Project supposes that the security camera software works on several kinds of hardware and some variations of operating systems. This point is different from iPhone and iPad and the way of iPhone and iPad cannot be used for E-Jikei Network Project. However, the prices of software products for iPhone and iPad can be useful reference for the project; almost all of these prices are low. In other words, even if a software product does not work well, the price of the product does not matter. For example, almost all of software products are not greater than 5 dollars and many of them are not greater than 2 dollars or 1 dollar. On September 3 rd 2011, almost all of one hundred top sales paid software products of iPhone and iPad are not greater than 2 dollars and over 5 dollar products are one 6 dollar product, one 12 dollar product and one 30 dollar product. This fact shows that setting low prices to software products can make software business. It is guessed that the number of downloads would not decrease much even if the price of one software product of E-Jikei Network Project is 0.5 or 1 dollar. There were possibilities that E-Jikei Network Project made software business.
+
+    I. Introduction
+    II. E-Jikei Network Project
+    III. Free and Non-Free Software
+    IV. Conditions for Non-Free Software
+    V. Patent and Software Products
+    VI. Production Cost
+    VII. Conclusion
+
+SECTION IV
+C ONDITIONS FOR N ON -F REE S OFTWARE
+
+What problems occur in setting low prices to the software products of E-Jikei Network Project? This section discusses these problems.
+
+One of the problems is how to make payment for software products. In the case of iPhone and iPad, Apple Corporation gives IDs to the users and the users register credit card numbers for IDs. The users of iPhone and iPad use their own IDs to buy software products and Apple Corporation makes payment by credit card numbers corresponding to IDs. Usually the payment of credit card charges commission, which is sometimes about 7 percent of the amount of payment. The ratio of commission changes according to stores or companies and large store or company can obtain low ratio of commission. Apple Corporation deals with a very large amount and may obtain a very low ratio of commission. On the other hand, E-Jikei Network Project does not deal with a large amount and cannot obtain a low ratio of commission. Moreover, the payment of credit card also needs maintenance cost. It follows that E-Jikei Network Project would get into the red if the project provided software products as non-free and made payment by credit card. Therefore, E-Jikei Network Project needs another way of making payment instead of credit card in order to provide non-free software products. If there is no good way of making payment, the prices of software products are decided by the cost of making payment but not by the cost of development of the products.
+
+Let us move to other ways of making payment for non-free software products. Usually, commercial or non-free software products are dealt with in store front or online shopping. In the online shopping, the prices of software products are usually over 10 dollars. Vector [ 6 ] is one of websites that deal with lower price software products. Vector fixes the lowest price of one software product at about 5 dollars. Vector does not charge maintenance cost, but if E-Jikei Network Project uses Vector website, the prices of the security camera software products are over 5 dollars, which is considered to be too high for the software products.
+
+To reduce the prices of software products is one of the ways of spreading the software products. However, individuals or small organizations realize this way because they cannot take a cheap procedure of making payment. Now, most of the software products which are created by individuals or small organizations are made public on the Internet as open source software or free software and however it is not software business. To make payment cheaply is necessary in order to make software business.
+
+    I. Introduction
+    II. E-Jikei Network Project
+    III. Free and Non-Free Software
+    IV. Conditions for Non-Free Software
+    V. Patent and Software Products
+    VI. Production Cost
+    VII. Conclusion
+
+SECTION V
+P ATENT AND S OFTWARE P RODUCTS
+
+Software engineering is a new engineering field compared with other kinds of engineering. This section discusses the relation between patent and software engineering. Patents are one of the tools in order to make software business and it is desirable to obtain patents before developing and releasing software products. Software patents are much related with business patents and there are several troubles related with these kinds of patents. For example, one click patent, which was obtained by Amazon, made several disputes. It is not difficult to have the idea of this patent, but Amazon submitted this patent application. After Amazon obtained the patent, there are many patent examinations and patent judgments because several companies and individuals object to this patent. Many patent examinations and judgments take much cost and time and such a heavy burden cannot be accepted to individuals or small organizations. Therefore it is inefficient to obtain the patents which may occur to many people easily.
+
+One of the other problems of patents is how to write patent applications, especially how to write the examples of realizations of ideas in the patents. In software patent applications, the realizations of patent ideas do not depend on devices; that is to say, the realizations are programs which realize the patent ideas. Usually, a patent application includes ideas and the realizations of the ideas, and especially in the case of software patents, many programs can realize the ideas. However, it is impossible to write down all realizations of patent ideas in patent applications; patent applications cannot cover all realizations of ideas in the patent applications. Therefore, it is difficult to determinate whether a program which realizes the ideas of a software patent pirates the software patent if the program is written in the patent application. Even if it is shown that the program pirates the patent, it takes much time and money to protect the patent.
+
+One the other hand, the patents of other fields do not have many realizations for the ideas of the patents. For example, with respect to a patent of a production process of a chemical material, there are a few realizations for the ideas of the patent. Therefore, the patent application can include all realizations of the ideas of the patent and there are no many possibilities that some different production process of chemical materials pirates the patent. At this point, the patents of chemical material production processes are different from those of software engineering and it is doubtful that software patents are useful for software business.
+
+However, several patents protect some commercial software products. For example, Acrobat of Adobe Corporation, which is a software product for reading and writing PDF files, is protected by many patents. However, PDF files are read and written by other software products, which are not prohibited by the patents related with Acrobat. Moreover, Adobe Corporation does not intend to prohibit the software products similar to Acrobat. It seems that Adobe Corporation obtains many patents related with Acrobat in order to prevent other companies from interferingthe business of Adobe Corporation but not in order to prevent other companies from creating the software products similar to Acrobat.
+
+    I. Introduction
+    II. E-Jikei Network Project
+    III. Free and Non-Free Software
+    IV. Conditions for Non-Free Software
+    V. Patent and Software Products
+    VI. Production Cost
+    VII. Conclusion
+
+SECTION VI
+P RODUCTION C OST
+
+This section discusses the difference between software engineering and the other fields of engineering with respect to product development. In software engineering, products are software and it is easy to reproduce them by copy. On the other hand, in the other fields of engineering, it is not easy and it takes costs to reproduce products. This is a difference point between software engineering and the other fields of engineering. In order to make business in software engineering, it is enough to make one high quality software product. This feature makes easy that individuals or small organizations make software products in business, but how long software products can work is one of the problems of software product development; operating systems or hardware on which the software products work change often and sometimes the software products cannot work on new operating systems or hardware. Another problem of software product development is to give patches of the software products if some security holes are found in the software products. In software business, to fix bugs of software products is more important than to create software products; that is to say, maintenance of software products is more important than development of software products. In the other fields of engineering, in the development of products, the reproduction cost of the products is very important. Therefore development of products is as important as maintenance of products. The key difference is the cost of reproduction.
+
+Current software development has the problem that security and safety of software products are not given importance to and only software products that are social information infrastructures have been developed in keeping security and safety carefully. In the other fields of engineering, security and safety of most products such as cars are given much importance to. One of the reasons of making slight of security and safety is that it takes much cost to check and find bugs in software products. Therefore, after software products are completed they are released without severe check of bugs. After releasing the software products, to fix security hole of software products is the way of keeping them safe and secure. In addition, the software users are interested in using software products but not in security or safety of the software products. Therefore, the prices of software products should be low in order to spread the software products. It follows that how to obtain a small amount of money many times matters at low cost.
+
+    I. Introduction
+    II. E-Jikei Network Project
+    III. Free and Non-Free Software
+    IV. Conditions for Non-Free Software
+    V. Patent and Software Products
+    VI. Production Cost
+    VII. Conclusion
+
+SECTION VII
+C ONCLUSION
+
+This paper discusses software business models with respect to software products which are created by individuals or small organizations. Usually, these software products are made public as free software or open source software. This paper shows that it is necessary to make the way of obtaining small money many times at low cost in order to make business for software products which are made by individuals or small organizations.
+Footnotes
+No Data Available
+References
+
+1 . NPO E-Jikei Network Project, http://e-jikei.org/index-e.html
+Show Context
+The author takes part in E-Jikei Network Project [1], whose aim is to spread security camera.
+Go To Text
+
+2 . Fujii, Y., et al. E-JIKEI Network using E-JIKE Cameras; Community security using considerable number of cheap standalone cameras, Safety Science Vol.48, No.7 pp.921-925 (2010)
+Show Context
+This section explains this project [2] [3] [4] [5].
+Go To Text
+Figure 2 shows the developed security camera [2].
+Go To Text
+
+3 . Fujii, Y., Yoshiura, N., Ohta, N., Creating a worldwide community security structure using individually maintained home computers: the e-Jikei Network Project, Social Computer Review 23, pp.250-258 (2005)
+Show Context
+This section explains this project [2] [3] [4] [5].
+Go To Text
+
+4 . Yoshiura, N., Fujii, Y., Ohta, N., Using the security camera system based on individually maintained computers for homeland security; the e-JIKEI Network Project, In the Proceedings of IEEE IMTC, pp.101-105 (2005)
+Quick Abstract | Show Context | Full Text: PDF
+We have already started a project for creating a community security structure spread worldwide that uses individually maintained home computers connected to the Internet. We call this project “the e-JIKEI network project”. JIKEI means “Vigilante” in Japanese. The basic concept of the project is that every individual person watches in and around his/her house using cheap cameras as his/her eyes, PC as his/her brain and Internet as his/her communication means by his/her own expense. In this paper, we discuss using the e-JIKEI project for construing homeland security infrastructure
+Full Abstract
+This section explains this project [2] [3] [4] [5].
+Go To Text
+
+5 . Ueda, H., Fujii, Y., Kumakura, S., Yoshiura, N., Ohta, N., e-JIKEI Network Project/Japan: enhancing community security, eGov, No.11 pp.9-11 (2006)
+Show Context
+This section explains this project [2] [3] [4] [5].
+Go To Text
+
+6 . Vector http://www.vector.co.jp
+Show Context
+Vector [6] is one of websites that deal with lower price software products.
+Go To Text
+Authors
+No Photo Available
+Noriaki Yoshiura
+No Bio Available
+Cited By
+None
+Keywords
+IEEE Keywords
+Cameras , Companies , Open source software , Patents , Security
+INSPEC: Controlled Indexing
+organisational aspects , public domain software , software development management , software engineering
+INSPEC: Non-Controlled Indexing
+E-Jikei network project , business discussion , free software products , open source software , organizations , software engineering , software products authors
+Authors Keywords
+business model , free software , open source software , patent , software business
+Corrections
+
+None
+Multimedia
+No Data Available
+Download PDF
+
+This paper appears in:
+    Instrumentation, Communications, Information Technology, and Biomedical Engineering (ICICI-BME), 2011 2nd International Conference on 
+Conference Date(s):
+    8-9 Nov. 2011 
+Conference Location:
+    Bandung 
+On page(s):
+    19 - 22 
+E-ISBN:
+    No Data Available 
+Print ISBN:
+    978-1-4577-1167-1 
+INSPEC Accession Number:
+    12460027 
+Digital Object Identifier:
+    10.1109/ICICI-BME.2011.6108582 
+Date of Current Version:
+    2011-12-22 
+Date of Original Publication:
+    No Data Available 
+
+Text Size
+
+Normal | Large
+
+    Bookmark This Article
+    Email to a Colleague
+    Share
+    Print
+    Download Citation
+    Download References
+    Rights and Permissions
+
+Related Articles
+
+None
+
+Back to Top
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+
+Back to Top
+
