@@ -9,11 +9,11 @@
 	"priority": 100,
 	"inRepository": true,
 	"browserSupport": "gcsbv",
-	"lastUpdated": "2014-09-30 07:45:00"
+	"lastUpdated": "2014-10-19 06:45:00"
 }
 
 function detectWeb(doc, url) {
-	if(getSearchResults(doc, url)) {
+	if(getSearchResults(doc, true)) {
 		return (Zotero.isBookmarklet ? "server" : "multiple");
 	} else {
 		var xpath = '//input[contains(@name, "ASIN")]';
@@ -40,13 +40,16 @@ function detectWeb(doc, url) {
 	}
 }
 
-function getSearchResults(doc, url) {
+function getSearchResults(doc, checkOnly) {
 	//search results
 	var links = [],
-		container = doc.getElementById('atfResults')
-			|| doc.getElementById('mainResults'); //e.g. http://www.amazon.com/Mark-LeBar/e/B00BU8L2DK
-	if(container) {
-		links = ZU.xpath(container, './div[starts-with(@id,"result_")]//h3/a')
+		container = doc.getElementById('searchTemplate');
+	if (container) {
+		
+		links = container.getElementsByClassName('s-access-detail-page');
+		if (!links.length) {
+			links = ZU.xpath(container, './/div[contains(@class,"results")]/div[starts-with(@id,"result_")]//h3/a');
+		}
 	}
 	
 	if(!links.length) {
@@ -64,6 +67,7 @@ function getSearchResults(doc, url) {
 	for(var i=0; i<links.length; i++) {
 		var elmt = links[i];
 		if(asinRe.test(elmt.href)) {
+			if (checkOnly) return true;
 			availableItems[elmt.href] = elmt.textContent.trim();
 			found = true;
 		}
@@ -74,7 +78,7 @@ function getSearchResults(doc, url) {
 
 function doWeb(doc, url) {
 	if(detectWeb(doc, url) == 'multiple') {
-		Zotero.selectItems(getSearchResults(doc, url), function(items) {
+		Zotero.selectItems(getSearchResults(doc), function(items) {
 			if(!items) return true;
 			
 			var links = [];

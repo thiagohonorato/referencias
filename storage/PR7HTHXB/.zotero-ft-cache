@@ -1,0 +1,329 @@
+Skip to Main Content
+
+    IEEE.org
+    IEEE Xplore Digital Library
+    IEEE Standards
+    IEEE Spectrum
+    More Sites
+
+    Cart (0)
+    Personal Sign In
+    Username
+    Password
+    Sign In
+    Forgot Username or Password?
+    Create Account
+    Personal Sign In
+
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+X
+By Topic
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    Browse
+        Books & eBooks
+        Conference Publications
+        Education & Learning
+        Journals & Magazines
+        Standards
+        By Topic
+    My Settings
+        Content Alerts
+        My Projects
+        Search Alerts
+        Preferences
+        Purchase History
+        Search History
+        What can I access?
+    Get Help
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+    What Can I Access?
+
+Enter Search Term
+First Name Middle Name Last Name
+Publication Title Volume Issue Start Page
+Search
+
+    Basic Search
+    Author Search
+    Publication Search
+
+Advanced Search
+Other Search Options
+
+    Command Search
+    Citation Search
+    Search Alerts
+    Search History
+
+1201263
+
+Skip to Main Content
+IEEE Quick Preview
+
+    Abstract
+    Authors
+    Figures
+    Multimedia
+    References
+    Cited By
+    Keywords
+
+Practical software measurement
+
+This tutorial provides a one-day overview of Practical Software Measurement (PSM). The measurement approach focuses on satisfying the information needs of project managers. Innovative elements of PSM include the measurement process model and the measurement information model. Rather than discussing specific numerical techniques in detail, this course emphasizes basic concepts.
+This paper appears in: Software Engineering, 2003. Proceedings. 25th International Conference on , Issue Date: 3-10 May 2003 , Written by: Card, David N.
+
+© 2003 IEEE
+No Photo Available
+David N. Card
+No Bio Available
+More About this Author
+View All
+
+1 . J. McGarry, D. Card, et al., Practical Software Measurement, Addison Wesley 2002.
+Show in Context
+ 
+
+2 . K. el Emam and D. Card (Editors), ISO/IEC Standard 15939, Software Measurement Process, International Organization for Standardization, 2002.
+Show in Context
+ 
+
+3 . CMMI Development Team, Capability Maturity Model - Integrated Systems/Software Engineering, Software Engineering Institute, 2002.
+Show in Context
+ 
+
+4 . V. Basili and D. Weiss, A Methodology for Collecting Valid Software Engineering Data, IEEE Transactions on Software Engineering, October 1984.
+Show in Context
+Quick Abstract
+View All
+IEEE Keywords
+Books , Capability maturity model , Decision making , IEC standards , ISO standards , Performance analysis , Performance evaluation , Project management , Software engineering , Software measurement
+INSPEC: Controlled Indexing
+decision making , project management , software engineering
+INSPEC: Non-Controlled Indexing
+measurement information model , measurement process model , numerical techniques , practical software measurement
+View All
+
+    Quick Preview
+    Figures
+
+    Full Text
+    Footnotes
+    References
+    Authors
+    Cited By
+    Keywords
+    Corrections
+
+    I. Introduction
+    II. Measurement Information Model
+    III. Measurement Process Model
+    IV. Summary
+
+    I. Introduction
+    II. Measurement Information Model
+    III. Measurement Process Model
+    IV. Summary
+
+SECTION I
+I NTRODUCTION
+
+This tutorial provides an introduction to the basic concepts of software measurement for project management purposes including measurement planning, project estimation, feasibility analysis, and status monitoring. The specific objectives of the course are to:
+
+    ○ Describe a systematic approach to software measurement for project management purposes.
+    ○ Explain the relationship of this approach to other initiatives and approaches
+    ○ Introduce “standard” measurement information and process models
+
+This tutorial is based on the book of the same name [ 1 ]. This book is an implementation guide for ISO/IEC Standard 15939 [ 2 ]. The standard defines two key concepts – the measurement information model and measurement process model. This course explains how those models can be instantiated to support project management decision-making. (ISO/IEC 15939 has been adopted as the basis for the Measurement and Analysis Process Area of the CMMI [ 3 ].)
+
+    I. Introduction
+    II. Measurement Information Model
+    III. Measurement Process Model
+    IV. Summary
+
+SECTION II
+M EASUREMENT I NFORMATION M ODEL
+
+One of the goals of the standardization effort was define a consistent set of terminology for basic measurement concepts. The result was a structure that defines the relationships among information needs, several types of measures (i.e., indicators, derived measures, base measures), and measurable entities. This Measurement Information Model defines a generic measurement product. PSM further describes the type of product appropriate for project management. It defines seven categories of information needs. Information needs are similar to goals in the GQM approach [ 4 ]. However, they are more general (not limited to goals) and less open-ended (PSM provides potential solutions for the project manager).
+
+    I. Introduction
+    II. Measurement Information Model
+    III. Measurement Process Model
+    IV. Summary
+
+SECTION III
+M EASUREMENT P ROCESS M ODEL
+
+Regardless of the purpose for which measurement is conducted, several activities have to be undertaken to obtain meaningful measurement results. The Measurement Process Model defines four basic activities:
+
+Plan Measurement – the activity in the process model concerned with understanding the information needs of the project and defining appropriate measures to satisfy them. It “designs” the desired measurement product.
+
+Perform Measurement – the activity in the process model concerned with populating or executing the information model to produce the results necessary to support decision-making.
+
+Evaluate Measurement – the activity in the process model concerned with evaluating the measures, themselves, as well as the measurement process.
+
+Establish Measurement – the activity in the process model concerned with establishing and sustaining a measurement program within an organization.
+
+The first two activities are sometimes referred to as the “core” measurement process. The attached figure shows all major components of the measurement process model
+
+    I. Introduction
+    II. Measurement Information Model
+    III. Measurement Process Model
+    IV. Summary
+
+SECTION IV
+S UMMARY
+
+PSM provides a systematic method of planning and performing software measurement and analysis. The PSM and ISO/IEC 15939 approach to software measurement is becoming increasingly widely accepted in industry around the world. However, these concepts may also be of interest to measurement researchers who desire to understand the context in which their ideas may be applied in practice. PSM and ISO/IEC 15939 provide a common language that may improve communication on software measurement issues between practitioners and researchers.
+
+More information about PSM, including a list of qualified trainers, may be obtained at www.psmsc.com .
+Graphic 1
+Footnotes
+No Data Available
+References
+
+1 . J. McGarry, D. Card, et al., Practical Software Measurement, Addison Wesley 2002.
+Show Context
+This tutorial is based on the book of the same name [1].
+Go To Text
+
+2 . K. el Emam and D. Card (Editors), ISO/IEC Standard 15939, Software Measurement Process, International Organization for Standardization, 2002.
+Show Context
+This book is an implementation guide for ISO/IEC Standard 15939 [2].
+Go To Text
+
+3 . CMMI Development Team, Capability Maturity Model - Integrated Systems/Software Engineering, Software Engineering Institute, 2002.
+Show Context
+(ISO/IEC 15939 has been adopted as the basis for the Measurement and Analysis Process Area of the CMMI [3].
+Go To Text
+
+4 . V. Basili and D. Weiss, A Methodology for Collecting Valid Software Engineering Data, IEEE Transactions on Software Engineering, October 1984.
+Quick Abstract | Show Context | Full Text: PDF
+An effective data collection method for evaluating software development methodologies and for studying the software development process is described. The method uses goal-directed data collection to evaluate methodologies with respect to the claims made for them. Such claims are used as a basis for defining the goals of the data collection, establishing a list of questions of interest to be answered by data analysis, defining a set of data categorization schemes, and designing a data collection form. The data to be collected are based on the changes made to the software during development, and are obtained when the changes are made. To ensure accuracy of the data, validation is performed concurrently with software development and data collection. Validation is based on interviews with those people supplying the data. Results from using the methodology show that data validation is a necessary part of change data collection. Without it, as much as 50 percent of the data may be erroneous. Feasibility of the data collection methodology was demonstrated by applying it to five different projects in two different environments. The application showed that the methodology was both feasible and useful.
+Full Abstract
+Information needs are similar to goals in the GQM approach [4].
+Go To Text
+Authors
+No Photo Available
+David N. Card
+No Bio Available
+Cited By
+None
+Keywords
+IEEE Keywords
+Books , Capability maturity model , Decision making , IEC standards , ISO standards , Performance analysis , Performance evaluation , Project management , Software engineering , Software measurement
+INSPEC: Controlled Indexing
+decision making , project management , software engineering
+INSPEC: Non-Controlled Indexing
+measurement information model , measurement process model , numerical techniques , practical software measurement
+Corrections
+
+None
+Multimedia
+No Data Available
+Download PDF
+
+This paper appears in:
+    Software Engineering, 2003. Proceedings. 25th International Conference on 
+Conference Date(s):
+    3-10 May 2003 
+Conference Location:
+    No Data Available 
+On page(s):
+    738 - 739 
+E-ISBN:
+    No Data Available 
+Print ISBN:
+    0-7695-1877-X 
+INSPEC Accession Number:
+    8064428 
+Digital Object Identifier:
+    10.1109/ICSE.2003.1201263 
+Date of Current Version:
+    2003-05-28 
+Date of Original Publication:
+    No Data Available 
+
+Text Size
+
+Normal | Large
+
+    Bookmark This Article
+    Email to a Colleague
+    Share
+    Print
+    Download Citation
+    Download References
+    Rights and Permissions
+
+Related Articles
+
+None
+
+Back to Top
+
+    Personal Sign In
+    Create Account
+
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+
+Back to Top
+

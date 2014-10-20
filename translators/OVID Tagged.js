@@ -1,18 +1,18 @@
 {
 	"translatorID": "59e7e93e-4ef0-4777-8388-d6eddb3261bf",
+	"translatorType": 1,
 	"label": "OVID Tagged",
 	"creator": "Sebastian Karcher",
 	"target": "txt",
 	"minVersion": "4.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
+	"inRepository": true,
+	"browserSupport": "gcs",
 	"configOptions": {
 		"dataMode": "line"
 	},
-	"inRepository": true,
-	"translatorType": 1,
-	"browserSupport": "gcs",
-	"lastUpdated": "2014-02-10 19:08:44"
+	"lastUpdated": "2014-10-19 04:35:00"
 }
 
 /*
@@ -197,14 +197,14 @@ function finalizeItem(item) {
 	delete item.creatorsBackup;
 	if (!item.itemType) item.itemType = inputTypeMap["Journal Article"];
 	item.title = item.title.replace(/(\.\s*)?(\[(Article|Report|Miscellaneous)\])?$/, "")
-	var monthRegex = new ZU.XRegExp('([-/]?(Jan(uary)?|Feb(ruary)?|Mar(ch)?|Apr(il)?|May|Jun(e)?|Jul(y)?|Aug(ust)?|Sep(tember)?|Oct(ober)?|Nov(ember)?|Dec(ember)?))+', 'n');
+	var monthRegex = /(?:[-/]?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?))+/;
 	var value = item.citation
 	if (!value && item.itemType == "bookSection") value = item.bookTitle
 	if (item.itemType == "journalArticle" && value) {
 		if (value.match(/\d{4}/)) {
 			if (!item.date) item.date = value.match(/\d{4}/)[0];
 		}
-		var month = ZU.XRegExp.exec(value, monthRegex); 
+		var month = monthRegex.exec(value);
 		if (month) item.date = item.date += " " + (month)[0];
 		if (value.match(/(\d+)\((\d+(?:\-\d+)?)\)/)) {
 			var voliss = value.match(/(\d+)\((\d+(?:\-\d+)?)\)/);

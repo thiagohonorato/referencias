@@ -1,0 +1,216 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+Browse Conference Publications > Software Engineering Workshop ... Help Working with Abstracts
+« Prev | Next »
+An AOP-based Performance Evaluation Framework for UML Models
+Full Text as PDF Full Text in HTML
+Sign In
+This content is outside your institutional subscription.
+
+Username
+
+Password
+
+    Forgot Username/Password?
+
+    Purchase PDF
+    Other Formats
+
+The purchase and pricing options are temporarily unavailable. Please try again later.
+No additional formats available for this document.
+
+    Already Purchased? View Article
+    Subscription Options Learn More
+
+2 Author(s)
+Dong Kwan Kim ; Virginia Tech, Blacksburg ; Bohner, S.
+
+    Abstract
+    Authors
+    References
+    Cited By
+    Keywords
+    Metrics
+    Similar
+
+    Download Citation
+    Email
+    Print
+    Request Permissions
+    Save to Project
+
+Performance is a key aspect of non-functional software requirements. While performance cross-cuts much of the software functionality, it is frequently difficult to express in traditional software development representations. In this paper we propose a framework for evaluating software performance using aspect-oriented programming (AOP) and examine its strengths and limitations. The framework provides a mechanism for supporting software performance evaluation prior to final software release. AOP is a promising software engineering technique for expressing cross-cutting characteristics of software systems. We consider software performance as a cross-cutting concern since it is not confined only a few modules, but often spread over multiple functional and non-functional elements. A key strength of our framework is the use of a code instrumentation mechanism of AOP - AspectJ code for performance analysis is separated from Java code for functional requirements. Java code is executable regardless of Aspect J code and can be woven together with AspectJ code when performance is evaluated. Our performance evaluation modules, written in AspectJ are semi-automatically or automatically generated from the UML [1] models with annotated performance profiles. The AspectJ code generator facilitates performance evaluation by allowing performance requirements that have been specified in UML models to be analyzed. The UML diagrams can then be improved by reflecting the feedback from the results of the performance analysis.
+Published in:
+Software Engineering Workshop, 2007. SEW 2007. 31st IEEE
+Date of Conference:
+March 6 2007-Feb. 8 2007
+
+Page(s):
+    227 - 235 
+ISSN :
+    1550-6215 
+Print ISBN:
+    978-0-7695-2862-5 
+INSPEC Accession Number:
+    9870139 
+
+Conference Location :
+    Columbia, MD 
+DOI:
+    10.1109/SEW.2007.92 
+Publisher:
+    IEEE 
+
+Author(s)
+Dong Kwan Kim
+Virginia Tech, Blacksburg
+Bohner, S.
+INSPEC: CONTROLLED INDEXING
+
+    Unified Modeling Language
+    object-oriented programming
+    software engineering
+    software performance evaluation
+
+INSPEC: NON CONTROLLED INDEXING
+
+    AOP
+    AspectJ code
+    UML
+    aspect-oriented programming
+    code instrumentation mechanism
+    cross-cutting characteristics
+    nonfunctional software requirements
+    performance evaluation
+    software development representations
+
+IEEE TERMS
+
+    Instruments
+    Java
+    Object oriented modeling
+    Performance analysis
+    Predictive models
+    Quality of service
+    Software performance
+    Software systems
+    Testing
+    Unified modeling language
+
+Referenced Items are not available for this document.
+
+No versions found for this document.
+
+No Standards Dictionary Terms available for this document.
+
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+

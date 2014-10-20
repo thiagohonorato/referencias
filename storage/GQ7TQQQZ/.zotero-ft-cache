@@ -1,0 +1,213 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+Browse Conference Publications > Software Engineering, 1998. P ... Help Working with Abstracts
+Back to Results
+Integrating obstacles in goal-driven requirements engineering
+Full Text as PDF
+Sign In
+This content is outside your institutional subscription.
+
+Username
+
+Password
+
+    Forgot Username/Password?
+
+    Purchase PDF
+    Other Formats
+
+The purchase and pricing options are temporarily unavailable. Please try again later.
+No additional formats available for this document.
+
+    Already Purchased? View Article
+    Subscription Options Learn More
+
+2 Author(s)
+van Lamsweerde, A. ; Dept. d''Ingenierie Inf., Univ. Catholique de Louvain, Belgium ; Letier, E.
+
+    Abstract
+    Authors
+    References
+    Cited By
+    Keywords
+    Metrics
+    Similar
+
+    Download Citation
+    Email
+    Print
+    Request Permissions
+    Save to Project
+
+Requirements engineering is concerned with the elicitation of high-level goals to be achieved by the system envisioned, the refinement of such goals and their operationalization into services and constraints, and the assignment of responsibilities for the resulting requirements to agents such as humans, devices and software . Requirements engineering processes may often result in requirements and assumptions about agent behaviour that are too ideal; some of them are likely to be violated from time to time in the running system due to unexpected agent behaviour. The lack of anticipation of exceptional behaviors results in unrealistic, unachievable and/or incomplete requirements . As a consequence, the software developed from those requirements will inevitably result in poor performance , sometimes with critical consequences on the environment. This paper proposes systematic techniques for reasoning about obstacles to the satisfaction of goals, requirements , and assumptions elaborated in the requirements engineering process. These techniques are integrated into an existing method for goal-driven requirements elaboration with the aim of deriving more complete and realistic requirements . The concept of obstacle is first defined precisely. Formal techniques and domain-independent heuristics are then proposed for identifying obstacles from goal/assumption formulations and domain properties. The paper then discusses techniques for resolving obstacles by transformation of the goals, requirements and assumptions elaborated so far in the process, or by introduction of new ones. Numerous examples are given throughout the paper to suggest how the techniques can be usefully applied in practice
+Published in:
+Software Engineering, 1998. Proceedings of the 1998 International Conference on
+Date of Conference:
+19-25 Apr 1998
+
+Page(s):
+    53 - 62 
+Meeting Date :
+    19 Apr 1998-25 Apr 1998 
+ISSN :
+    0270-5257 
+Print ISBN:
+    0-8186-8368-6 
+INSPEC Accession Number:
+    5920003 
+
+Conference Location :
+    Kyoto 
+DOI:
+    10.1109/ICSE.1998.671102 
+Publisher:
+    IEEE 
+
+Author(s)
+van Lamsweerde, A.
+Dept. d''Ingenierie Inf., Univ. Catholique de Louvain, Belgium
+Letier, E.
+INSPEC: CONTROLLED INDEXING
+
+    formal specification
+    software performance evaluation
+    systems analysis
+
+INSPEC: NON CONTROLLED INDEXING
+
+    defensive requirements specification
+    domain-independent heuristics
+    formal techniques
+    goal-driven requirements engineering
+    high-level goal elicitation
+    incomplete requirements
+    obstacle-driven requirements transformation
+    performance
+    systematic techniques
+    unexpected behaviour
+
+IEEE TERMS
+
+    Face
+    Formal verification
+    Humans
+    Interconnected systems
+    Software engineering
+
+Referenced Items are not available for this document.
+
+No versions found for this document.
+
+No Standards Dictionary Terms available for this document.
+
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+

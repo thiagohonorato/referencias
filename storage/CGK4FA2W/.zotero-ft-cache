@@ -1,0 +1,609 @@
+Skip to Main Content
+Sign In
+Close By Topic Menu
+
+Alert
+Please enter a valid username or password.
+Username Password
+IEEE Account usernames and passwords are case sensitive. If you have recently visited IEEE, you may have transitioned your username to your e-mail address. If not, you may be asked to do so after you sign in with your existing IEEE username.
+Help for Sign In
+
+    Forgot Username or Password
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Cart (0) | Create Account |  Sign In
+Xplore
+Access provided by:
+UNIVERSIDADE DE BRASILIA
+Sign Out
+IEEE
+X
+Browse
+
+    Books & eBooks
+    Conference Publications
+    Education & Learning
+    Journals & Magazines
+    Standards
+    By Topic Click to expand or collapse browse topics
+
+By Topic Click to expand or collapse browse topics
+Close By Topic Menu
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    My Settings
+        Alerts
+        Purchase History
+        Saved Searches
+        Preferences
+        What can I access?
+    My Projects
+
+What can I access?
+
+    Resources
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+
+Search Term(s)
+Close category search window
+Author Search beta
+First Name Middle Name Last Name
+Author Search beta  |  Advanced Search  |  Preferences  |  Search Tips  |  More Search Options
+More Search Options
+
+    Command Search
+    Publication Quick Search
+    Saved Searches and Alerts
+    Search History
+
+ 
+6571714
+
+Skip to Main Content
+IEEE Quick Preview
+
+    Abstract
+    Authors
+    Figures
+    Multimedia
+    References
+    Cited By
+    Keywords
+
+The Determination Method for Software Reliability Qualitative Indices
+
+The determination of software reliability indices is the primary task in the software reliability engineering. The indices are taken as not only the basis for the software reliability design and the constraints during the software development process, but also the foundation of the software's acceptance. Software reliability indices are usually divided into quantitative indices and qualitative indices. Quantitative indices are quantified software reliability parameters' values, such as software reliability is quantitatively defined as the probability of failure-free operation of a software program for a specified time under specified conditions. However, having a “number”, even with the appropriate accompanying evidence, is not generally sufficient to convince customers or even the system/software suppliers that the software satisfies its requirements. Thus, qualitative indices such as software reliability is also qualitatively defined as a set of attributes that bear on the capability of software to maintain its level of performance under stated conditions for a stated period of time. Attributes that relate to implementation of fault tolerance design, use of best engineering practices, application of specialized methods and techniques for ensuring reliability-critical requirements, and procedural methods to ensure mistake-proof loading and/or operation also provide evidence that improves the confidence that the software will not cause a system failure. So the qualitative indices can be regarded as the requirements for software reliability activities throughout the development process. Unfortunately, currently there is no systematic theory and approach for software reliability indices' determination. This paper proposes a method for determining the software reliability qualitative indices based on the two standards of SAE-JAI 003 and RTCA DO-I 78B which are widely used by the airworthiness and industrial sectors, as well as the best practices and- management experiences of software reliability engineering. This paper proposes the method's principle, which determines the software reliability qualitative indices according to the profile formed by all stages of the software life cycle and the environment requirements, technique requirements, validation requirements and management requirements. Combined with the software's criticality levels, this paper also proposes a generic framework which recommends a variety of tailoring mechanisms and building guidelines to help users develop their demanded indices.
+This paper appears in: Software Security and Reliability (SERE), 2013 IEEE 7th International Conference on , Issue Date: 18-20 June 2013 , Written by: Qiuying Li; Lei Luo; Jun Ai
+
+© 2013 IEEE
+No Photo Available
+Qiuying Li
+No Bio Available
+More About this Author
+No Photo Available
+Lei Luo
+No Bio Available
+More About this Author
+No Photo Available
+Jun Ai
+No Bio Available
+More About this Author
+View All
+Figure 1
+Fig. 1.
+Fig. 1. SAE-JA1003 software reliability life cycle management
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 2
+Fig. 2
+Fig. 2 Objectives for different software levels
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 3
+Fig. 3.
+Fig. 3. Classification of qualitative requirements
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+Figure 4
+Fig. 4.
+Fig. 4. The principle of determing reliability Formula $\surd$ qualitative indices
+
+    View in Context
+    View Hi-Res Image
+    View All Figures
+
+prev s_1 s_2 next
+View All
+
+1 . GJB
+
+maintainability and indices determination requirements
+
+The general principle of parameters selection on Equipment reliability, pp. 1-1994, 1909 , Defense Science, Technology and Industry Committee, Beijing
+
+2 . Z. L. Wang Chief
+
+Maintainability and Supportability
+
+Editor, Requirements Demonstration of Reliability, 2010 , Defense Industry Publishing House, Beijing
+
+3 . X. M. Tang and S. Wang
+
+“Research on Weapon System Reliability Demonstrating Method”
+
+Systems Engineering And Electronics, vol. 25, no. 3, pp. 308-311, 2003
+
+4 . T. G. Hou
+
+“Discussion on Proof Methods of Reliability Index of Air-to-air Missile”
+
+Aeronautic Standardization & Quality, vol. 1, pp. 40-42, 2010
+
+5 . L. B. Liu, J. S. Jin and R. Wang
+
+“Research on the Ship Thermodynamic System RMS Index Argumentation Based on Monte Carlo Simulation”
+
+Journal Of Naval Aeronautical Engineering Institute, vol. 25, no. 2, pp. 230-234, 2010
+View All
+IEEE Keywords
+Reliability engineering , Safety , Software , Software reliability , Standards , Testing
+INSPEC: Controlled Indexing
+software reliability , standards
+INSPEC: Non-Controlled Indexing
+RTCA DO-I 78B standard , SAE-JAI 003 standard , airworthiness sector , best engineering practice , determination method , failure-free operation probability , fault tolerance design , generic framework , industrial sector , procedural method , qualitative index …
+Authors Keywords
+indices demonstration , indices determination , qualitative indices , quantitative indice , software reliability
+View All
+
+    Quick Preview
+    Figures
+
+    Full Text
+    Footnotes
+    References
+    Authors
+    Cited By
+    Keywords
+    Corrections
+
+    I. Introduction
+    II. Related Works
+    III. The Determination Method for Software Reliability Qualitative Indices
+    IV. General Software Reliability Qualitative Requirements
+    V. The Selection of Software Reliability Qualitative Indices
+    VI. Conclusions
+
+    I. Introduction
+    II. Related Works
+    III. The Determination Method for Software Reliability Qualitative Indices
+    IV. General Software Reliability Qualitative Requirements
+    V. The Selection of Software Reliability Qualitative Indices
+    VI. Conclusions
+
+SECTION I
+I NTRODUCTION
+
+The demonstration of military equipment is the primary work in the development of modern weaponry, which is the key to decide whether the new equipment meets military demand at present and in the future. How to reasonably ascertain the indices is an important issue to be addressed in the demonstration and determining reliability indices is the top priority in ascertaining the indices.
+
+Lots of achievements have been made in the research of system reliability demonstration where theories, methods and tools have been put forward to guide and regulate the demonstration work of reliability requirements [1] [2] [3] [4] [5]. But for software, there are few achievements. Some quantitative techniques, such as system balance method, release deadline method and cost optimization method [6], need a large amount of data to support and it is difficult to be applied in the present situation. Considering ‘requirement’ combined with ‘possibility’, [7] proposed software reliability parameters based on the characteristics of weaponry and summarized the factors that should be taken into account in the selection of software reliability parameters and indices. Combined with the characteristics of marine embedded software, [8] put forward the reliability parameter system for marine embedded software. Reference [9] classified the aeronautical equipment software and gave the reliability parameter's set according to the different classification. Based on the selection principle of software reliability parameters, the reliability parameters of aerospace software were proposed in [10]. Reference [11] took use of analytical hierarchy process (AHP) to allocate the reliability indices for command and control software system. But in general, all above studies are limited to some basic problems in the research of software reliability requirements' determination, which just provides some qualitative selection criteria of reliability parameters, and they also belong to the secondary filters on the general software reliability parameter sets.
+
+Determing software reliability indices is the leading work in software reliability engineering, which is the basis of the subsequent work. The topic of software reliability is concerned with all life cycle activities that prevent, detect, remove, and/or mitigate software faults, and that verify/validate the degree to which software faults do not exist and will not cause system failures. However, current research only focuses on quantitative reliability parameter, without considering reliability qualitative indices. But sometimes software reliability requirements are unable to describe quantitatively and should be put forward by non-quantitative forms and put into reality in software life cycle process. From the perspective of process control, the relevant qualitative indices of software reliability are put forward in the process of software development. When these indices are met, there is much higher level of confidence ensuring software reliability.
+
+Software reliability parameters were categorized as technology parameters and management parameters in [12]. Management parameters are used to describe reliability activities in each stage of software development. Reference [13], [14] mentioned that software reliability could also be expressed by qualitative description, such as requests for exception handling and degrading handling. All the above mentioned indicate that software reliability qualitative indices should be put forward as a complement to quantitative indices, though there is still no systematic method. This paper aims to how to determine the software reliability qualitative indices. A principle of determining software reliability qualitative indices is proposed based on the related experiences, and a collection of general software reliability qualitative requirements is summarized. The tailoring method according to different principles is also given.
+
+    I. Introduction
+    II. Related Works
+    III. The Determination Method for Software Reliability Qualitative Indices
+    IV. General Software Reliability Qualitative Requirements
+    V. The Selection of Software Reliability Qualitative Indices
+    VI. Conclusions
+
+SECTION II
+R ELATED W ORKS
+A. The Standard SAE-JA1003
+
+In 1994, the SAE G-II Reliability, Maintainability, Supportability and Logistics (RMSL) Division chartered a software committee, G-11SW, to create several software standards and guidance documents across the RMSL spectrum, including a software reliability program standard and implementation guidelines. The G-11SW committee has developed a standard (JA1002) and these implementation guidelines (JA1003) augmented by necessary software-specific information. The G-11SW committee believes these documents reflect the best current commercial practices, and meet the objectives of the United States Department of Defense Acquisition Reform initiative and the North Atlantic Treaty Organization (NATO) Reliability Program. The JA1002 program standard is intended to be used by industries to address market demands for reliable software products that improve system productivity, time to market, and cost-effective implementation. The JA1003 guidelines address possible task activities, methods and techniques through which JA1002 can be implemented [15], [16].
+
+JA1003 provides methods and techniques for implementing a reliability program throughout the full life cycle of a software product, whether the product is considered as standalone or part of a system. The standard describes the requirements of a software reliability program to define, meet, and demonstrate assurance of software product reliability using a Plan-Case framework and implemented within the context of a system application. The plan provides the reliability process, activities and performance requirements to be carried out. The case provides the evidence of quantitative and qualitative metrics for software product reliability in the form of document. The details are as follows:
+
+    Software reliability plan addresses software-related problems of the entire system reliability, as well as the problems generated by the software application. It describes implementation activities required to meet the reliability's requirements, and represents implementation activities indicating software reliability requirements have been realized.
+    Software reliability case provides a reasonable way to demonstrate software has met the reliability's requirements with documented evidence. Software reliability case shows arguments and evidence to prove the reliability requirements should be met, will be met and have been met.
+    Software reliability plan and software reliability case can be delivered by the developer and user in the contract.
+
+Software reliability plan is formed by proposing the best practice, in the form of activities, tasks, methods to meet the reliability's requirements, and in the form of case to provide evidence to show that the software reliability's requirements has been met. Both plan and case are throughout the software life cycle process, as shown in Fig. 1 .
+Figure 1
+Fig. 1. SAE-JA1003 software reliability life cycle management
+
+View All | Next
+
+SAE-JA1003 provided appendix C to guide developing software reliability plan, which divides the related technology into four sections, i.e. analysis technology, design technology, demonstration technology and management technology. Meanwhile, it marked the application stages of these technologies in the software life cycle.
+
+The standard can be applied to all software-intensive projects and in particular to projects where the reliability of the software is critical to the performance of the system mission. System applications include military, aerospace, transportation, medical, nuclear industries, ground vehicles, and other consumer applications. The guidance in the standard is generally applicable throughout the full life cycle, although specific approaches may be more effectively applied at specific life cycle points depending on the software source, application, and pedigree [16].
+B. The Standard DO-178B
+
+DO-178B was approved by RTCA in 1992. RTCA is an association of aeronautical organizations of the United States of America from both government and industry. Dedicated to the advancement of aeronautics, RTCA seeks sound technical solutions to problems involving the application of electronics and telecommunications to aeronautical operations. Its objective is the resolution of such problems by mutual agreement of its member and participating organizations [17].
+
+DO-178B is the specification developed by American Airlines Radio Technical Commission to support the development of airborne systems and equipment containing digital computer, which should be obeyed in the software development process. The specification provides guideline for software development, ensuring its software to perform its intended function with a certain degree of confidence in safety that complies with airworthiness requirements. These guidelines are in the form of:
+
+    Objectives for software life cycle processes;
+    Description of the activities and design considerations for achieving those objectives;
+    Descriptions of the evidence that indicate that the objectives have been satisfied.
+
+One of DO-178B's core ideas is to ensure software's quality by process control. It is well known that to eliminate software defects, one method is exhaustive testing and another method is design assurance. Therefore, the standard proposes design assurance activities with certain degree of rigor. It sets up 66 objectives and implements process control with various degrees of rigor according to the different software level to eliminate requirement and design errors in software life cycle, ensuring software to complete its intended function with a certain degree of confidence in safety that complies with airworthiness requirements.
+1) Determining software level
+
+According to failure condition category caused by software, software can be defined as five levels. Every level has different severity on the aircraft and its occupants. Software level is based upon the contribution of software to potential failure conditions as determined by the system safety assessment process. The software level implies that the level of effort required to show compliance with certification requirements. The software level definitions are shown in Table I .
+Table 1
+TABLE I. S OFTWARE L EVEL D EFINITIONS
+2) Setting different process objectives according to different softwarelevels
+
+According to DO-178B, different software level has different objectives to achieve in software life cycle. Fig. 2 gives the different objectives for different software levels. For example, for software level A, all the 66 objectives specified in DO-178B should be satisfied.
+Figure 2
+Fig. 2 Objectives for different software levels
+
+Previous | View All | Next
+C. Software Reliability Engineering Activities
+
+In 1992, AT&T Bell Laboratories defined software reliability engineering activities in the best practice [18], which specified how to plan and control software reliability engineering activities in the various stages of software life cycle. It is shown in Table II .
+Table 2
+TABLE II. R ELIABILITY E NGINEERING A CTIVITIES IN S OFTWARE L IFE C YCLE
+D. Summary of Commonality
+
+As described above, the two standards and the software reliability engineering experiences have a good representation in determining the software reliability qualitative requirements.
+
+SAE-JA1003 integrates effective software reliability activities into the various stages of software life cycle, and classifies the technology to meet customer's requirements. DO-178B's 66 goals mainly concern with the software engineering process control and verify the documented output. The software reliability engineering experiences summarize the commonly used software reliability engineering activities, including personnel management and reliability technical activities. Though software reliability requirements are described from different perspectives in these two standards and engineering experiences, they have obvious correlations and similarities, which can be summarized as follows:
+
+    All software reliability qualitative requirements are based on software life cycle stage;
+    All software reliability requirements can be classified into four categories, i.e. technique requirements, validation requirements, management requirements and environment requirements.
+
+    Technique requirements refer to methods and techniques related to software reliability, such as software reliability design, analysis, prediction, allocation and testing.
+    Validation requirements refer to the requirements which are put forward to ensure the reliability meet the user's demand, such as whether some kinds of techniques have been applied or documented outputs fulfill some demand.
+    Management requirements refer to requirements related to software reliability management tasks, such as configuration management, FRACAS, document management and requirement management.
+    Environment requirements refer to the requirements requested for the environment, which may affect software reliability in software life cycle, such as development tools and testing tools.
+
+The classification of qualitative requirements referred by the standards and engineering experiences is illustrated in Fig. 3 .
+Figure 3
+Fig. 3. Classification of qualitative requirements
+
+Previous | View All | Next
+
+    I. Introduction
+    II. Related Works
+    III. The Determination Method for Software Reliability Qualitative Indices
+    IV. General Software Reliability Qualitative Requirements
+    V. The Selection of Software Reliability Qualitative Indices
+    VI. Conclusions
+
+SECTION III
+T HE D ETERMINATION M ETHOD FOR S OFTWARE R ELIABILITY Q UALITATIVE I NDICES
+
+This paper puts forward the principle to determine software reliability qualitative indices according to the two dimensions. The first dimension is time dimension, i.e. the software reliability qualitative indices should exist throughout the whole software life cycle and each of them should be explicitly implemented in some stage of the software life cycle. The second dimension is category dimension, i.e. the software reliability qualitative indices should be classified into technique requirement, verification requirement, management requirement, environment requirement and each of them should be explicitly pointed out.
+
+The determination method of software reliability indices is as follows:
+
+    Determining the software reliability environment requirements. To consider the environmental factors that affect software reliability based on different software life cycle stages. Here environment is a generalized conception, including hardware factors such as software development and testing tools, and other factors such as development languages' selection, code size's limitation.
+    Determining the software reliability technique requirements. To analyze which techniques are needed to apply in each stage of software life cycle to improve software reliability, such as reliability design technique and reliability analysis technique.
+    Determining the software reliability management requirements. To consider the personnel management, tool management, software configuration management in the software development process. Proposing a software reliability work item also belongs to the management requirements.
+    Determine the software reliability validationrequirements. Validation requirements mainly consider the control and verification to important output of the software engineering process, such as the requirement to verify the consistency of design document and requirement document.
+
+Fig. 4 shows the principle of how to determine software reliability qualitative indices and gives some example for each time dimension and category dimension.
+Figure 4
+Fig. 4. The principle of determing reliability Formula $\surd$ qualitative indices
+
+Previous | View All
+
+    I. Introduction
+    II. Related Works
+    III. The Determination Method for Software Reliability Qualitative Indices
+    IV. General Software Reliability Qualitative Requirements
+    V. The Selection of Software Reliability Qualitative Indices
+    VI. Conclusions
+
+SECTION IV
+G ENERAL S OFTWARE R ELIABILITY Q UALITATIVE R EQUIREMENTS
+
+According to the above idea, this paper summarizes a general software reliability qualitative requirements set, which was recommended in industries, including the above two dimensions, that is life cycle stages and four aspects of the reliability qualitative requirements, i.e. environment requirements, technique requirements, validation requirements and management requirements, as shown in Table III . Of course, as software use increases, technology evolves and experience is gained in the application, these general qualitative requirements will be reviewed and revised.
+Table 3
+TABLE III. G ENERAL S OFTWARE R ELIABILITY Q UALITATIVE R EQUIREMENTS
+
+    I. Introduction
+    II. Related Works
+    III. The Determination Method for Software Reliability Qualitative Indices
+    IV. General Software Reliability Qualitative Requirements
+    V. The Selection of Software Reliability Qualitative Indices
+    VI. Conclusions
+
+SECTION V
+T HE S ELECTION OF S OFTWARE R ELIABILITY Q UALITATIVE I NDICES
+
+All factors including technology, management, verification, and environment requirements should be considered in the determination of software reliability qualitative indices. However, sometimes it is impossible to put forward the whole reliability qualitative requirements for any software. The reliability qualitative indices are put forward to meet the software reliability requirements through the least and most effective technical activities, not the more the better. Therefore, we need to make a proper selection of the software reliability qualitative requirements, or doing tailoring in the general qualitative requirements of software reliability, and then get the software reliability qualitative indices to meet the demand. A proper use of standards and guidelines with appropriate tailoring of activities and techniques is the most effective approach to establishing the indices set. This tailored set of indices is negotiated as part of the initial negotiation with the customer to determine system/software reliability requirements. A tailoring program may involve a variety of special considerations, some of which are discussed in this section.
+A. General Qualitative Requirements's Tailoring
+
+A tailoring method is to consider the comprehensive effect of the contribution to software reliability and the cost in the process of the implementation of each qualitative requirement. The details are as follows:
+
+A “contribution coefficient” should be defined for each qualitative requirement of software reliability, and the basis of the coefficient is the importance of this requirement and the contribution to software reliability in the implementation of this requirement, which is shown in Table IV .
+Table 4
+TABLE IV. T HE C ONTRIBUTION C OEFFICIENT OF R ELIABILITY R EQUIREMENT
+
+Then we define the ‘cost coefficient’ for each qualitative indices, and the basis of the coefficient is the cost of the requirement's implementation including the labor, material and time, as well as the difficulty of the implementation of the requirements, as shown in Table V .
+Table 5
+TABLE V. T HE C OST C OEFFICIENT OF R ELIABILITY R EQUIREMENT
+
+According to the contribution coefficient and cost coefficient of each software reliability requirement, we can get each requirement's coefficient based on the evaluation matrix. The higher the coefficient is the greater necessary the implementation of this requirement is. The evaluation matrix is shown in Table VI .
+Table 6
+TABLE VI. T HE C OEFFICIENT OF R ELIABILITY Q UALITATIVE R EQUIREMENT
+
+Therefore the criticality levels related to software reliability can be divided into three grades: particularly strict, relatively strict and strict. The decision makers can define criticality levels of software reliability according to their demand or software reliability quantitative indices. The different levels are required to accomplish the different number of qualitative indices, as shown in Table VII .
+Table 7
+TABLE VII. C RITICALITY L EVEL OF S OFTWARE R ELIABILITY Q UALITATIVE R EQUIREMENTS
+B. General Qualitative Requirements and Do-178b Software Level
+
+When the software is graded according to DO-178B, the software level can also determine the software reliability qualitative indices which must be implemented. The decisionmakers can do selection referring to the following tables, as shown in Table VIII ~ Table XII , in which the symbol Formula $\bigcirc$ represents the qualitative indices hat must be implemented according to this software level, and the symbol Formula $\surd$ represents qualitative indices recommended to be implemented [19], [20].
+Table 8
+TABLE VIII. S OFTWARE R ELIABILITY Q UALITATIVE R EQUIREMENTS AT P LAN S TAGE
+Table 9
+TABLE IX. S OFTWARE R ELIABILITY Q UALITATIVE R EQUIREMENTS AT R EQUIREMENTS S TAGE
+Table 10
+TABLE X. S OFTWARE R ELIABILITY Q UALITATIVE R EQUIREMENTS AT D ESIGN & C ODING S TAGE
+Table 11
+TABLE XI. S OFTWARE R ELIABILITY Q UALITATIVE R EQUIREMENTS AT T ESTING S TAGE
+Table 12
+TABLE XII. S OFTWARE R ELIABILITY Q UALITATIVE R EQUIREMENTS AT I NTEGRATION S TAGE
+
+    I. Introduction
+    II. Related Works
+    III. The Determination Method for Software Reliability Qualitative Indices
+    IV. General Software Reliability Qualitative Requirements
+    V. The Selection of Software Reliability Qualitative Indices
+    VI. Conclusions
+
+SECTION VI
+C ONCLUSIONS
+
+This paper summarizes the standards of RTCA DO-178B and SAE-JA1003 which are widely used by the airworthiness and industry sectors, and the engineering experiences related to the software reliability qualitative requirements. Through the analysis of these standards and engineering experiences, we formed the guiding ideology to determine the software reliability qualitative indices, and put forward a method to determine the software reliability qualitative indices. We build qualitative requirements according to the environment requirements, technique requirements, validation requirements, management requirements and the profile formed at every stage of the software life cycle. On this basis, we sum up the general software reliability qualitative requirements and make them as the reference to develop software reliable qualitative indices. What's more, we give some tailoring methods of selecting qualitative requirements according to contribution coefficient and cost coefficient as well as software level.
+Footnotes
+No Data Available
+References
+
+1 . GJB
+
+maintainability and indices determination requirements
+
+The general principle of parameters selection on Equipment reliability, pp. 1-1994, 1909 , Defense Science, Technology and Industry Committee, Beijing
+
+2 . Z. L. Wang Chief
+
+Maintainability and Supportability
+
+Editor, Requirements Demonstration of Reliability, 2010 , Defense Industry Publishing House, Beijing
+
+3 . X. M. Tang and S. Wang
+
+“Research on Weapon System Reliability Demonstrating Method”
+
+Systems Engineering And Electronics, vol. 25, no. 3, pp. 308-311, 2003
+
+4 . T. G. Hou
+
+“Discussion on Proof Methods of Reliability Index of Air-to-air Missile”
+
+Aeronautic Standardization & Quality, vol. 1, pp. 40-42, 2010
+
+5 . L. B. Liu, J. S. Jin and R. Wang
+
+“Research on the Ship Thermodynamic System RMS Index Argumentation Based on Monte Carlo Simulation”
+
+Journal Of Naval Aeronautical Engineering Institute, vol. 25, no. 2, pp. 230-234, 2010
+
+6 . J. D. Musa
+
+Anthony lannino and Kazuhira Okumoto, Software reliability: measurement, prediction, application
+
+1987 , McGraw-Hill, New York
+
+7 . M. Y. Lu
+
+Study on Software Reliability Parameters
+
+vol. 27, no. 2, pp. 241-244, 2001 , Journal of Beijing University Of Aeronautics And Astronautics
+
+8 . Y. K. Jiang, Q. Yu and J. Xu
+
+“Research on reliability of embeded software and its parameter for ships”
+
+Computer Science and Technology, vol. 2, no. l, pp. 40-45, 2005
+
+9 . W. K. Xin and B. Zhao
+
+“Study of Software Reliability Parameters on Aeronautical Equipment”
+
+6, vol. 17, no. 4, pp. 105-108, 2006
+
+10 . Y. Wei and X. H. Shen
+
+“Analysis and Establishment of Software Reliability Parameters of Astronautics Payload Software”
+
+Computer Engineering and Design, vol. 29, no. 10, pp. 2564-2566, 2008
+
+11 . F. Xu, G. T. Ding, Y. S. Mei and X. Liu
+
+“Application of Analytical Hierarchy Process in Reliability Allocation of the Software in Command Control System”
+
+Fire Control & Command Control, vol. 35, no. 7, pp. 154-157, 2010
+
+12 . K. Y. Cai
+
+The Foundation of Software Reliability Engineering
+
+1995 , Tsinghua University Publishing House, Beijing
+
+13 . W. Wang
+
+“Software Engineering and SoftwareReliability-Lecture six. Several Technical Problems in the Implementation of Software Reliability Engineering”
+
+Quality and Reliability, vol. 6, pp. 40-43, 2001
+
+14 . L. Zhang
+
+“Design and Test of Software Reliability”
+
+Electronic Product Reliability and Environmental Testing, vol. 25, no. 5, pp. 33-36, 2007
+
+15 .
+
+SAE-JA1002, Software Reliability Program Standard, 1998
+
+16 .
+
+SAE-JA1003, Software Reliability Program Guide, 2004
+
+17 .
+
+RTCA DO-178B, software considerations in airborne systems and equipment certification, 1992
+
+18 . L. Ruan and M. Y. Lu
+
+The Equipment Software Quality and Reliability Management
+
+2006 , Defense Industry Publishing House, Beijing
+
+19 .
+
+GJB/Z 102–1997, Software Reliability and Safety Design Criteria, 1997
+
+20 . Zhang X. and Pham H.
+
+“An analysis of factors affecting software reliability”
+
+Jounal of System Software, vol. 50, pp. 43-56, 2000
+Authors
+No Photo Available
+Qiuying Li
+No Bio Available
+No Photo Available
+Lei Luo
+No Bio Available
+No Photo Available
+Jun Ai
+No Bio Available
+Cited By
+None
+Keywords
+IEEE Keywords
+Reliability engineering , Safety , Software , Software reliability , Standards , Testing
+INSPEC: Controlled Indexing
+software reliability , standards
+INSPEC: Non-Controlled Indexing
+RTCA DO-I 78B standard , SAE-JAI 003 standard , airworthiness sector , best engineering practice , determination method , failure-free operation probability , fault tolerance design , generic framework , industrial sector , procedural method , qualitative index , quantitative index , reliability-critical requirement , software acceptance , software development process , software life cycle , software reliability constraint , software reliability design , software reliability engineering , software reliability index , tailoring mechanism
+Authors Keywords
+indices demonstration , indices determination , qualitative indices , quantitative indice , software reliability
+Corrections
+
+None
+Multimedia
+No Data Available
+Download PDF
+
+This paper appears in:
+    Software Security and Reliability (SERE), 2013 IEEE 7th International Conference on 
+Conference Date(s):
+    18-20 June 2013 
+Conference Location:
+    Gaithersburg, MD 
+On page(s):
+    237 - 245 
+E-ISBN:
+    No Data Available 
+Print ISBN:
+    978-1-4799-0406-8 
+INSPEC Accession Number:
+    13684598 
+Digital Object Identifier:
+    10.1109/SERE.2013.17 
+Date of Current Version:
+    2013-08-01 
+Date of Original Publication:
+    No Data Available 
+
+Text Size
+
+Normal | Large
+
+    Bookmark This Article
+    Email to a Colleague
+    Share
+    Print
+    Download Citation
+    Download References
+    Rights and Permissions
+
+Related Articles
+
+None
+
+Back to Top
+Sign In | Create Account
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+
+IEEE Advancing Technology for Humanity About IEEE Xplore | Contact | Help | Terms of Use | Nondiscrimination Policy | Site Map | Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2014 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+
+Back to Top
+
