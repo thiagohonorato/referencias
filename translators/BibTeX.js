@@ -1,11 +1,14 @@
 {
 	"translatorID": "9cb70025-a888-4a29-a210-93ec52da40d4",
+	"translatorType": 3,
 	"label": "BibTeX",
 	"creator": "Simon Kornblith, Richard Karnesky and Emiliano heyns",
 	"target": "bib",
 	"minVersion": "2.1.9",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 200,
+	"inRepository": true,
+	"browserSupport": "gcsv",
 	"configOptions": {
 		"getCollections": true
 	},
@@ -15,10 +18,7 @@
 		"exportFileData": false,
 		"useJournalAbbreviation": false
 	},
-	"inRepository": true,
-	"translatorType": 3,
-	"browserSupport": "gcsv",
-	"lastUpdated": "2014-08-22 20:37:22"
+	"lastUpdated": "2014-11-22 14:25:00"
 }
 
 function detectImport() {
@@ -252,6 +252,20 @@ function processField(item, field, value, rawValue) {
 		item[fieldMap[field]] = value;
 	} else if(inputFieldMap[field]) {
 		item[inputFieldMap[field]] = value;
+	} else if(field == "subtitle") {
+		if (!item.title) item.title = '';
+		item.title = item.title.trim();
+		value = value.trim();
+		
+		if (!/[-–—:!?.;]$/.test(item.title)
+			&& !/^[-–—:.;¡¿]/.test(value)
+		) {
+			item.title += ': ';
+		} else if (item.title.length) {
+			item.title += ' ';
+		}
+		
+		item.title += value;
 	} else if(field == "journal") {
 		if(item.publicationTitle) {
 			item.journalAbbreviation = value;

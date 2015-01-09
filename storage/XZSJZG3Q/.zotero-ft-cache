@@ -1,0 +1,260 @@
+Skip to Main Content
+
+    IEEE.org
+    IEEE Xplore Digital Library
+    IEEE Standards
+    IEEE Spectrum
+    More Sites
+
+    Cart (0)
+    Personal Sign In
+    Username
+    Password
+    Sign In
+    Forgot Username or Password?
+    Create Account
+    Personal Sign In
+
+Institutional Sign In
+By Topic
+
+    Aerospace
+    Bioengineering
+    Communication, Networking & Broadcasting
+    Components, Circuits, Devices & Systems
+    Computing & Processing (Hardware/Software)
+    Engineered Materials, Dielectrics & Plasmas
+
+    Engineering Profession
+    Fields, Waves & Electromagnetics
+    General Topics for Engineers (Math, Science & Engineering)
+    Geoscience
+    Nuclear Engineering
+    Photonics & Electro-Optics
+
+    Power, Energy, & Industry Applications
+    Robotics & Control Systems
+    Signal Processing & Analysis
+    Transportation
+
+    Browse
+        Books & eBooks
+        Conference Publications
+        Education & Learning
+        Journals & Magazines
+        Standards
+        By Topic
+    My Settings
+        Content Alerts
+        My Projects
+        Search Alerts
+        Preferences
+        Purchase History
+        Search History
+        What can I access?
+    Get Help
+        About IEEE Xplore
+        Feedback
+        Technical Support
+        Resources and Help
+        Terms of Use
+    What Can I Access?
+    Subscribe
+
+Enter Search Term
+First Name Middle Name Last Name
+Publication Title Volume Issue Start Page
+Search
+
+    Basic Search
+    Author Search
+    Publication Search
+
+Advanced Search
+Other Search Options
+
+    Command Search
+    Citation Search
+    Search Alerts
+    Search History
+
+Browse Journals & Magazines > Nuclear Science, IEEE Transac ...> Volume:56 Issue:5 Help Working with Abstracts
+Back to Results | Next »
+CRAB: A CMS Application for Distributed Analysis
+Full Text Sign-In or Purchase
+Sign In
+Full text access may be available.
+
+To access full text, please use your member or institutional sign in.
+
+Username
+
+Password
+
+    Forgot Username/Password?
+    Forgot Institutional Username/Password?
+    Other Authentication Options
+
+    Purchase PDF
+    Other Formats
+
+Formats 	Non-Member 	Member
+PDF/HTML 	$31 	$13
+Learn how you can qualify for the best price for this item!
+Become an IEEE Member or Subscribe to
+IEEE Xplore for exclusive pricing! close button
+puzzle piece
+
+IEEE membership options for an individual and IEEE Xplore subscriptions for an organization offer the most affordable access to essential journal articles, conference papers, standards, eBooks, and eLearning courses.
+
+Learn more about:
+
+IEEE membership
+
+IEEE Xplore subscriptions
+Item has been
+added to the cart.
+No additional formats available for this document.
+
+    Already Purchased? View Article
+    Subscription Options Learn More
+
+10 Author(s)
+Codispoti, G. ; Mattia, C. ; Fanfani, A. ; Fanzago, F.
+more authors
+
+    Abstract
+    Authors
+    References
+    Cited By
+    Keywords
+    Metrics
+    Similar
+
+    Download Citation
+    Email
+    Print
+    Request Permissions
+    Save to Project
+
+Beginning in 2009, the CMS experiment will produce several petabytes of data each year which will be distributed over many computing centres geographically distributed in different countries. The CMS computing model defines how the data is to be distributed and accessed to enable physicists to efficiently run their analyses over the data. The analysis will be performed in a distributed way using Grid infrastructure. CRAB ( CMS remote analysis builder) is a specific tool, designed and developed by the CMS collaboration, that allows the end user to transparently access distributed data. CRAB interacts with the local user environment, the CMS data management services and with the Grid middleware; it takes care of the data and resource discovery; it splits the user's task into several processes (jobs) and distributes and parallelizes them over different Grid environments; it performs process tracking and output handling. Very limited knowledge of the underlying technical details is required of the end user. The tool can be used as a direct interface to the computing system or can delegate the task to a server, which takes care of the job handling, providing services such as automatic resubmission in case of failures and notification to the user of the task status. Its current implementation is able to interact with gLite and OSG Grid middlewares. Furthermore, with the same interface, it enables access to local data and batch systems such as load sharing facility (LSF). CRAB has been in production and in routine use by end users since Spring 2004. It has been extensively used in studies to prepare the Physics Technical Design Report, in the analysis of reconstructed event samples generated during the Computing Software and Analysis Challenges and in the preliminary cosmic ray data taking. The CRAB architecture and the usage inside the CMS community will be described in detail, as well as the current status and future development.
+Published in:
+Nuclear Science, IEEE Transactions on  (Volume:56 ,  Issue: 5 )
+
+Page(s):
+    2850 - 2858 
+ISSN :
+    0018-9499 
+INSPEC Accession Number:
+    10927073 
+DOI:
+    10.1109/TNS.2009.2028076 
+
+Date of Publication :
+    Oct. 2009 
+Date of Current Version :
+    06 Outubro 2009 
+Issue Date :
+    Oct. 2009 
+Sponsored by :
+    IEEE Nuclear and Plasma Sciences Society 
+Publisher:
+    IEEE 
+
+Author(s)
+Codispoti, G.
+Mattia, C. ; Fanfani, A. ; Fanzago, F. ; Farina, F. ; Kavka, C. ; Lacaprara, S. ; Miccio, V. ; Spiga, D. ; Vaandering, E.
+INSPEC: CONTROLLED INDEXING
+
+    grid computing
+    groupware
+    middleware
+    physics computing
+    position sensitive particle detectors
+
+INSPEC: NON CONTROLLED INDEXING
+
+    CMS application
+    CMS computing model
+    CMS data management services
+    CMS experiment
+    CMS remote analysis builder
+    CRAB
+    CRAB architecture
+    Grid infrastructure
+    OSG Grid middleware
+    batch systems
+    compact muon solenoid
+    computing system
+    direct interface
+    distributed analysis
+    load sharing facility
+    local user environment
+    output handling
+    tracking process
+
+AUTHOR KEYWORDS
+
+    Computing
+    computing applications
+    data analysis
+    distributed computing
+    grid computing
+
+IEEE TERMS
+
+    Collaborative tools
+    Collision mitigation
+    Computer interfaces
+    Data analysis
+    Distributed computing
+    Environmental management
+    Middleware
+    Performance analysis
+    Physics computing
+    Resource management
+
+Referenced Items are not available for this document.
+
+No versions found for this document.
+
+Standards Dictionary Terms are available to subscribers only.
+
+    Personal Sign In
+    Create Account
+
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    Access Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest professional association for the advancement of technology.
+© Copyright 2015 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+DCSIMG
+

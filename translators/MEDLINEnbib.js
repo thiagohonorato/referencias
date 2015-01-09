@@ -1,18 +1,15 @@
 {
 	"translatorID": "9ec64cfd-bea7-472a-9557-493c0c26b0fb",
+	"translatorType": 1,
 	"label": "MEDLINE/nbib",
 	"creator": "Sebastian Karcher",
 	"target": "txt",
 	"minVersion": "4.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
-	"configOptions": {
-		"dataMode": "line"
-	},
 	"inRepository": true,
-	"translatorType": 1,
 	"browserSupport": "gcsv",
-	"lastUpdated": "2014-03-12 04:43:57"
+	"lastUpdated": "2014-12-17 23:10:00"
 }
 
 /*

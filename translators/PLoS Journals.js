@@ -1,15 +1,15 @@
 {
 	"translatorID": "9575e804-219e-4cd6-813d-9b690cbfc0fc",
+	"translatorType": 4,
 	"label": "PLoS Journals",
 	"creator": "Michael Berkowitz And Rintze Zelle",
 	"target": "^https?://www\\.plos(one|ntds|compbiol|pathogens|genetics|medicine|biology)\\.org/(search|article)/",
 	"minVersion": "3.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2014-04-03 18:52:52"
+	"lastUpdated": "2014-11-05 16:20:00"
 }
 
 function detectWeb(doc, url) {
@@ -61,10 +61,12 @@ function processTexts(texts) {
 	for (var i in texts) {
 		texts[i] = texts[i].replace(/;jsessionid[^;]+/, ""); //Strip sessionID string
 		texts[i] = texts[i].replace(/\?.*/, ""); //Strip referrer messes
+		texts[i] = texts[i].replace(/#.*/, ""); //Strip page anchors in the URL
 		var risLink = texts[i].replace("info", "getRisCitation.action?articleURI=info");
 		var pdfURL = texts[i].replace("info", "fetchObject.action?uri=info")
 					+ '&representation=PDF';
 		(function(risLink, pdfURL) {
+			//Z.debug(pdfURL)
 			ZU.doGet(risLink, function (text) {
 				var translator = Zotero.loadTranslator("import");
 				translator.setTranslator("32d59d2d-b65a-4da4-b0a3-bdd3cfb979e7");

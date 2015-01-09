@@ -1,15 +1,15 @@
 {
 	"translatorID": "57a00950-f0d1-4b41-b6ba-44ff0fc30289",
+	"translatorType": 4,
 	"label": "Google Scholar",
 	"creator": "Simon Kornblith, Frank Bennett, Aurimas Vinckevicius",
 	"target": "^https?://scholar\\.google\\.(?:com|cat|(?:com?\\.)?[a-z]{2})/(?:scholar(?:_case)?\\?|citations\\?)",
 	"minVersion": "3.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2014-07-25 21:01:15"
+	"lastUpdated": "2015-01-02 20:30:00"
 }
 
 /*
@@ -378,7 +378,7 @@ function scrapeCaseResults(doc, cases) {
 		}
 	
 		// Instantiate item factory with available data
-		var factory = new ItemFactory(citeletString, attachmentLinks,
+		var factory = new ItemFactory(doc, citeletString, attachmentLinks,
 										titleString, cases[i].bibtexUrl);
 	
 		if (!factory.hasUsefulData()) {
@@ -685,7 +685,7 @@ var scrapeCase = function (doc, url) {
 		// citelet looks kind of like this
 		// Powell v. McCormack, 395 US 486 - Supreme Court 1969
 		var item = new Zotero.Item("case");
-		var factory = new ItemFactory(refFrag.textContent, [url]);
+		var factory = new ItemFactory(doc, refFrag.textContent, [url]);
 		factory.repairCitelet();
 		factory.getDate();
 		factory.getCourt();
@@ -706,7 +706,7 @@ var scrapeCase = function (doc, url) {
  * ####################
  */
 
-var ItemFactory = function (citeletString, attachmentLinks, titleString, bibtexLink) {
+var ItemFactory = function (doc, citeletString, attachmentLinks, titleString, bibtexLink) {
 	// var strings
 	this.v = {};
 	this.v.title = titleString;
@@ -720,6 +720,7 @@ var ItemFactory = function (citeletString, attachmentLinks, titleString, bibtexL
 	this.vv.volRepPag = [];
 	// portable array
 	this.attachmentLinks = attachmentLinks;
+	this.doc = doc;
 	// working strings
 	this.citelet = citeletString;
 	this.bibtexLink = bibtexLink;
@@ -797,6 +798,24 @@ ItemFactory.prototype.getDate = function () {
 			}
 		}
 	}
+	// If we can find a more specific date in the case's centered text then use it
+	var nodesSnapshot = this.doc.evaluate('//div[@id="gs_opinion"]/center', this.doc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null );
+	for( var iNode = 0; iNode < nodesSnapshot.snapshotLength; iNode++ ) {
+		var specificDate = nodesSnapshot.snapshotItem(iNode).textContent.trim();
+		// Remove the first word through the first space 
+		//  if it starts with "Deci" or it doesn't start with the first three letters of a month
+		//  and if it doesn't start with Submitted or Argued
+		// (So, words like "Decided", "Dated", and "Released" will be removed)
+		specificDate = specificDate.replace(/^(?:Deci|(?!Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|Submitted|Argued))[a-z]+[.:]?\s*/i,"")
+		// Remove the trailing period, if it is there
+			.replace(/\.$/,"");
+		// If the remaining text is a valid date...
+		if (!isNaN(Date.parse(specificDate))) {
+			// ...then use it
+			this.v.date = specificDate;
+			break;
+		}
+	}
 	return this.v.date;
 };
 
@@ -867,8 +886,12 @@ ItemFactory.prototype.getAttachments = function (doctype) {
 	var i, ilen, attachments;
 	attachments = [];
 	for (i = 0, ilen = this.attachmentLinks.length; i < ilen; i += 1) {
-		attachments.push({title:"Google Scholar Linked " + doctype, type:"text/html",
-							  url:this.attachmentLinks[i]});
+		if (!this.attachmentLinks[i]) continue;
+		attachments.push({
+			title:"Google Scholar Linked " + doctype,
+			url:this.attachmentLinks[i],
+			type:"text/html"
+		});
 	}
 	return attachments;
 };
@@ -945,6 +968,55 @@ ItemFactory.prototype.saveItemCommonVars = function () {
 	}
 };
 
+/*
+  The following case FAILS as a test case.  Maybe because it doesn't have a dash in the case citation?
+    http://scholar.google.com/scholar_case?case=15539128432567109896
+  Is it an aberration in the data and thus a data problem that doesn't deserve a test case, 
+  or is it a valid test case?
+  Reported to Zotero Forums.  See https://forums.zotero.org/discussion/44849/zotero-wont-save-google-scholar-case-but-no-error-report-id-949790485/
+*/
+
+/*
+  Test Case Descriptions:  (these have not been included in the test case JSON below as per 
+                            aurimasv's comment on https://github.com/zotero/translators/pull/833)
+
+		"description": "Legacy test case",
+    "url": "http://scholar.google.com/scholar?q=marbury&hl=en&btnG=Search&as_sdt=1%2C22&as_sdtp=on",
+    
+		"description": "Legacy test case",
+		"url": "http://scholar.google.com/scholar?hl=en&q=kelo&btnG=Search&as_sdt=0%2C22&as_ylo=&as_vis=0",
+    
+		"description": "Legacy test case",
+		"url": "http://scholar.google.com/scholar?hl=en&q=smith&btnG=Search&as_sdt=0%2C22&as_ylo=&as_vis=0",
+    
+		"description": "Legacy test case",
+		"url": "http://scholar.google.com/scholar?hl=en&q=view+of+the+cathedral&btnG=Search&as_sdt=0%2C22&as_ylo=&as_vis=0",
+
+		"description": "Legacy test case",
+		"url": "http://scholar.google.com/scholar?hl=en&q=clifford&btnG=Search&as_sdt=0%2C22&as_ylo=&as_vis=0",
+
+		"description": "Legacy test case",
+		"url": "http://scholar.google.com/scholar_case?case=9834052745083343188&q=marbury+v+madison&hl=en&as_sdt=2,5",
+
+		"description": "Decided date not preceded by any word or any other date line",
+		"url": "http://scholar.google.com/scholar_case?case=11350538941232186766",
+
+		"description": "Decided date preceded by 'Dated'",
+		"url": "http://scholar.google.com/scholar_case?case=4250138655935640563",
+
+		"description": "Decided date preceded by 'Released'",
+		"url": "http://scholar.google.com/scholar_case?case=8121501341214166807",
+
+		"description": "Decided date preceded by 'Decided' and also by a 'Submitted' date line",
+		"url": "http://scholar.google.com/scholar_case?case=834584264358299037",
+
+		"description": "Decided date preceded by 'Decided' and also by an 'Argued' date line",
+		"url": "http://scholar.google.com/scholar_case?case=15235797139493194004",
+
+		"description": "Decided date preceded by 'Decided' and also by an 'Argued' date line and followed by an 'As Modified' line; most citers of this case appear to use the Decided date, not the As Modified date",
+		"url": "http://scholar.google.com/scholar_case?case=163483131267446711",
+    
+*/
 
 /** BEGIN TEST CASES **/
 var testCases = [
@@ -979,25 +1051,182 @@ var testCases = [
 		"items": [
 			{
 				"itemType": "case",
+				"caseName": "Marbury v. Madison",
 				"creators": [],
-				"notes": [],
-				"tags": [],
-				"seeAlso": [],
+				"dateDecided": "1803",
+				"court": "Supreme Court",
+				"firstPage": "137",
+				"itemID": "1",
+				"reporter": "US",
+				"reporterVolume": "5",
 				"attachments": [
 					{
 						"title": "Google Scholar Linked Judgement",
-						"type": "text/html",
-						"url": false
+						"type": "text/html"
 					}
 				],
-				"volume": "5",
-				"reporter": "US",
-				"pages": "137",
-				"title": "Marbury v. Madison",
-				"court": "Supreme Court",
-				"date": "1803",
+				"tags": [],
+				"notes": [],
+				"seeAlso": []
+			}
+		]
+	},
+	{
+		"type": "web",
+		"url": "http://scholar.google.com/scholar_case?case=11350538941232186766",
+		"items": [
+			{
+				"itemType": "case",
+				"caseName": "Meier ex rel. Meier v. Sun Intern. Hotels, Ltd.",
+				"creators": [],
+				"dateDecided": "April 19, 2002",
+				"court": "Court of Appeals, 11th Circuit",
+				"firstPage": "1264",
 				"itemID": "1",
-				"libraryCatalog": "Google Scholar"
+				"reporter": "F. 3d",
+				"reporterVolume": "288",
+				"attachments": [
+					{
+						"title": "Google Scholar Linked Judgement",
+						"type": "text/html"
+					}
+				],
+				"tags": [],
+				"notes": [],
+				"seeAlso": []
+			}
+		]
+	},
+	{
+		"type": "web",
+		"url": "http://scholar.google.com/scholar_case?case=4250138655935640563",
+		"items": [
+			{
+				"itemType": "case",
+				"caseName": "Patio Enclosures, Inc. v. Four Seasons Marketing Corp.",
+				"creators": [],
+				"dateDecided": "September 21, 2005",
+				"court": "Court of Appeals, 9th Appellate Dist.",
+				"extra": "{:jurisdiction: Ohio}",
+				"firstPage": "4933",
+				"itemID": "1",
+				"reporter": "Ohio",
+				"reporterVolume": "2005",
+				"attachments": [
+					{
+						"title": "Google Scholar Linked Judgement",
+						"type": "text/html"
+					}
+				],
+				"tags": [],
+				"notes": [],
+				"seeAlso": []
+			}
+		]
+	},
+	{
+		"type": "web",
+		"url": "http://scholar.google.com/scholar_case?case=8121501341214166807",
+		"items": [
+			{
+				"itemType": "case",
+				"caseName": "click v. estate of click",
+				"creators": [],
+				"dateDecided": "June 13, 2007",
+				"court": "Court of Appeals, 4th Appellate Dist.",
+				"extra": "{:jurisdiction: Ohio}",
+				"firstPage": "3029",
+				"itemID": "1",
+				"reporter": "Ohio",
+				"reporterVolume": "2007",
+				"attachments": [
+					{
+						"title": "Google Scholar Linked Judgement",
+						"type": "text/html"
+					}
+				],
+				"tags": [],
+				"notes": [],
+				"seeAlso": []
+			}
+		]
+	},
+	{
+		"type": "web",
+		"url": "http://scholar.google.com/scholar_case?case=834584264358299037",
+		"items": [
+			{
+				"itemType": "case",
+				"caseName": "Kenty v. Transamerica Premium Ins. Co.",
+				"creators": [],
+				"dateDecided": "July 5, 1995",
+				"court": "Supreme Court",
+				"extra": "{:jurisdiction: Ohio}",
+				"firstPage": "415",
+				"itemID": "1",
+				"reporter": "Ohio St. 3d",
+				"reporterVolume": "72",
+				"attachments": [
+					{
+						"title": "Google Scholar Linked Judgement",
+						"type": "text/html"
+					}
+				],
+				"tags": [],
+				"notes": [],
+				"seeAlso": []
+			}
+		]
+	},
+	{
+		"type": "web",
+		"url": "http://scholar.google.com/scholar_case?case=15235797139493194004",
+		"items": [
+			{
+				"itemType": "case",
+				"caseName": "Tinker v. Des Moines Independent Community School Dist.",
+				"creators": [],
+				"dateDecided": "February 24, 1969",
+				"court": "Supreme Court",
+				"firstPage": "503",
+				"itemID": "1",
+				"reporter": "US",
+				"reporterVolume": "393",
+				"attachments": [
+					{
+						"title": "Google Scholar Linked Judgement",
+						"type": "text/html"
+					}
+				],
+				"tags": [],
+				"notes": [],
+				"seeAlso": []
+			}
+		]
+	},
+	{
+		"type": "web",
+		"url": "http://scholar.google.com/scholar_case?case=163483131267446711",
+		"items": [
+			{
+				"itemType": "case",
+				"caseName": "Kaimowitz v. Board of Trustees of U. of Illinois",
+				"creators": [],
+				"dateDecided": "December 23, 1991",
+				"court": "Court of Appeals, 7th Circuit",
+				"firstPage": "765",
+				"itemID": "1",
+				"reporter": "F. 2d",
+				"reporterVolume": "951",
+				"attachments": [
+					{
+						"title": "Google Scholar Linked Judgement",
+						"type": "text/html"
+					}
+				],
+				"tags": [],
+				"notes": [],
+				"seeAlso": []
 			}
 		]
 	}

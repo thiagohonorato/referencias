@@ -1,15 +1,15 @@
 {
 	"translatorID": "3e684d82-73a3-9a34-095f-19b112d88bbf",
+	"translatorType": 4,
 	"label": "Google Books",
 	"creator": "Simon Kornblith, Michael Berkowitz and Rintze Zelle",
 	"target": "^https?://(books|www)\\.google\\.[a-z]+(\\.[a-z]+)?/(books(?:\\/.*)?\\?(.*id=.*|.*q=.*)|search\\?.*?(btnG=Search\\+Books|tbm=bks))|^https?://play\\.google\\.[a-z]+(\\.[a-z]+)?\\/(store\\/)?(books|search\\?.+&c=books)",
 	"minVersion": "2.1.9",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
 	"browserSupport": "gcsb",
-	"lastUpdated": "2014-06-01 17:47:45"
+	"lastUpdated": "2014-12-11 17:25:00"
 }
 
 /*
@@ -57,15 +57,15 @@ function doWeb(doc, url) {
 	var psMatch = psRe.exec(url);
 	var suffix = psMatch[2];
 	var prefix = "books"; //Where is it not books? psMatch[1];
-	itemUrlBase = "http://"+prefix+".google."+suffix+"/books?id=";
+	itemUrlBase = "/books?id=";
 	
 	var m = singleRe.exec(url);
 	if(m && m[1] == "id") {
-		ZU.doGet("http://books.google.com/books/feeds/volumes/"+m[2], parseXML);
+		ZU.doGet("//books.google.com/books/feeds/volumes/"+m[2], parseXML);
 	} else if (m && m[1] == "vid") {
 		var itemLinkWithID = ZU.xpath(doc, '/html/head/link[@rel="canonical"]')[0].href;
 		var m = singleRe.exec(itemLinkWithID);
-		ZU.doGet("http://books.google.com/books/feeds/volumes/"+m[2], parseXML);
+		ZU.doGet("//books.google.com/books/feeds/volumes/"+m[2], parseXML);
 	} else {
 		var items = getItemArrayGB(doc, doc, 'google\\.' + suffix + '/books\\?id=([^&]+)', '^(?:All matching pages|About this Book|Table of Contents|Index)');
 		//Zotero.debug(items);
@@ -83,7 +83,7 @@ function doWeb(doc, url) {
 					i = baseurl.replace(/\/$/, "") + i;
 				}
 				var m = singleRe.exec(i);
-				newUris.push("http://books.google.com/books/feeds/volumes/"+m[2]);
+				newUris.push("//books.google.com/books/feeds/volumes/"+m[2]);
 			}
 			ZU.doGet(newUris, parseXML);
 		});

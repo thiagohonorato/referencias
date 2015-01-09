@@ -1,15 +1,15 @@
 {
 	"translatorID": "136d5c30-d8b1-476f-9564-702a41b6126e",
+	"translatorType": 4,
 	"label": "wiso",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.wiso-net\\.de/webcgi\\?",
 	"minVersion": "3.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
-	"browserSupport": "gsv",
-	"lastUpdated": "2014-03-04 23:58:44"
+	"browserSupport": "gcsv",
+	"lastUpdated": "2014-11-04 03:25:00"
 }
 
 /*
